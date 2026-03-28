@@ -1,0 +1,66 @@
+{
+  "fireworks": {
+    "name": "Fireworks AI",
+    "status_url": "https://status.fireworks.ai",
+    "components": [
+      "Fireworks AI website",
+      "Llama 3.3 70B Instruct",
+      "Kimi K2 Instruct 0905",
+      "Kimi K2 Thinking",
+      "OpenAI GPT OSS 120B",
+      "OpenAI GPT OSS 20B",
+      "DeepSeek v3p1",
+      "Nomic Embed Text v1.5",
+      "Qwen3 Embedding 8B",
+      "Qwen3 VL 30B A3B Thinking"
+    ],
+    "incident_count": 72
+  },
+  "modal": {
+    "name": "Modal",
+    "status_url": "https://status.modal.com",
+    "components": [
+      "CPU functions",
+      "GPU functions",
+      "Web endpoints",
+      "Snapshot restores",
+      "Frontend",
+      "Web API",
+      "Volumes",
+      "Sandboxes",
+      "Image builds",
+      "OIDC Endpoint"
+    ],
+    "incident_count": 132
+  },
+  "together": {
+    "name": "Together AI",
+    "status_url": "https://status.together.ai",
+    "components": [
+      "Website",
+      "Playground",
+      "Inference - Chat",
+      "Inference - Vision",
+      "Inference - Language",
+      "Inference - Images",
+      "Inference - Embeddings",
+      "Inference - Rerank",
+      "Inference - Voice",
+      "Inference - Moderation"
+    ],
+    "incident_count": 234
+  },
+  "baseten": {
+    "name": "Baseten",
+    "status_url": "https://status.baseten.co",
+    "components": [
+      "Dedicated Inference",
+      "Model APIs",
+      "Training",
+      "Model Management API",
+      "Web Application",
+      "Homepage and Docs"
+    ],
+    "incident_count": 50
+  }
+}
