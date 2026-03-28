@@ -1,0 +1,27 @@
+# Environment
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code internal
+.claude/
+
+# Reference repo (not part of this project)
+source-ref/

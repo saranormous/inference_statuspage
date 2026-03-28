@@ -1,0 +1,30 @@
+# Synthetic monitoring probe configuration
+# Endpoints are probed sequentially with a simple chat completion request.
+
+probe_settings:
+  timeout_seconds: 30
+  prompt_message: "Count from 1 to 30, one number per line."
+  max_tokens: 128
+  stream: true
+  output_file: parsed/probe_results.jsonl
+
+# Hosted inference APIs — same model (Kimi K2.5), same request
+tier1_inference:
+  fireworks:
+    url: https://api.fireworks.ai/inference/v1/chat/completions
+    model: accounts/fireworks/models/kimi-k2p5
+    auth_header: Authorization
+    auth_prefix: "Bearer "
+    env_key: FIREWORKS_API_KEY
+  together:
+    url: https://api.together.xyz/v1/chat/completions
+    model: moonshotai/Kimi-K2.5
+    auth_header: Authorization
+    auth_prefix: "Bearer "
+    env_key: TOGETHER_API_KEY
+  baseten:
+    url: https://inference.baseten.co/v1/chat/completions
+    model: moonshotai/Kimi-K2.5
+    auth_header: Authorization
+    auth_prefix: "Api-Key "
+    env_key: BASETEN_API_KEY

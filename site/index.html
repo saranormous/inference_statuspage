@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inference Cloud Statuspage — Baseten · Fireworks · Together</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1>Inference Cloud Statuspage</h1>
+      </div>
+      <nav class="site-nav">
+        <a href="#monitoring">Monitoring</a>
+        <a href="#incidents">Incidents</a>
+        <a href="#methodology">Methodology</a>
+        <a href="https://github.com/saranormous/inference_statuspage" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ============================================ -->
+      <!-- TIER 1 — Independent monitoring               -->
+      <!-- ============================================ -->
+      <section class="panel panel-raise" id="monitoring" data-animate>
+        <div class="panel-header">
+          <h3>Independent monitoring</h3>
+          <div class="time-toggle">
+            <button class="time-btn active" data-window="24h">24h</button>
+            <button class="time-btn" data-window="7d">7d</button>
+            <button class="time-btn" data-window="30d">30d</button>
+          </div>
+          <div class="status-meta">
+            <span class="live-dot"></span>
+            <span id="probeLastUpdated">Probing every 5 min</span>
+          </div>
+        </div>
+
+        <div class="monitoring-section">
+          <h4 class="section-label">Inference API <span class="muted-inline">— Kimi K2.5, same request, Baseten · Fireworks · Together</span></h4>
+          <div id="tier1Grid" class="monitoring-grid">
+            <div class="monitoring-placeholder">
+              <p>Monitoring data will appear here once probes begin running.</p>
+              <p class="muted">See <a href="#setup">setup instructions</a> to start the probe.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ============================================ -->
+      <!-- Self-reported incidents                       -->
+      <!-- ============================================ -->
+      <section class="panel" id="incidents" data-animate>
+        <div class="panel-header">
+          <h3>Self-reported incidents</h3>
+          <p class="muted">From each provider's public status page</p>
+        </div>
+
+        <!-- 90-day uptime bars (per-provider) -->
+        <div class="incidents-uptime">
+          <div id="providerUptimeRows"></div>
+          <div class="uptime-axis"><span>90 days ago</span><span>Today</span></div>
+          <div class="legend">
+            <span class="legend-item"><span class="dot operational"></span>Operational</span>
+            <span class="legend-item"><span class="dot minor"></span>Minor</span>
+            <span class="legend-item"><span class="dot major"></span>Major</span>
+          </div>
+          <p class="caveat">
+            Each bar reflects what the provider reported via their status feed.
+            Different reporting practices mean these bars should be read per-provider, not compared across rows.
+          </p>
+        </div>
+      </section>
+
+      <!-- Per-provider incident timelines -->
+      <div id="providerTimelines"></div>
+
+      <!-- ============================================ -->
+      <!-- METHODOLOGY                                   -->
+      <!-- ============================================ -->
+      <section class="panel methodology-panel" id="methodology" data-animate>
+        <div class="panel-header">
+          <h3>How this works</h3>
+        </div>
+        <div class="methodology-body">
+          <p>
+            Comparing reliability across AI infrastructure providers is harder than it looks.
+            Each provider publishes a status page, but they use different platforms, report at
+            different granularities, and define "incident" differently. A raw comparison of
+            those numbers would be misleading.
+          </p>
+          <p>This page uses two data sources, clearly separated:</p>
+
+          <div class="method-grid">
+            <div class="method-card">
+              <div class="method-card-header">
+                <span class="method-num">1</span>
+                <h4>Independent monitoring</h4>
+              </div>
+              <p>
+                Same model (Kimi K2.5), same prompt, same request — sent to each
+                provider every 5 minutes. We measure availability, time to first
+                token (TTFT), and total latency. Percentile stats appear after 20+
+                probes.
+              </p>
+              <div class="method-limits">
+                <strong>Limits:</strong> Probes run from a single location
+                (<span id="probeRegion">—</span>). Latency numbers reflect proximity to
+                that location, not global performance. One request every 5 minutes may hit
+                cold caches or idle GPUs — this measures availability and baseline latency,
+                not sustained throughput. Kimi K2.5 is a thinking model, so response times
+                include variable reasoning overhead that we don't control. Each provider may
+                use different quantization, hardware, or batching strategies to serve the
+                same model.
+              </div>
+            </div>
+
+            <div class="method-card">
+              <div class="method-card-header">
+                <span class="method-num">2</span>
+                <h4>Self-reported incidents</h4>
+              </div>
+              <p>
+                We also pull each provider's public status feed and show them
+                separately, per provider, as a record of what each has publicly disclosed.
+                Each provider uses a different status platform, reports at different
+                granularity, and defines "incident" differently — raw counts
+                are not an apples-to-apples comparison.
+              </p>
+              <div class="method-limits">
+                <strong>Limits:</strong> We can only show what providers choose to
+                report. Severity labels use different methodologies per provider.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!-- SETUP — how to run the probe                  -->
+      <!-- ============================================ -->
+      <section class="panel setup-panel" id="setup" data-animate>
+        <div class="panel-header">
+          <h3>Running the probe yourself</h3>
+        </div>
+        <div class="setup-body">
+          <p>The monitoring probe is a small Python script that calls each provider's API and logs the result. To run it:</p>
+          <pre><code># Install dependencies
+pip install -r monitor/requirements.txt
+
+# Set API keys
+export FIREWORKS_API_KEY=...
+export TOGETHER_API_KEY=...
+export BASETEN_API_KEY=...
+
+# Run once
+python monitor/probe.py
+
+# Results append to parsed/probe_results.jsonl</code></pre>
+          <p>
+            A GitHub Actions workflow runs this every 5 minutes and commits results.
+            You can also run it locally or on your own infrastructure.
+          </p>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="panel about-panel" id="about" data-animate>
+        <div class="panel-header">
+          <h3>About</h3>
+        </div>
+        <p class="about-body">
+          Inspired by <a href="https://mrshu.github.io/github-statuses/">The Missing GitHub Status Page</a>
+          by <a href="https://mareksuppa.com">Marek Šuppa</a>. Source status feeds:
+          <a href="https://status.baseten.co">Baseten</a>,
+          <a href="https://status.fireworks.ai">Fireworks AI</a>,
+          <a href="https://status.together.ai">Together AI</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        An independent project by Sarah Guo.
+        Monitoring data is from our own probes. Incident data is from public status feeds.
+        <a href="https://github.com/saranormous/inference_statuspage">Source on GitHub</a>.
+      </p>
+    </footer>
+
+    <script src="app.js?v=6" defer></script>
+  </body>
+</html>

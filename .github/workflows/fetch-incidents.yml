@@ -1,0 +1,45 @@
+name: Fetch Incidents
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data-branch
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch incident data
+        run: PARSED_DIR=data-branch/parsed python scripts/fetch_incidents.py
+
+      - name: Commit results to data branch
+        run: |
+          cd data-branch
+          git config user.name "incident-bot"
+          git config user.email "incident-bot@users.noreply.github.com"
+          git add parsed/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "incidents: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
