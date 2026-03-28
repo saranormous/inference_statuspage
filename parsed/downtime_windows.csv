@@ -487,3 +487,12 @@ fireworks,fireworks_72,2026-03-25T22:29:31Z,2026-03-25T22:32:32Z,3,feed,Llama 3.
 together,together_233,2026-03-25T23:18:47Z,2026-03-26T00:30:25Z,71,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
 together,together_232,2026-03-25T23:58:57Z,2026-03-26T00:13:52Z,14,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_234,2026-03-26T01:45:42Z,2026-03-26T02:15:28Z,29,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_235,2026-03-26T03:34:15Z,2026-03-26T03:48:23Z,14,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_240,2026-03-26T16:55:50Z,2026-03-26T23:46:59Z,411,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
+together,together_237,2026-03-26T20:21:49Z,2026-03-26T21:36:24Z,74,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
+together,together_236,2026-03-26T20:23:02Z,2026-03-26T20:53:07Z,30,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
+together,together_238,2026-03-26T22:14:25Z,2026-03-26T22:29:04Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_239,2026-03-26T22:21:44Z,2026-03-26T22:41:24Z,19,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_241,2026-03-27T03:59:00Z,2026-03-27T04:11:25Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_242,2026-03-27T03:59:21Z,2026-03-27T04:31:20Z,31,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_243,2026-03-27T20:26:52Z,2026-03-27T21:04:37Z,37,feed,Deepseek R1 outage,minor,Deepseek R1
