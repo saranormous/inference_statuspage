@@ -495,3 +495,4 @@ together,together_239,2026-03-26T22:21:44Z,2026-03-26T22:41:24Z,19,feed,ZAI GLM 
 together,together_241,2026-03-27T03:59:00Z,2026-03-27T04:11:25Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_242,2026-03-27T03:59:21Z,2026-03-27T04:31:20Z,31,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
 together,together_243,2026-03-27T20:26:52Z,2026-03-27T21:04:37Z,37,feed,Deepseek R1 outage,minor,Deepseek R1
+together,together_244,2026-03-29T11:14:15Z,2026-03-29T11:27:18Z,13,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
