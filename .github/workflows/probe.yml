@@ -1,8 +1,9 @@
 name: Synthetic Probe
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
+  # schedule disabled — probe now runs via EC2 cron (i-06b3615c34d8e53e0)
+  # schedule:
+  #   - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 concurrency:

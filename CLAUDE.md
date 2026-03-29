@@ -8,7 +8,9 @@ Independent reliability monitoring for AI inference providers: **Baseten**, **Fi
 - `monitor/config.yaml` — Endpoint config (URLs, model IDs, auth, probe settings).
 - `site/` — Static site. `index.html`, `app.js`, `styles.css`. No build step.
 - `scripts/fetch_incidents.py` — Pulls incident data from provider status feeds.
-- `.github/workflows/probe.yml` — Runs the probe every 5 min, commits to `data` branch.
+- `infra/run_probe.sh` — Cron wrapper. Runs the probe, commits and pushes results to `data` branch. Includes lock-file guard against overlapping runs.
+- `infra/setup.sh` — Bootstrap script for provisioning a new EC2 probe instance.
+- `.github/workflows/probe.yml` — Manual-only (`workflow_dispatch`). Cron schedule disabled; probe runs on EC2 instead.
 - `.github/workflows/fetch-incidents.yml` — Fetches incidents every 6 hours, commits to `data` branch.
 - `.github/workflows/deploy.yml` — Deploys site to GitHub Pages. Triggers on push to `main` or when probe/incident workflows complete.
 
@@ -48,6 +50,22 @@ cd site && python3 -m http.server 8080
 source ~/.env
 export FIREWORKS_API_KEY TOGETHER_API_KEY BASETEN_API_KEY
 python3 monitor/probe.py
+```
+
+## Probe infrastructure
+
+The probe runs on a small EC2 instance (`i-06b3615c34d8e53e0`, us-west-1) via cron every 5 minutes. This replaced the GitHub Actions cron schedule, which was unreliable (delays of 5–30 min).
+
+- Instance: `t3.micro`, Amazon Linux 2023
+- Cron: `*/5 * * * *` runs `infra/run_probe.sh`
+- Auth: deploy key (write access, scoped to this repo only)
+- API keys: stored in `~/.env` on the instance
+- Logs: `~/probe.log` on the instance
+- Code updates: the cron wrapper does `git pull --ff-only` before each run
+
+To SSH in:
+```bash
+ssh -i ~/Downloads/inference_status_cron.pem ec2-user@54.193.59.209
 ```
 
 ## API keys
