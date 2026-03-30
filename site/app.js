@@ -2,7 +2,7 @@ const DATA_ROOT = 'parsed';
 const INCIDENTS_URL = `${DATA_ROOT}/incidents.jsonl`;
 const WINDOWS_URL = `${DATA_ROOT}/downtime_windows.csv`;
 const PROVIDERS_URL = `${DATA_ROOT}/providers.json`;
-const PROBE_URL = `${DATA_ROOT}/probe_results.jsonl`;
+const PROBE_URL = 'https://raw.githubusercontent.com/saranormous/inference_statuspage/data/parsed/probe_results.jsonl';
 
 const PROVIDER_COLORS = {
   fireworks: '#f97316',
