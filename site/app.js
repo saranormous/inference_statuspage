@@ -183,18 +183,13 @@ const renderWithWindow = (windowKey) => {
   if (tier1.length) renderMonitoringGrid('tier1Grid', tier1, windowKey);
 };
 
-const buildLatencySparkline = (p50Points, p95Points, color) => {
+const buildLatencySparkline = (p50Points, p95Points, color, sharedYMax) => {
   const f50 = p50Points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
   const f95 = p95Points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
   if (f50.length < 4) return '';
   const W = 200, H = 32, pad = 2;
-  // Scale y-axis: cap at p95-of-p95 to avoid outlier compression
-  const allP50 = f50.map((p) => p.v);
-  const allP95 = f95.length ? f95.map((p) => p.v) : allP50;
-  const sorted95 = allP95.slice().sort((a, b) => a - b);
-  const yMin = Math.min(...allP50);
-  const yCap = sorted95[Math.min(Math.floor(sorted95.length * 0.95), sorted95.length - 1)];
-  const yMax = Math.max(yCap, Math.max(...allP50)) * 1.1;
+  const yMin = 0;
+  const yMax = sharedYMax;
   const yRange = yMax - yMin || 1;
   const xOf = (i) => pad + (i / (p50Points.length - 1)) * (W - 2 * pad);
   const yOf = (v) => Math.max(pad, pad + (1 - (Math.min(v, yMax) - yMin) / yRange) * (H - 2 * pad));
@@ -239,6 +234,13 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
   });
 
   const now = Date.now();
+  const MIN_SAMPLES = 20;
+  const bucketSize = windowMs / bucketCount;
+  const pctOf = (sorted, pct) => sorted[Math.floor(sorted.length * pct)];
+
+  // --- Pass 1: compute per-provider data and collect all latency values for shared y-axis ---
+  const providerData = [];
+  const allLatencyVals = [];
 
   PROVIDER_ORDER.forEach((key) => {
     const results = byProvider.get(key);
@@ -251,7 +253,6 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     const failures = recent.filter((r) => !r.success);
     const availability = recent.length ? (successes.length / recent.length * 100) : 0;
 
-    // Error type breakdown
     const errorCounts = {};
     failures.forEach((r) => {
       const t = r.error_type || 'unknown';
@@ -259,15 +260,12 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     });
     const latencies = successes.map((r) => r.latency_ms).sort((a, b) => a - b);
     const ttfts = successes.map((r) => r.ttft_ms).filter((v) => v != null).sort((a, b) => a - b);
-    const MIN_SAMPLES = 20;
     const enoughData = latencies.length >= MIN_SAMPLES;
     const p50 = enoughData ? latencies[Math.floor(latencies.length * 0.5)] : null;
     const p95 = enoughData ? latencies[Math.floor(latencies.length * 0.95)] : null;
     const p99 = enoughData ? latencies[Math.floor(latencies.length * 0.99)] : null;
     const ttftP50 = (ttfts.length >= MIN_SAMPLES) ? ttfts[Math.floor(ttfts.length * 0.5)] : null;
 
-    // Build sparkline
-    const bucketSize = windowMs / bucketCount;
     const buckets = new Array(bucketCount).fill(null);
     recent.forEach((r) => {
       const age = now - new Date(r.timestamp).getTime();
@@ -278,10 +276,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       }
     });
 
-    // Build latency sparkline (p50 + p95 per bucket)
-    // Use fewer buckets than the availability sparkline so each has multiple
-    // probes, making percentile spread meaningful.
-    const latencyBucketCount = Math.min(48, Math.floor(recent.filter((r) => r.success).length / 3));
+    const latencyBucketCount = Math.min(48, Math.floor(successes.length / 3));
     const latencyBucketSize = windowMs / Math.max(latencyBucketCount, 1);
     const latencyBuckets = Array.from({ length: latencyBucketCount }, () => []);
     recent.forEach((r) => {
@@ -290,7 +285,6 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       const idx = latencyBucketCount - 1 - Math.floor(age / latencyBucketSize);
       if (idx >= 0 && idx < latencyBucketCount) latencyBuckets[idx].push(r.latency_ms);
     });
-    const pctOf = (sorted, pct) => sorted[Math.floor(sorted.length * pct)];
     const latencyP50 = latencyBuckets.map((vals) => {
       if (!vals.length) return null;
       const s = vals.sort((a, b) => a - b);
@@ -301,6 +295,22 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       const s = vals.sort((a, b) => a - b);
       return pctOf(s, 0.95);
     });
+
+    // Collect all values for shared y-axis
+    latencyP50.forEach((v) => { if (v != null) allLatencyVals.push(v); });
+    latencyP95.forEach((v) => { if (v != null) allLatencyVals.push(v); });
+
+    providerData.push({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, buckets, latencyP50, latencyP95 });
+  });
+
+  // Shared y-axis: cap at p95 of all p95 values to avoid extreme outlier compression
+  const sortedAll = allLatencyVals.slice().sort((a, b) => a - b);
+  const sharedYMax = sortedAll.length
+    ? sortedAll[Math.min(Math.floor(sortedAll.length * 0.95), sortedAll.length - 1)] * 1.15
+    : 1000;
+
+  // --- Pass 2: render cards ---
+  providerData.forEach(({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, buckets, latencyP50, latencyP95 }) => {
 
     // For early data, show last probe's raw values
     const lastSuccess = successes[successes.length - 1];
@@ -351,7 +361,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
         `<span class="${b === null ? 'no-data' : b ? 'up' : 'down'}"></span>`
       ).join('')}</div>` : ''}
       ${(() => {
-        const svg = buildLatencySparkline(latencyP50, latencyP95, PROVIDER_COLORS[key]);
+        const svg = buildLatencySparkline(latencyP50, latencyP95, PROVIDER_COLORS[key], sharedYMax);
         if (!svg) return '';
         const f50 = latencyP50.filter((v) => v != null);
         const f95 = latencyP95.filter((v) => v != null);
