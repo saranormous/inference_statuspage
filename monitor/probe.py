@@ -250,6 +250,96 @@ def write_results(results: list[dict], output_path: Path) -> None:
             f.write(json.dumps(r, default=str) + "\n")
 
 
+# ── Anomaly detection ──────────────────────────────────────────────
+# Auth/billing error codes — these almost never indicate a real outage.
+_AUTH_BILLING_CODES = {401, 402, 403, 412}
+
+# How many recent probes per provider to look back at.
+_LOOKBACK = 6  # ~30 min at 5-min intervals
+
+
+def _read_recent_results(output_path: Path, providers: set[str]) -> dict[str, list[dict]]:
+    """Read the tail of the JSONL file and return recent results per provider."""
+    by_provider: dict[str, list[dict]] = {p: [] for p in providers}
+    if not output_path.exists():
+        return by_provider
+    # Read last ~50 lines (enough for 3 providers * 6 lookback + margin)
+    try:
+        lines = output_path.read_text().strip().splitlines()[-50:]
+    except Exception:
+        return by_provider
+    for line in lines:
+        try:
+            r = json.loads(line)
+        except (json.JSONDecodeError, ValueError):
+            continue
+        p = r.get("provider")
+        if p in by_provider:
+            by_provider[p].append(r)
+    # Keep only the most recent _LOOKBACK per provider
+    for p in by_provider:
+        by_provider[p] = by_provider[p][-_LOOKBACK:]
+    return by_provider
+
+
+def detect_anomalies(
+    current_results: list[dict],
+    history: dict[str, list[dict]],
+) -> None:
+    """
+    Annotate each result with an 'anomaly' field when the failure pattern
+    looks like a billing or auth issue rather than a real provider outage.
+
+    Detection heuristics:
+    1. Per-provider: provider was recently healthy but now shows uniform
+       failures with an auth/billing HTTP code.
+    2. Cross-provider: multiple providers failing simultaneously with
+       auth-like codes — almost certainly our infrastructure, not theirs.
+    """
+    # Group current results by provider
+    current_by_provider: dict[str, dict] = {}
+    for r in current_results:
+        current_by_provider[r["provider"]] = r
+
+    # Per-provider detection
+    flagged_providers = set()
+    for r in current_results:
+        if r["success"]:
+            r["anomaly"] = None
+            continue
+
+        provider = r["provider"]
+        status_code = r.get("status_code", 0)
+        hist = history.get(provider, [])
+
+        # Check if this is an auth/billing code
+        if status_code not in _AUTH_BILLING_CODES:
+            r["anomaly"] = None
+            continue
+
+        # Was this provider recently healthy? (any success in lookback)
+        recent_successes = sum(1 for h in hist if h.get("success"))
+        if not hist or recent_successes > 0:
+            # Went from healthy to auth/billing error — suspicious
+            flagged_providers.add(provider)
+            r["anomaly"] = "suspected_billing"
+        else:
+            # Has been failing for a while with this code — still flag it
+            # but with lower confidence
+            recent_codes = {h.get("status_code") for h in hist if not h.get("success")}
+            if recent_codes == {status_code}:
+                flagged_providers.add(provider)
+                r["anomaly"] = "suspected_billing"
+            else:
+                r["anomaly"] = None
+
+    # Cross-provider: if 2+ providers are flagged, escalate to infra-level
+    if len(flagged_providers) >= 2:
+        for r in current_results:
+            if r.get("anomaly") == "suspected_billing":
+                r["anomaly"] = "suspected_probe_infra"
+
+
 def main() -> None:
     config = load_config()
     settings = config.get("probe_settings", {})
@@ -276,6 +366,16 @@ def main() -> None:
     else:
         output_rel = settings.get("output_file", "parsed/probe_results.jsonl")
         output_path = REPO_ROOT / output_rel
+
+    # Detect anomalies before writing
+    providers = {r["provider"] for r in results}
+    history = _read_recent_results(output_path, providers)
+    detect_anomalies(results, history)
+
+    for r in results:
+        if r.get("anomaly"):
+            print(f"  ⚠ {r['provider']}: {r['anomaly']} (HTTP {r.get('status_code')})")
+
     write_results(results, output_path)
     print(f"Wrote {len(results)} result(s) to {output_path}")
 

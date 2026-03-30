@@ -38,8 +38,9 @@ const EXCLUSION_WINDOWS = [
   { start: '2026-03-30T11:25:00Z', end: '2026-03-30T18:55:00Z', reason: 'Fireworks billing tier issue caused 412s' },
 ];
 
-const isExcluded = (timestamp) => {
-  const t = new Date(timestamp).getTime();
+const isExcluded = (probe) => {
+  if (probe.anomaly) return true;
+  const t = new Date(probe.timestamp).getTime();
   return EXCLUSION_WINDOWS.some(w => t >= new Date(w.start).getTime() && t <= new Date(w.end).getTime());
 };
 
@@ -187,18 +188,20 @@ const buildLatencySparkline = (p50Points, p95Points, color) => {
   const f95 = p95Points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
   if (f50.length < 4) return '';
   const W = 200, H = 32, pad = 2;
-  // Scale to p95 max so both lines share the same axis
-  const allVals = [...f50.map((p) => p.v), ...f95.map((p) => p.v)];
-  const yMin = Math.min(...allVals);
-  const yMax = Math.max(...allVals);
+  // Scale y-axis: cap at p95-of-p95 to avoid outlier compression
+  const allP50 = f50.map((p) => p.v);
+  const allP95 = f95.length ? f95.map((p) => p.v) : allP50;
+  const sorted95 = allP95.slice().sort((a, b) => a - b);
+  const yMin = Math.min(...allP50);
+  const yCap = sorted95[Math.min(Math.floor(sorted95.length * 0.95), sorted95.length - 1)];
+  const yMax = Math.max(yCap, Math.max(...allP50)) * 1.1;
   const yRange = yMax - yMin || 1;
   const xOf = (i) => pad + (i / (p50Points.length - 1)) * (W - 2 * pad);
-  const yOf = (v) => pad + (1 - (v - yMin) / yRange) * (H - 2 * pad);
+  const yOf = (v) => Math.max(pad, pad + (1 - (Math.min(v, yMax) - yMin) / yRange) * (H - 2 * pad));
 
-  // p95 fill area between p50 and p95
+  // Shaded band between p50 and p95
   let bandPath = '';
   if (f95.length >= 4) {
-    // Build paired points where both p50 and p95 exist
     const paired = [];
     for (let i = 0; i < p50Points.length; i++) {
       if (p50Points[i] != null && p95Points[i] != null) paired.push(i);
@@ -206,20 +209,15 @@ const buildLatencySparkline = (p50Points, p95Points, color) => {
     if (paired.length >= 2) {
       const top = paired.map((i, idx) => `${idx === 0 ? 'M' : 'L'}${xOf(i).toFixed(1)},${yOf(p95Points[i]).toFixed(1)}`).join('');
       const bottom = paired.slice().reverse().map((i) => `L${xOf(i).toFixed(1)},${yOf(p50Points[i]).toFixed(1)}`).join('');
-      bandPath = `<path d="${top}${bottom}Z" fill="${color}" opacity="0.1"/>`;
+      bandPath = `<path d="${top}${bottom}Z" fill="${color}" opacity="0.18"/>`;
     }
   }
-
-  // p95 line
-  const p95Line = f95.length >= 4
-    ? `<path d="${f95.map((p, idx) => `${idx === 0 ? 'M' : 'L'}${xOf(p.i).toFixed(1)},${yOf(p.v).toFixed(1)}`).join('')}" fill="none" stroke="${color}" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/>`
-    : '';
 
   // p50 line
   const p50Line = `<path d="${f50.map((p, idx) => `${idx === 0 ? 'M' : 'L'}${xOf(p.i).toFixed(1)},${yOf(p.v).toFixed(1)}`).join('')}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>`;
 
   return `<svg viewBox="0 0 ${W} ${H}" class="latency-spark" preserveAspectRatio="none">
-    ${bandPath}${p95Line}${p50Line}
+    ${bandPath}${p50Line}
   </svg>`;
 };
 
@@ -246,7 +244,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     const results = byProvider.get(key);
     if (!results) return;
 
-    const recent = results.filter((r) => now - new Date(r.timestamp).getTime() < windowMs && !isExcluded(r.timestamp));
+    const recent = results.filter((r) => now - new Date(r.timestamp).getTime() < windowMs && !isExcluded(r));
     if (!recent.length) return;
 
     const successes = recent.filter((r) => r.success);
@@ -281,12 +279,16 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     });
 
     // Build latency sparkline (p50 + p95 per bucket)
-    const latencyBuckets = Array.from({ length: bucketCount }, () => []);
+    // Use fewer buckets than the availability sparkline so each has multiple
+    // probes, making percentile spread meaningful.
+    const latencyBucketCount = Math.min(48, Math.floor(recent.filter((r) => r.success).length / 3));
+    const latencyBucketSize = windowMs / Math.max(latencyBucketCount, 1);
+    const latencyBuckets = Array.from({ length: latencyBucketCount }, () => []);
     recent.forEach((r) => {
       if (!r.success || r.latency_ms == null) return;
       const age = now - new Date(r.timestamp).getTime();
-      const idx = bucketCount - 1 - Math.floor(age / bucketSize);
-      if (idx >= 0 && idx < bucketCount) latencyBuckets[idx].push(r.latency_ms);
+      const idx = latencyBucketCount - 1 - Math.floor(age / latencyBucketSize);
+      if (idx >= 0 && idx < latencyBucketCount) latencyBuckets[idx].push(r.latency_ms);
     });
     const pctOf = (sorted, pct) => sorted[Math.floor(sorted.length * pct)];
     const latencyP50 = latencyBuckets.map((vals) => {
@@ -357,7 +359,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
         const hi = f95.length ? Math.round(Math.max(...f95)) : Math.round(Math.max(...f50));
         return `<div class="latency-sparkline-wrap">
           <div class="latency-spark-label">
-            <span>latency <span class="spark-p50">p50</span> <span class="spark-p95">p95</span></span>
+            <span>latency</span>
             <span class="latency-spark-range">${lo}–${hi}ms</span>
           </div>
           ${svg}
@@ -483,7 +485,7 @@ const renderDetailPanel = (providerKey, allProbes, windowKey) => {
   const windowMs = WINDOW_MS[windowKey];
   const now = Date.now();
   const probes = allProbes
-    .filter(p => p.provider === providerKey && now - new Date(p.timestamp).getTime() < windowMs && !isExcluded(p.timestamp))
+    .filter(p => p.provider === providerKey && now - new Date(p.timestamp).getTime() < windowMs && !isExcluded(p))
     .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   if (!probes.length) return;
 
