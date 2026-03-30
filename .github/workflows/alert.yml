@@ -4,6 +4,7 @@ on:
   push:
     branches: [data]
     paths: [parsed/probe_results.jsonl]
+  workflow_dispatch: {}
 
 jobs:
   check:
