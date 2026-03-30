@@ -32,6 +32,17 @@ const BUCKET_CONFIG = {
   '30d': 360,
 };
 
+// Periods excluded from aggregates for ALL providers (e.g. billing issues on our side).
+// Probes during these windows are dropped before stats are computed.
+const EXCLUSION_WINDOWS = [
+  { start: '2026-03-30T11:25:00Z', end: '2026-03-30T18:55:00Z', reason: 'Fireworks billing tier issue caused 412s' },
+];
+
+const isExcluded = (timestamp) => {
+  const t = new Date(timestamp).getTime();
+  return EXCLUSION_WINDOWS.some(w => t >= new Date(w.start).getTime() && t <= new Date(w.end).getTime());
+};
+
 let currentWindow = '24h';
 let cachedProbeData = null;
 
@@ -194,7 +205,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     const results = byProvider.get(key);
     if (!results) return;
 
-    const recent = results.filter((r) => now - new Date(r.timestamp).getTime() < windowMs);
+    const recent = results.filter((r) => now - new Date(r.timestamp).getTime() < windowMs && !isExcluded(r.timestamp));
     if (!recent.length) return;
 
     const successes = recent.filter((r) => r.success);
@@ -396,7 +407,7 @@ const renderDetailPanel = (providerKey, allProbes, windowKey) => {
   const windowMs = WINDOW_MS[windowKey];
   const now = Date.now();
   const probes = allProbes
-    .filter(p => p.provider === providerKey && now - new Date(p.timestamp).getTime() < windowMs)
+    .filter(p => p.provider === providerKey && now - new Date(p.timestamp).getTime() < windowMs && !isExcluded(p.timestamp))
     .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   if (!probes.length) return;
 
