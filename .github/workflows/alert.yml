@@ -1,0 +1,56 @@
+name: Probe Alert
+
+on:
+  push:
+    branches: [data]
+    paths: [parsed/probe_results.jsonl]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data
+        uses: actions/checkout@v4
+        with:
+          ref: data
+
+      - name: Check latest probe results
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+
+          # Read the last 6 lines (2 probe runs × 3 providers)
+          with open("parsed/probe_results.jsonl") as f:
+              lines = f.readlines()[-6:]
+
+          results = [json.loads(l) for l in lines if l.strip()]
+
+          # Group by provider
+          by_provider = {}
+          for r in results:
+              by_provider.setdefault(r["provider"], []).append(r)
+
+          alerts = []
+
+          for provider, probes in by_provider.items():
+              # Check for anomalies (billing/auth detection from probe)
+              for p in probes:
+                  if p.get("anomaly"):
+                      alerts.append(f"ANOMALY: {provider} — {p['anomaly']} (HTTP {p.get('status_code', '?')})")
+                      break
+
+              # Check for consecutive failures (failed in last 2 probes)
+              recent = probes[-2:] if len(probes) >= 2 else probes
+              if all(not p["success"] for p in recent):
+                  error_types = set(p.get("error_type", "unknown") for p in recent)
+                  codes = set(str(p.get("status_code", 0)) for p in recent)
+                  alerts.append(f"FAILING: {provider} — {', '.join(error_types)} (HTTP {', '.join(codes)})")
+
+          if alerts:
+              print("::error::Probe alert triggered")
+              for a in alerts:
+                  print(f"  {a}")
+              sys.exit(1)
+
+          print("All providers healthy")
+          PYEOF

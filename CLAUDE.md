@@ -12,6 +12,7 @@ Independent reliability monitoring for AI inference providers: **Baseten**, **Fi
 - `infra/setup.sh` — Bootstrap script for provisioning a new EC2 probe instance.
 - `.github/workflows/probe.yml` — Manual-only (`workflow_dispatch`). Cron schedule disabled; probe runs on EC2 instead.
 - `.github/workflows/fetch-incidents.yml` — Fetches incidents every 6 hours, commits to `data` branch.
+- `.github/workflows/alert.yml` — Checks latest probe results on every `data` branch push. Fails (triggering GitHub email notification) if a provider fails 2 consecutive probes or an anomaly is detected.
 - `.github/workflows/deploy.yml` — Deploys site to GitHub Pages. Triggers on push to `main` or when probe/incident workflows complete.
 
 ### Branch structure
