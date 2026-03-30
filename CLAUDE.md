@@ -31,6 +31,12 @@ Independent reliability monitoring for AI inference providers: **Baseten**, **Fi
 - Pulled from each provider's public status feed (BetterStack, Atlassian Statuspage).
 - Shown per-provider, **never ranked or compared across providers** — different reporting methodologies make cross-provider comparison misleading.
 
+### Exclusion windows
+- `EXCLUSION_WINDOWS` in `site/app.js` lists time periods dropped from aggregates for **all providers** (e.g. billing issues on our side that caused false failures).
+- Each entry has `start`, `end` (ISO 8601 UTC), and `reason`.
+- Exclusions must apply to all providers equally to keep comparisons fair.
+- The raw probe data on the `data` branch is never modified — exclusions are display-only.
+
 ## Content rules
 
 When editing copy on the site or in this repo:
