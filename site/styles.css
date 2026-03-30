@@ -225,16 +225,16 @@ main {
 }
 .latency-spark-label {
   display: flex; justify-content: space-between; align-items: baseline;
-  font-size: 0.65rem; color: var(--muted); font-weight: 600;
+  font-size: 0.75rem; color: var(--muted); font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.04em;
   margin-bottom: 3px;
 }
 .latency-spark-range {
-  font-family: var(--code); font-size: 0.65rem; font-weight: 500;
+  font-family: var(--code); font-size: 0.75rem; font-weight: 500;
   letter-spacing: 0; text-transform: none;
 }
 .latency-spark {
-  width: 100%; height: 32px; display: block; border-radius: 4px;
+  width: 100%; height: 48px; display: block; border-radius: 4px;
 }
 
 .monitor-stats { margin-top: 12px; }
@@ -293,7 +293,7 @@ main {
 .probe-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; font-family: var(--code); }
 .probe-table thead { position: sticky; top: 0; background: var(--card); z-index: 1; }
 .probe-table th {
-  text-align: left; padding: 8px 12px; font-size: 0.7rem; font-weight: 700;
+  text-align: left; padding: 8px 12px; font-size: 0.75rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
   border-bottom: 1px solid var(--border);
 }

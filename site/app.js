@@ -183,11 +183,13 @@ const renderWithWindow = (windowKey) => {
   if (tier1.length) renderMonitoringGrid('tier1Grid', tier1, windowKey);
 };
 
+const fmtMsCard = (v) => `${Math.round(v).toLocaleString()}ms`;
+
 const buildLatencySparkline = (p50Points, p95Points, color, sharedYMax) => {
   const f50 = p50Points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
   const f95 = p95Points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
   if (f50.length < 4) return '';
-  const W = 200, H = 32, pad = 2;
+  const W = 200, H = 48, pad = 2;
   const yMin = 0;
   const yMax = sharedYMax;
   const yRange = yMax - yMin || 1;
@@ -238,9 +240,10 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
   const bucketSize = windowMs / bucketCount;
   const pctOf = (sorted, pct) => sorted[Math.floor(sorted.length * pct)];
 
-  // --- Pass 1: compute per-provider data and collect all latency values for shared y-axis ---
+  // --- Pass 1: compute per-provider data and collect all values for shared y-axes ---
   const providerData = [];
   const allLatencyVals = [];
+  const allTtftVals = [];
 
   PROVIDER_ORDER.forEach((key) => {
     const results = byProvider.get(key);
@@ -265,6 +268,7 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
     const p95 = enoughData ? latencies[Math.floor(latencies.length * 0.95)] : null;
     const p99 = enoughData ? latencies[Math.floor(latencies.length * 0.99)] : null;
     const ttftP50 = (ttfts.length >= MIN_SAMPLES) ? ttfts[Math.floor(ttfts.length * 0.5)] : null;
+    const ttftP95 = (ttfts.length >= MIN_SAMPLES) ? ttfts[Math.floor(ttfts.length * 0.95)] : null;
 
     const buckets = new Array(bucketCount).fill(null);
     recent.forEach((r) => {
@@ -276,14 +280,18 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       }
     });
 
-    const latencyBucketCount = Math.min(48, Math.floor(successes.length / 3));
-    const latencyBucketSize = windowMs / Math.max(latencyBucketCount, 1);
-    const latencyBuckets = Array.from({ length: latencyBucketCount }, () => []);
+    const perfBucketCount = Math.min(48, Math.floor(successes.length / 3));
+    const perfBucketSize = windowMs / Math.max(perfBucketCount, 1);
+    const latencyBuckets = Array.from({ length: perfBucketCount }, () => []);
+    const ttftBuckets = Array.from({ length: perfBucketCount }, () => []);
     recent.forEach((r) => {
-      if (!r.success || r.latency_ms == null) return;
+      if (!r.success) return;
       const age = now - new Date(r.timestamp).getTime();
-      const idx = latencyBucketCount - 1 - Math.floor(age / latencyBucketSize);
-      if (idx >= 0 && idx < latencyBucketCount) latencyBuckets[idx].push(r.latency_ms);
+      const idx = perfBucketCount - 1 - Math.floor(age / perfBucketSize);
+      if (idx >= 0 && idx < perfBucketCount) {
+        if (r.latency_ms != null) latencyBuckets[idx].push(r.latency_ms);
+        if (r.ttft_ms != null) ttftBuckets[idx].push(r.ttft_ms);
+      }
     });
     const latencyP50 = latencyBuckets.map((vals) => {
       if (!vals.length) return null;
@@ -295,22 +303,38 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       const s = vals.sort((a, b) => a - b);
       return pctOf(s, 0.95);
     });
+    const ttftP50Buckets = ttftBuckets.map((vals) => {
+      if (!vals.length) return null;
+      const s = vals.sort((a, b) => a - b);
+      return pctOf(s, 0.5);
+    });
+    const ttftP95Buckets = ttftBuckets.map((vals) => {
+      if (!vals.length) return null;
+      const s = vals.sort((a, b) => a - b);
+      return pctOf(s, 0.95);
+    });
 
-    // Collect all values for shared y-axis
+    // Collect all values for shared y-axes
     latencyP50.forEach((v) => { if (v != null) allLatencyVals.push(v); });
     latencyP95.forEach((v) => { if (v != null) allLatencyVals.push(v); });
+    ttftP50Buckets.forEach((v) => { if (v != null) allTtftVals.push(v); });
+    ttftP95Buckets.forEach((v) => { if (v != null) allTtftVals.push(v); });
 
-    providerData.push({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, buckets, latencyP50, latencyP95 });
+    providerData.push({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, ttftP95, buckets, latencyP50, latencyP95, ttftP50Buckets, ttftP95Buckets });
   });
 
-  // Shared y-axis: cap at p95 of all p95 values to avoid extreme outlier compression
+  // Shared y-axes: cap at p95 of all values to avoid extreme outlier compression
   const sortedAll = allLatencyVals.slice().sort((a, b) => a - b);
-  const sharedYMax = sortedAll.length
+  const sharedLatencyYMax = sortedAll.length
     ? sortedAll[Math.min(Math.floor(sortedAll.length * 0.95), sortedAll.length - 1)] * 1.15
     : 1000;
+  const sortedTtft = allTtftVals.slice().sort((a, b) => a - b);
+  const sharedTtftYMax = sortedTtft.length
+    ? sortedTtft[Math.min(Math.floor(sortedTtft.length * 0.95), sortedTtft.length - 1)] * 1.15
+    : 500;
 
   // --- Pass 2: render cards ---
-  providerData.forEach(({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, buckets, latencyP50, latencyP95 }) => {
+  providerData.forEach(({ key, recent, successes, failures, availability, errorCounts, latencies, ttfts, enoughData, p50, p95, p99, ttftP50, ttftP95, buckets, latencyP50, latencyP95, ttftP50Buckets, ttftP95Buckets }) => {
 
     // For early data, show last probe's raw values
     const lastSuccess = successes[successes.length - 1];
@@ -329,17 +353,17 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
 
     const statsHtml = enoughData ? `
       <div class="monitor-stats">
-        <div class="stat-row"><span class="stat-label">TTFT p50</span><span class="stat-value">${ttftP50 != null ? `${Math.round(ttftP50)}ms` : '—'}</span></div>
-        <div class="stat-row"><span class="stat-label">Latency p50</span><span class="stat-value">${Math.round(p50)}ms</span></div>
-        <div class="stat-row"><span class="stat-label">Latency p95</span><span class="stat-value">${Math.round(p95)}ms</span></div>
-        <div class="stat-row"><span class="stat-label">Latency p99</span><span class="stat-value">${Math.round(p99)}ms</span></div>
+        <div class="stat-row"><span class="stat-label">TTFT p50</span><span class="stat-value">${ttftP50 != null ? fmtMsCard(ttftP50) : '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">TTFT p95</span><span class="stat-value">${ttftP95 != null ? fmtMsCard(ttftP95) : '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Latency p50</span><span class="stat-value">${fmtMsCard(p50)}</span></div>
+        <div class="stat-row"><span class="stat-label">Latency p95</span><span class="stat-value">${fmtMsCard(p95)}</span></div>
         <div class="stat-row"><span class="stat-label">Probes (${windowLabel})</span><span class="stat-value">${recent.length}</span></div>
         ${failureRows}
       </div>
     ` : `
       <div class="monitor-stats">
-        <div class="stat-row"><span class="stat-label">Last TTFT</span><span class="stat-value">${lastTtft != null ? `${Math.round(lastTtft)}ms` : '—'}</span></div>
-        <div class="stat-row"><span class="stat-label">Last latency</span><span class="stat-value">${lastLatency != null ? `${Math.round(lastLatency)}ms` : '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Last TTFT</span><span class="stat-value">${lastTtft != null ? fmtMsCard(lastTtft) : '—'}</span></div>
+        <div class="stat-row"><span class="stat-label">Last latency</span><span class="stat-value">${lastLatency != null ? fmtMsCard(lastLatency) : '—'}</span></div>
         <div class="stat-row"><span class="stat-label">Probes (${windowLabel})</span><span class="stat-value">${recent.length}</span></div>
         ${failureRows}
       </div>
@@ -361,15 +385,30 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
         `<span class="${b === null ? 'no-data' : b ? 'up' : 'down'}"></span>`
       ).join('')}</div>` : ''}
       ${(() => {
-        const svg = buildLatencySparkline(latencyP50, latencyP95, PROVIDER_COLORS[key], sharedYMax);
+        const svg = buildLatencySparkline(ttftP50Buckets, ttftP95Buckets, PROVIDER_COLORS[key], sharedTtftYMax);
+        if (!svg) return '';
+        const f50 = ttftP50Buckets.filter((v) => v != null);
+        const f95 = ttftP95Buckets.filter((v) => v != null);
+        const lo = Math.round(Math.min(...f50)).toLocaleString();
+        const hi = (f95.length ? Math.round(Math.max(...f95)) : Math.round(Math.max(...f50))).toLocaleString();
+        return `<div class="latency-sparkline-wrap">
+          <div class="latency-spark-label">
+            <span>TTFT</span>
+            <span class="latency-spark-range">${lo}–${hi}ms</span>
+          </div>
+          ${svg}
+        </div>`;
+      })()}
+      ${(() => {
+        const svg = buildLatencySparkline(latencyP50, latencyP95, PROVIDER_COLORS[key], sharedLatencyYMax);
         if (!svg) return '';
         const f50 = latencyP50.filter((v) => v != null);
         const f95 = latencyP95.filter((v) => v != null);
-        const lo = Math.round(Math.min(...f50));
-        const hi = f95.length ? Math.round(Math.max(...f95)) : Math.round(Math.max(...f50));
+        const lo = Math.round(Math.min(...f50)).toLocaleString();
+        const hi = (f95.length ? Math.round(Math.max(...f95)) : Math.round(Math.max(...f50))).toLocaleString();
         return `<div class="latency-sparkline-wrap">
           <div class="latency-spark-label">
-            <span>latency</span>
+            <span>Latency</span>
             <span class="latency-spark-range">${lo}–${hi}ms</span>
           </div>
           ${svg}
