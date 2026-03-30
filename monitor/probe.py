@@ -143,6 +143,13 @@ def probe_endpoint(endpoint: dict, settings: dict) -> dict:
         latency_ms = _elapsed_ms(t_start)
         success = resp.status_code == 200
 
+        error_detail = None
+        if not success:
+            try:
+                error_detail = resp.text[:500]
+            except Exception:
+                pass
+
         return _make_result(
             endpoint,
             status_code=resp.status_code,
@@ -152,6 +159,7 @@ def probe_endpoint(endpoint: dict, settings: dict) -> dict:
             success=success,
             error=None if success else f"HTTP {resp.status_code}",
             error_type=None if success else _classify_http_error(resp.status_code),
+            error_detail=error_detail,
         )
 
     except requests.exceptions.Timeout:
