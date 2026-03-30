@@ -702,12 +702,16 @@ const renderIncidents = async () => {
     section.setAttribute('data-animate', '');
 
     const header = document.createElement('div');
-    header.className = 'panel-header';
+    header.className = 'panel-header incident-toggle';
+    header.style.cursor = 'pointer';
     header.innerHTML = `
       <h3><span class="provider-dot" style="background:${PROVIDER_COLORS[key]}"></span>${PROVIDER_NAMES[key]}</h3>
-      <span class="muted">${s.recentIncidents.length} self-reported in last 90 days</span>
+      <span class="muted">${s.recentIncidents.length} reported incident${s.recentIncidents.length !== 1 ? 's' : ''} <span class="toggle-chevron">▸</span></span>
     `;
     section.appendChild(header);
+
+    const body = document.createElement('div');
+    body.className = 'incident-body collapsed';
 
     const reportingNote = document.createElement('p');
     reportingNote.className = 'reporting-note';
@@ -716,7 +720,12 @@ const renderIncidents = async () => {
     } else if (key === 'baseten') {
       reportingNote.textContent = 'Reports incidents via Atlassian Statuspage with human-assigned severity.';
     }
-    section.appendChild(reportingNote);
+    body.appendChild(reportingNote);
+
+    header.addEventListener('click', () => {
+      body.classList.toggle('collapsed');
+      header.querySelector('.toggle-chevron').textContent = body.classList.contains('collapsed') ? '▸' : '▾';
+    });
 
     const timeline = document.createElement('div');
     timeline.className = 'incident-timeline';
@@ -747,7 +756,7 @@ const renderIncidents = async () => {
     };
 
     doRender();
-    section.appendChild(timeline);
+    body.appendChild(timeline);
 
     if (entries.length > INITIAL_SHOW) {
       const footer = document.createElement('div');
@@ -761,9 +770,10 @@ const renderIncidents = async () => {
         doRender();
       });
       footer.appendChild(btn);
-      section.appendChild(footer);
+      body.appendChild(footer);
     }
 
+    section.appendChild(body);
     timelinesContainer.appendChild(section);
   });
 };

@@ -387,6 +387,9 @@ main {
   font-style: italic; line-height: 1.4;
 }
 
+.incident-body.collapsed { display: none; }
+.incident-toggle { user-select: none; }
+.toggle-chevron { display: inline-block; margin-left: 4px; font-size: 0.75rem; }
 .incident-timeline { margin-top: 14px; }
 
 .incident-group { margin-top: 14px; }
