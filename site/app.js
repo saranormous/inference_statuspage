@@ -278,8 +278,163 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       ).join('')}</div>` : ''}
       ${statsHtml}
     `;
+    card.addEventListener('click', () => {
+      renderDetailPanel(key, probeResults, windowKey);
+    });
     container.appendChild(card);
   });
+};
+
+/* =========================================================
+   DETAIL PANEL — Click-to-expand probe detail
+   ========================================================= */
+
+let openDetailProvider = null;
+
+const fmtMs = (v) => v >= 10000 ? `${(v / 1000).toFixed(0)}s` : v >= 1000 ? `${(v / 1000).toFixed(1)}s` : `${Math.round(v)}ms`;
+
+const niceStep = (range, count) => {
+  const rough = range / count;
+  const mag = Math.pow(10, Math.floor(Math.log10(rough)));
+  return [1, 2, 2.5, 5, 10].map(n => n * mag).find(n => n >= rough) || rough;
+};
+
+const buildLatencyChart = (probes, providerKey, windowKey) => {
+  const W = 780, H = 200;
+  const M = { top: 12, right: 12, bottom: 28, left: 52 };
+  const pw = W - M.left - M.right, ph = H - M.top - M.bottom;
+  const now = Date.now(), windowMs = WINDOW_MS[windowKey], tMin = now - windowMs;
+
+  const successes = probes.filter(p => p.success);
+  const allVals = successes.flatMap(p => [p.latency_ms, p.ttft_ms].filter(v => v != null));
+  if (!allVals.length && !probes.some(p => !p.success)) return '';
+
+  const yMax = allVals.length ? Math.ceil(Math.max(...allVals) * 1.15) : 1000;
+  const xOf = (t) => M.left + ((new Date(t).getTime() - tMin) / windowMs) * pw;
+  const yOf = (v) => M.top + ph - (v / yMax) * ph;
+
+  const step = niceStep(yMax, 5);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" class="latency-svg">`;
+
+  // Y gridlines + labels
+  for (let v = step; v <= yMax; v += step) {
+    const y = yOf(v);
+    svg += `<line x1="${M.left}" y1="${y}" x2="${W - M.right}" y2="${y}" stroke="var(--border)" stroke-width="0.5" opacity="0.5"/>`;
+    svg += `<text x="${M.left - 8}" y="${y + 3.5}" text-anchor="end" fill="var(--muted)" font-size="9.5" font-family="var(--code)">${fmtMs(v)}</text>`;
+  }
+  svg += `<line x1="${M.left}" y1="${yOf(0)}" x2="${W - M.right}" y2="${yOf(0)}" stroke="var(--border)" stroke-width="0.5"/>`;
+
+  // X labels
+  const showDate = windowMs > 2 * 86400000;
+  const xTicks = windowKey === '24h' ? 6 : windowKey === '7d' ? 7 : 6;
+  for (let i = 1; i < xTicks; i++) {
+    const t = tMin + (windowMs / xTicks) * i;
+    const d = new Date(t);
+    const label = showDate
+      ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
+      : d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'UTC' });
+    svg += `<text x="${xOf(t)}" y="${H - 5}" text-anchor="middle" fill="var(--muted)" font-size="9.5" font-family="var(--code)">${label}</text>`;
+  }
+
+  const r = probes.length > 1000 ? 1.5 : probes.length > 300 ? 2 : 2.5;
+
+  // Failed probes — faint vertical line + red dot at top
+  probes.filter(p => !p.success).forEach(p => {
+    const x = xOf(p.timestamp);
+    svg += `<line x1="${x}" y1="${M.top}" x2="${x}" y2="${M.top + ph}" stroke="var(--major)" stroke-width="1" opacity="0.15"/>`;
+    svg += `<circle cx="${x}" cy="${M.top + 8}" r="3.5" fill="var(--major)" opacity="0.8"><title>Failed: ${p.error_type || 'unknown'} — ${new Date(p.timestamp).toISOString().slice(11, 16)} UTC</title></circle>`;
+  });
+
+  // TTFT dots (lighter)
+  successes.forEach(p => {
+    if (p.ttft_ms == null) return;
+    svg += `<circle cx="${xOf(p.timestamp)}" cy="${yOf(p.ttft_ms)}" r="${r}" fill="${PROVIDER_COLORS[providerKey]}" opacity="0.3"><title>TTFT ${Math.round(p.ttft_ms)}ms — ${new Date(p.timestamp).toISOString().slice(11, 16)} UTC</title></circle>`;
+  });
+
+  // Latency dots
+  successes.forEach(p => {
+    svg += `<circle cx="${xOf(p.timestamp)}" cy="${yOf(p.latency_ms)}" r="${r}" fill="${PROVIDER_COLORS[providerKey]}" opacity="0.8"><title>${Math.round(p.latency_ms)}ms — ${new Date(p.timestamp).toISOString().slice(11, 16)} UTC</title></circle>`;
+  });
+
+  svg += '</svg>';
+  return svg;
+};
+
+const buildProbeTable = (probes) => {
+  const rows = [...probes].reverse().slice(0, 30);
+  const ths = '<tr><th>Time (UTC)</th><th>Status</th><th>TTFT</th><th>Latency</th><th>Error</th></tr>';
+  const trs = rows.map(p => {
+    const t = new Date(p.timestamp);
+    const time = t.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'UTC' });
+    const date = t.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+    return `<tr>
+      <td>${date} ${time}</td>
+      <td>${p.success ? '<span class="probe-ok">OK</span>' : '<span class="probe-fail">FAIL</span>'}</td>
+      <td>${p.success && p.ttft_ms != null ? Math.round(p.ttft_ms) + 'ms' : '—'}</td>
+      <td>${p.success ? Math.round(p.latency_ms) + 'ms' : '—'}</td>
+      <td class="error-cell">${p.error_type || ''}</td>
+    </tr>`;
+  }).join('');
+  return `<table class="probe-table"><thead>${ths}</thead><tbody>${trs}</tbody></table>`;
+};
+
+const closeDetailPanel = () => {
+  const grid = document.getElementById('tier1Grid');
+  grid.classList.remove('grid-hidden');
+  const existing = document.querySelector('.detail-panel');
+  if (existing) existing.remove();
+  openDetailProvider = null;
+};
+
+const renderDetailPanel = (providerKey, allProbes, windowKey) => {
+  const grid = document.getElementById('tier1Grid');
+
+  if (openDetailProvider === providerKey) { closeDetailPanel(); return; }
+  closeDetailPanel();
+  openDetailProvider = providerKey;
+
+  const windowMs = WINDOW_MS[windowKey];
+  const now = Date.now();
+  const probes = allProbes
+    .filter(p => p.provider === providerKey && now - new Date(p.timestamp).getTime() < windowMs)
+    .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+  if (!probes.length) return;
+
+  grid.classList.add('grid-hidden');
+
+  const panel = document.createElement('div');
+  panel.className = 'detail-panel';
+  panel.dataset.provider = providerKey;
+
+  panel.innerHTML = `
+    <div class="detail-header">
+      <div class="detail-title">
+        <span class="provider-dot" style="background:${PROVIDER_COLORS[providerKey]}"></span>
+        <strong>${PROVIDER_NAMES[providerKey]}</strong>
+        <span class="muted-inline">— ${WINDOW_LABELS[windowKey]} probe detail</span>
+      </div>
+      <button class="detail-close" aria-label="Close">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M5 5l8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Back
+      </button>
+    </div>
+    <div class="detail-chart">${buildLatencyChart(probes, providerKey, windowKey)}</div>
+    <div class="detail-legend">
+      <span class="legend-item"><span class="dot" style="background:${PROVIDER_COLORS[providerKey]};opacity:0.35"></span>TTFT</span>
+      <span class="legend-item"><span class="dot" style="background:${PROVIDER_COLORS[providerKey]}"></span>Total latency</span>
+      <span class="legend-item"><span class="dot" style="background:var(--major)"></span>Failed</span>
+    </div>
+    <div class="detail-table-wrap">${buildProbeTable(probes)}</div>
+  `;
+
+  grid.after(panel);
+
+  panel.querySelector('.detail-close').addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeDetailPanel();
+  });
+
+  requestAnimationFrame(() => panel.classList.add('open'));
 };
 
 /* =========================================================
@@ -651,6 +806,7 @@ document.querySelectorAll('.time-btn').forEach((btn) => {
     document.querySelectorAll('.time-btn').forEach((b) => b.classList.remove('active'));
     btn.classList.add('active');
     currentWindow = btn.dataset.window;
+    closeDetailPanel();
     if (cachedProbeData) renderWithWindow(currentWindow);
   });
 });

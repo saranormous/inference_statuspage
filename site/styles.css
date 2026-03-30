@@ -140,6 +140,11 @@ main {
 
 .monitoring-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+  transition: opacity 0.2s ease, max-height 0.3s ease;
+}
+.monitoring-grid.grid-hidden {
+  opacity: 0; max-height: 0; overflow: hidden; margin: 0; gap: 0;
+  pointer-events: none;
 }
 
 .monitoring-placeholder {
@@ -182,7 +187,9 @@ main {
   border: 1px solid var(--border); border-radius: 14px;
   padding: 18px 16px; background: var(--card-gradient);
   text-align: center; min-width: 0;
+  cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
 }
+.monitor-card:hover { border-color: var(--muted); }
 
 .monitor-header {
   display: flex; align-items: center; justify-content: center;
@@ -225,6 +232,61 @@ main {
 .monitor-note {
   margin-top: 8px; font-size: 0.72rem; color: var(--muted); font-style: italic;
 }
+
+/* ========== Detail Panel ========== */
+
+.detail-panel {
+  margin-top: 14px; border: 1px solid var(--border); border-radius: 14px;
+  padding: 20px 22px; background: var(--card-gradient);
+  opacity: 0; transform: translateY(-6px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.detail-panel.open { opacity: 1; transform: translateY(0); }
+
+.detail-header {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;
+}
+.detail-title { display: flex; align-items: center; gap: 4px; font-size: 0.9rem; }
+
+.detail-close {
+  border: 1px solid var(--border); background: var(--card); border-radius: 999px;
+  padding: 5px 14px 5px 10px; font-size: 0.78rem; font-weight: 600;
+  font-family: var(--mono); cursor: pointer; color: var(--muted);
+  display: flex; align-items: center; gap: 4px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.detail-close:hover { color: var(--ink); border-color: var(--muted); }
+.detail-close svg { flex-shrink: 0; }
+
+.detail-chart { margin-bottom: 6px; }
+
+.latency-svg { width: 100%; height: auto; display: block; }
+
+.detail-legend {
+  display: flex; gap: 16px; font-size: 0.72rem; color: var(--muted);
+  font-weight: 600; margin-bottom: 16px; padding-left: 52px;
+}
+
+.detail-table-wrap {
+  max-height: 280px; overflow-y: auto;
+  border: 1px solid var(--border); border-radius: 10px;
+}
+
+.probe-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; font-family: var(--code); }
+.probe-table thead { position: sticky; top: 0; background: var(--card); z-index: 1; }
+.probe-table th {
+  text-align: left; padding: 8px 12px; font-size: 0.7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+.probe-table td {
+  padding: 5px 12px; border-bottom: 1px solid rgba(0, 0, 0, 0.04); color: var(--muted);
+}
+.probe-table tr:last-child td { border-bottom: none; }
+.probe-table .error-cell { color: var(--major); font-weight: 500; }
+
+.probe-ok { color: var(--operational); font-weight: 600; }
+.probe-fail { color: var(--major); font-weight: 600; }
 
 /* ========== Self-reported incidents ========== */
 
