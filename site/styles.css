@@ -219,6 +219,24 @@ main {
 .monitor-sparkline .down { background: var(--major); height: 100%; }
 .monitor-sparkline .no-data { background: var(--no-data-bar); height: 40%; }
 
+/* Latency sparkline */
+.latency-sparkline-wrap {
+  margin: 8px 0 4px;
+}
+.latency-spark-label {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 0.65rem; color: var(--muted); font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+.latency-spark-range {
+  font-family: var(--code); font-size: 0.65rem; font-weight: 500;
+  letter-spacing: 0; text-transform: none;
+}
+.latency-spark {
+  width: 100%; height: 28px; display: block; border-radius: 4px;
+}
+
 .monitor-stats { margin-top: 12px; }
 
 .stat-row {

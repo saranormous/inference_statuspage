@@ -182,6 +182,23 @@ const renderWithWindow = (windowKey) => {
   if (tier1.length) renderMonitoringGrid('tier1Grid', tier1, windowKey);
 };
 
+const buildLatencySparkline = (points, color) => {
+  const filled = points.map((v, i) => v != null ? { i, v } : null).filter(Boolean);
+  if (filled.length < 4) return '';
+  const W = 200, H = 28, pad = 2;
+  const yMin = Math.min(...filled.map((p) => p.v));
+  const yMax = Math.max(...filled.map((p) => p.v));
+  const yRange = yMax - yMin || 1;
+  const xOf = (i) => pad + (i / (points.length - 1)) * (W - 2 * pad);
+  const yOf = (v) => pad + (1 - (v - yMin) / yRange) * (H - 2 * pad);
+  const pathParts = filled.map((p, idx) => `${idx === 0 ? 'M' : 'L'}${xOf(p.i).toFixed(1)},${yOf(p.v).toFixed(1)}`);
+  const areaPath = [...pathParts, `L${xOf(filled[filled.length - 1].i).toFixed(1)},${H}`, `L${xOf(filled[0].i).toFixed(1)},${H}Z`].join('');
+  return `<svg viewBox="0 0 ${W} ${H}" class="latency-spark" preserveAspectRatio="none">
+    <path d="${areaPath}" fill="${color}" opacity="0.1"/>
+    <path d="${pathParts.join('')}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>`;
+};
+
 const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
   const container = document.getElementById(containerId);
   container.innerHTML = '';
@@ -239,6 +256,20 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       }
     });
 
+    // Build latency sparkline (p50 per bucket)
+    const latencyBuckets = Array.from({ length: bucketCount }, () => []);
+    recent.forEach((r) => {
+      if (!r.success || r.latency_ms == null) return;
+      const age = now - new Date(r.timestamp).getTime();
+      const idx = bucketCount - 1 - Math.floor(age / bucketSize);
+      if (idx >= 0 && idx < bucketCount) latencyBuckets[idx].push(r.latency_ms);
+    });
+    const latencyPoints = latencyBuckets.map((vals) => {
+      if (!vals.length) return null;
+      const s = vals.sort((a, b) => a - b);
+      return s[Math.floor(s.length * 0.5)];
+    });
+
     // For early data, show last probe's raw values
     const lastSuccess = successes[successes.length - 1];
     const lastTtft = lastSuccess?.ttft_ms;
@@ -287,6 +318,20 @@ const renderMonitoringGrid = (containerId, probeResults, windowKey) => {
       ${buckets.filter((b) => b !== null).length >= 6 ? `<div class="monitor-sparkline">${buckets.map((b) =>
         `<span class="${b === null ? 'no-data' : b ? 'up' : 'down'}"></span>`
       ).join('')}</div>` : ''}
+      ${(() => {
+        const svg = buildLatencySparkline(latencyPoints, PROVIDER_COLORS[key]);
+        if (!svg) return '';
+        const filledPts = latencyPoints.filter((v) => v != null);
+        const lo = Math.round(Math.min(...filledPts));
+        const hi = Math.round(Math.max(...filledPts));
+        return `<div class="latency-sparkline-wrap">
+          <div class="latency-spark-label">
+            <span>p50 latency</span>
+            <span class="latency-spark-range">${lo === hi ? `${lo}ms` : `${lo}–${hi}ms`}</span>
+          </div>
+          ${svg}
+        </div>`;
+      })()}
       ${statsHtml}
     `;
     card.addEventListener('click', () => {
