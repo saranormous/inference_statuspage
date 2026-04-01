@@ -511,3 +511,4 @@ fireworks,fireworks_72,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Em
 together,together_256,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_257,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_258,2026-04-01T11:43:52Z,2026-04-01T11:59:13Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_259,2026-04-01T16:58:52Z,2026-04-01T17:22:39Z,23,feed,Deepseek R1 outage,minor,Deepseek R1
