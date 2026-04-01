@@ -507,3 +507,5 @@ together,together_252,2026-03-30T20:32:36Z,2026-03-30T20:47:25Z,14,feed,Moonshot
 together,together_253,2026-03-31T02:05:26Z,2026-03-31T02:20:35Z,15,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_254,2026-03-31T02:26:22Z,2026-03-31T02:56:31Z,30,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_255,2026-03-31T15:34:37Z,2026-03-31T16:16:37Z,42,feed,Deepseek R1 outage,minor,Deepseek R1
+fireworks,fireworks_72,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_256,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
