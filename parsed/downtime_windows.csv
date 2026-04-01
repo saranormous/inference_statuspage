@@ -509,3 +509,5 @@ together,together_254,2026-03-31T02:26:22Z,2026-03-31T02:56:31Z,30,feed,Moonshot
 together,together_255,2026-03-31T15:34:37Z,2026-03-31T16:16:37Z,42,feed,Deepseek R1 outage,minor,Deepseek R1
 fireworks,fireworks_72,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_256,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_257,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_258,2026-04-01T11:43:52Z,2026-04-01T11:59:13Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
