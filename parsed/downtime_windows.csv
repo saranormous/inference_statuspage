@@ -59,7 +59,6 @@ modal,modal_57,2024-07-25T06:50:00Z,2024-07-25T06:50:00Z,0,feed,Ephemeral apps a
 modal,modal_58,2024-09-13T17:59:00Z,2024-09-13T17:59:00Z,0,feed,Container filesystem 'file not found' bug,minor,
 modal,modal_59,2024-09-24T17:51:00Z,2024-09-24T17:51:00Z,0,feed,CPU container performance degradation from over-scheduling on GCE n1-standard instance class,minor,CPU functions
 modal,modal_60,2024-09-30T21:14:48Z,2024-09-30T21:17:34Z,2,feed,Image builds is down,major,Image builds
-baseten,baseten_fbzsycs5szgx,2024-10-23T14:46:24.028-07:00,2024-10-23T16:02:27.809-07:00,76,feed,Slow Baseten web application load times,minor,"Model Management API,Web Application"
 modal,modal_61,2024-10-31T14:30:37Z,2024-10-31T14:52:01Z,21,feed,Volumes is down,major,Volumes
 modal,modal_62,2024-10-31T15:00:18Z,2024-10-31T15:00:18Z,0,feed,modal.com DNS updates,minor,
 baseten,baseten_c5ql8b96sxc1,2024-11-03T07:51:25.751-08:00,2024-11-03T08:49:23.834-08:00,57,feed,Slower than usual scale-ups for L4 GPUs,minor,Dedicated Inference
@@ -511,4 +510,5 @@ fireworks,fireworks_72,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Em
 together,together_256,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_257,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_258,2026-04-01T11:43:52Z,2026-04-01T11:59:13Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+baseten,baseten_rhrjd3t222x2,2026-04-01T15:30:54.000-07:00,2026-04-01T17:30:38.000-07:00,119,feed,Elevated deploy failures. Inference is **not** affected.,minor,Model Management API
 together,together_259,2026-04-01T16:58:52Z,2026-04-01T17:22:39Z,23,feed,Deepseek R1 outage,minor,Deepseek R1
