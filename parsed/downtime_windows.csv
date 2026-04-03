@@ -510,3 +510,4 @@ baseten,baseten_rhrjd3t222x2,2026-04-01T15:30:54.000-07:00,2026-04-01T17:30:38.0
 together,together_255,2026-04-01T16:58:52Z,2026-04-01T17:22:39Z,23,feed,Deepseek R1 outage,minor,Deepseek R1
 modal,modal_133,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
 modal,modal_134,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
+together,together_256,2026-04-03T00:48:05Z,2026-04-03T02:38:58Z,110,feed,Voxtral Mini 3B 2507 outage,major,Voxtral Mini 3B 2507
