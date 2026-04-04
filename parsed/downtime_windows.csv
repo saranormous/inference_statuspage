@@ -512,4 +512,4 @@ together,together_256,2026-04-03T00:48:05Z,2026-04-03T02:38:58Z,110,feed,Voxtral
 baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
 together,together_257,2026-04-03T15:37:52Z,2026-04-03T16:09:31Z,31,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_258,2026-04-03T16:13:52Z,2026-04-03T16:27:14Z,13,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-04T00:18:15Z,0,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
+baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
