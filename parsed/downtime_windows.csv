@@ -61,10 +61,8 @@ modal,modal_59,2024-09-24T17:51:00Z,2024-09-24T17:51:00Z,0,feed,CPU container pe
 modal,modal_60,2024-09-30T21:14:48Z,2024-09-30T21:17:34Z,2,feed,Image builds is down,major,Image builds
 modal,modal_61,2024-10-31T14:30:37Z,2024-10-31T14:52:01Z,21,feed,Volumes is down,major,Volumes
 modal,modal_62,2024-10-31T15:00:18Z,2024-10-31T15:00:18Z,0,feed,modal.com DNS updates,minor,
-baseten,baseten_c5ql8b96sxc1,2024-11-03T07:51:25.751-08:00,2024-11-03T08:49:23.834-08:00,57,feed,Slower than usual scale-ups for L4 GPUs,minor,Dedicated Inference
 modal,modal_63,2024-12-04T16:00:00Z,2024-12-04T16:00:00Z,0,feed,Upgrading system components,minor,
 modal,modal_64,2024-12-05T18:02:30Z,2024-12-05T18:04:36Z,2,feed,Snapshot restores (beta) is down,major,Snapshot restores
-baseten,baseten_7gc83km35db0,2025-01-09T14:34:24.951-08:00,2025-01-09T14:49:31.209-08:00,15,feed,New deployments and replica scale ups timing out in certain regions,minor,Model Management API
 modal,modal_65,2025-01-09T19:00:00Z,2025-01-09T19:35:00Z,35,feed,"Performance degradation across Functions, Sandboxes, and web endpoints",minor,"Web endpoints,Sandboxes"
 modal,modal_66,2025-01-15T01:08:27Z,2025-01-15T01:27:22Z,18,feed,Web endpoints is down,major,Web endpoints
 modal,modal_67,2025-01-24T18:16:00Z,2025-01-24T18:50:00Z,34,feed,Dashboard is unavailable,major,
@@ -511,5 +509,7 @@ together,together_255,2026-04-01T16:58:52Z,2026-04-01T17:22:39Z,23,feed,Deepseek
 modal,modal_133,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
 modal,modal_134,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
 together,together_256,2026-04-03T00:48:05Z,2026-04-03T02:38:58Z,110,feed,Voxtral Mini 3B 2507 outage,major,Voxtral Mini 3B 2507
+baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
 together,together_257,2026-04-03T15:37:52Z,2026-04-03T16:09:31Z,31,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_258,2026-04-03T16:13:52Z,2026-04-03T16:27:14Z,13,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-04T00:18:15Z,0,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
