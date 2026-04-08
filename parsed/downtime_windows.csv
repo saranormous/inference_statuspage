@@ -510,3 +510,10 @@ modal,modal_135,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container crea
 together,together_252,2026-04-07T13:00:52Z,2026-04-07T13:14:00Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 modal,modal_136,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
 fireworks,fireworks_73,2026-04-07T14:58:13Z,2026-04-07T15:00:20Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_253,2026-04-07T18:03:03Z,2026-04-07T18:30:10Z,27,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_254,2026-04-07T19:06:25Z,2026-04-07T19:21:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_255,2026-04-07T19:37:43Z,2026-04-07T20:34:03Z,56,feed,Kokoro-82M outage,minor,Kokoro-82M
+fireworks,fireworks_74,2026-04-07T20:42:33Z,2026-04-07T20:44:45Z,2,feed,Llama 3.3 70B Instruct chat completion API outage,minor,Llama 3.3 70B Instruct chat completion API
+together,together_256,2026-04-07T21:51:25Z,2026-04-07T22:06:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_257,2026-04-07T22:11:26Z,2026-04-07T23:01:37Z,50,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_258,2026-04-07T22:51:03Z,2026-04-07T23:27:04Z,36,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
