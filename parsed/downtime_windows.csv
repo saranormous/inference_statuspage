@@ -517,3 +517,4 @@ fireworks,fireworks_74,2026-04-07T20:42:33Z,2026-04-07T20:44:45Z,2,feed,Llama 3.
 together,together_256,2026-04-07T21:51:25Z,2026-04-07T22:06:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_257,2026-04-07T22:11:26Z,2026-04-07T23:01:37Z,50,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_258,2026-04-07T22:51:03Z,2026-04-07T23:27:04Z,36,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_259,2026-04-08T06:01:00Z,2026-04-08T06:13:58Z,12,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
