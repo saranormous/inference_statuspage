@@ -521,3 +521,4 @@ together,together_259,2026-04-08T06:01:00Z,2026-04-08T06:13:58Z,12,feed,FLUX.1 K
 together,together_260,2026-04-08T09:01:03Z,2026-04-08T09:14:04Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_261,2026-04-08T12:33:00Z,2026-04-08T12:48:02Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_262,2026-04-08T14:45:49Z,2026-04-08T14:59:03Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_263,2026-04-08T19:44:39Z,2026-04-08T19:56:46Z,12,feed,Whisper Large V3 outage,minor,Whisper Large V3
