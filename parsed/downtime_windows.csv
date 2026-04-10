@@ -530,3 +530,6 @@ together,together_268,2026-04-09T15:15:34Z,2026-04-09T15:27:45Z,12,feed,Qwen3 VL
 together,together_269,2026-04-09T15:16:34Z,2026-04-09T15:31:13Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 together,together_270,2026-04-09T15:37:07Z,2026-04-09T15:49:02Z,11,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 together,together_271,2026-04-09T22:47:55Z,2026-04-09T23:00:01Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_272,2026-04-10T03:55:09Z,2026-04-10T04:29:17Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_274,2026-04-10T05:15:46Z,2026-04-10T05:30:33Z,14,feed,Qwen3 VL 8B Instruct outage,minor,Qwen3 VL 8B Instruct
+together,together_273,2026-04-10T05:15:52Z,2026-04-10T05:28:59Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
