@@ -14,7 +14,7 @@
       "Qwen3 Embedding 8B",
       "Qwen3 VL 30B A3B Thinking"
     ],
-    "incident_count": 74
+    "incident_count": 75
   },
   "modal": {
     "name": "Modal",
@@ -48,7 +48,7 @@
       "Inference - Voice",
       "Inference - Moderation"
     ],
-    "incident_count": 274
+    "incident_count": 279
   },
   "baseten": {
     "name": "Baseten",
