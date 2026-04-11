@@ -539,3 +539,7 @@ together,together_276,2026-04-10T15:58:55Z,2026-04-10T16:28:40Z,29,feed,Deepseek
 together,together_277,2026-04-10T16:38:17Z,2026-04-10T17:02:11Z,23,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_278,2026-04-10T16:40:39Z,2026-04-10T17:22:42Z,42,feed,Deepseek R1 outage,minor,Deepseek R1
 together,together_279,2026-04-10T17:30:56Z,2026-04-10T17:43:57Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_280,2026-04-10T19:13:29Z,2026-04-10T19:55:30Z,42,feed,Deepseek R1 outage,minor,Deepseek R1
+together,together_281,2026-04-10T19:46:49Z,2026-04-10T20:07:56Z,21,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_282,2026-04-10T21:11:23Z,2026-04-10T21:26:21Z,14,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
+together,together_283,2026-04-10T21:42:11Z,2026-04-10T22:21:09Z,38,feed,MiniMax M2.5 outage,minor,MiniMax M2.5
