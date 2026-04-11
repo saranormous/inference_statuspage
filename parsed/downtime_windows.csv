@@ -545,3 +545,4 @@ together,together_282,2026-04-10T21:11:23Z,2026-04-10T21:26:21Z,14,feed,Moonshot
 together,together_283,2026-04-10T21:42:11Z,2026-04-10T22:21:09Z,38,feed,MiniMax M2.5 outage,minor,MiniMax M2.5
 together,together_285,2026-04-11T00:28:26Z,2026-04-11T03:24:17Z,175,feed,MiniMax M2.5 outage,major,MiniMax M2.5
 together,together_284,2026-04-11T02:35:31Z,2026-04-11T03:02:36Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_286,2026-04-11T09:10:52Z,2026-04-11T09:24:36Z,13,feed,Qwen3 VL 8B Instruct outage,minor,Qwen3 VL 8B Instruct
