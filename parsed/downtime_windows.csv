@@ -550,3 +550,7 @@ baseten,baseten_pv607pnjmzk7,2026-04-13T08:42:27.479-07:00,2026-04-13T09:31:44.2
 together,together_288,2026-04-13T10:12:34Z,2026-04-13T10:30:39Z,18,feed,Qwen3 VL 8B Instruct outage,minor,Qwen3 VL 8B Instruct
 together,together_289,2026-04-13T12:15:40Z,2026-04-13T12:36:38Z,20,feed,Qwen3 VL 8B Instruct outage,minor,Qwen3 VL 8B Instruct
 together,together_290,2026-04-13T13:38:11Z,2026-04-13T13:51:37Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_291,2026-04-13T18:20:14Z,2026-04-13T18:39:17Z,19,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
+together,together_292,2026-04-13T20:14:11Z,2026-04-13T20:30:30Z,16,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
+together,together_293,2026-04-13T20:37:19Z,2026-04-13T21:45:28Z,68,feed,Qwen3 235B A22B Thinking 2507 outage,major,Qwen3 235B A22B Thinking 2507
+together,together_294,2026-04-13T22:23:29Z,2026-04-13T22:48:20Z,24,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
