@@ -551,3 +551,8 @@ together,together_288,2026-04-13T20:37:19Z,2026-04-13T21:45:28Z,68,feed,Qwen3 23
 together,together_289,2026-04-13T22:23:29Z,2026-04-13T22:48:20Z,24,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
 together,together_290,2026-04-14T01:19:09Z,2026-04-14T01:36:12Z,17,feed,Qwen3 235B A22B Thinking 2507 outage,minor,Qwen3 235B A22B Thinking 2507
 together,together_291,2026-04-14T03:30:14Z,2026-04-14T04:44:01Z,73,feed,FLUX.1 Krea [dev] outage,major,FLUX.1 Krea [dev]
+together,together_292,2026-04-14T12:15:49Z,2026-04-14T12:29:13Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_294,2026-04-14T13:14:09Z,2026-04-14T14:12:13Z,58,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_293,2026-04-14T13:15:45Z,2026-04-14T13:29:14Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_295,2026-04-14T15:00:47Z,2026-04-14T15:13:59Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+fireworks,fireworks_76,2026-04-14T17:32:49Z,2026-04-14T17:37:54Z,5,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
