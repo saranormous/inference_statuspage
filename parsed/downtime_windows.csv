@@ -522,3 +522,9 @@ together,together_256,2026-04-15T08:56:11Z,2026-04-15T09:39:26Z,43,feed,FLUX.1 [
 fireworks,fireworks_79,2026-04-15T09:03:25Z,2026-04-15T09:17:38Z,14,feed,Llama 3.3 70B Instruct chat completion API outage,minor,Llama 3.3 70B Instruct chat completion API
 fireworks,fireworks_80,2026-04-15T09:21:26Z,2026-04-15T09:24:15Z,2,feed,Llama 3.3 70B Instruct chat completion API outage,minor,Llama 3.3 70B Instruct chat completion API
 together,together_257,2026-04-15T09:34:36Z,2026-04-15T10:16:43Z,42,feed,Deepseek R1 outage,minor,Deepseek R1
+together,together_258,2026-04-15T11:59:17Z,2026-04-15T12:39:38Z,40,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_261,2026-04-15T12:26:21Z,2026-04-15T16:34:28Z,248,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
+together,together_259,2026-04-15T13:58:55Z,2026-04-15T14:16:46Z,17,feed,Deepseek R1 outage,minor,Deepseek R1
+together,together_260,2026-04-15T15:00:53Z,2026-04-15T15:13:56Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
+together,together_262,2026-04-15T16:55:31Z,2026-04-15T17:34:19Z,38,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_263,2026-04-15T17:37:42Z,2026-04-15T17:49:44Z,12,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
