@@ -514,3 +514,5 @@ fireworks,fireworks_76,2026-04-14T17:32:49Z,2026-04-14T17:37:54Z,5,feed,Qwen3 Em
 together,together_251,2026-04-14T18:53:19Z,2026-04-14T19:09:24Z,16,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_252,2026-04-14T20:29:20Z,2026-04-14T20:42:48Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_253,2026-04-14T23:47:28Z,2026-04-15T00:05:40Z,18,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
+together,together_254,2026-04-14T23:49:33Z,2026-04-15T01:04:42Z,75,feed,Deepseek R1 outage,major,Deepseek R1
+together,together_255,2026-04-15T01:05:21Z,2026-04-15T01:29:28Z,24,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
