@@ -534,3 +534,9 @@ fireworks,fireworks_81,2026-04-15T21:38:30Z,2026-04-15T21:50:21Z,11,feed,Nomic E
 together,together_266,2026-04-15T23:31:32Z,2026-04-16T00:19:29Z,47,feed,Deepseek R1 outage,minor,Deepseek R1
 together,together_267,2026-04-16T00:41:44Z,2026-04-16T00:59:27Z,17,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 fireworks,fireworks_82,2026-04-16T06:20:06Z,2026-04-16T06:32:09Z,12,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_83,2026-04-16T06:56:33Z,2026-04-16T06:59:07Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_268,2026-04-16T07:16:14Z,2026-04-16T07:36:12Z,19,feed,MiniMax M2.5 outage,minor,MiniMax M2.5
+fireworks,fireworks_84,2026-04-16T09:59:59Z,2026-04-16T10:05:25Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_85,2026-04-16T10:09:11Z,2026-04-16T10:11:22Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_86,2026-04-16T10:53:26Z,2026-04-16T10:56:51Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_87,2026-04-16T11:59:19Z,2026-04-16T12:05:29Z,6,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
