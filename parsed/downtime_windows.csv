@@ -540,3 +540,9 @@ together,together_270,2026-04-16T17:53:35Z,2026-04-16T18:26:40Z,33,feed,OpenAI G
 fireworks,fireworks_83,2026-04-16T20:26:36Z,2026-04-16T20:32:01Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_271,2026-04-17T09:59:02Z,2026-04-17T10:38:10Z,39,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
 together,together_272,2026-04-17T11:41:57Z,2026-04-17T11:54:30Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_273,2026-04-17T12:18:07Z,2026-04-17T12:36:12Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+modal,modal_137,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
+together,together_274,2026-04-17T15:11:37Z,2026-04-17T15:36:26Z,24,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_275,2026-04-17T15:41:29Z,2026-04-17T16:21:25Z,39,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_276,2026-04-17T15:50:55Z,2026-04-17T17:02:32Z,71,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
+together,together_277,2026-04-17T17:31:19Z,2026-04-17T17:46:23Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
