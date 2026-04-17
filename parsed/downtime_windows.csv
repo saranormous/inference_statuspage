@@ -538,3 +538,5 @@ fireworks,fireworks_81,2026-04-16T16:30:49Z,2026-04-16T16:38:55Z,8,feed,OpenAI G
 fireworks,fireworks_82,2026-04-16T16:50:25Z,2026-04-16T16:53:36Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_270,2026-04-16T17:53:35Z,2026-04-16T18:26:40Z,33,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 fireworks,fireworks_83,2026-04-16T20:26:36Z,2026-04-16T20:32:01Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_271,2026-04-17T09:59:02Z,2026-04-17T10:38:10Z,39,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
+together,together_272,2026-04-17T11:41:57Z,2026-04-17T11:54:30Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
