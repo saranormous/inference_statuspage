@@ -553,3 +553,6 @@ together,together_283,2026-04-21T13:05:30Z,2026-04-21T13:20:49Z,15,feed,Moonshot
 together,together_284,2026-04-21T13:53:20Z,2026-04-21T14:08:33Z,15,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_285,2026-04-21T14:17:28Z,2026-04-21T14:56:29Z,39,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_286,2026-04-21T23:15:12Z,2026-04-21T23:33:16Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_287,2026-04-22T01:12:08Z,2026-04-22T01:36:01Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_288,2026-04-22T04:24:00Z,2026-04-22T04:39:08Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_289,2026-04-22T04:45:09Z,2026-04-22T05:51:14Z,66,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
