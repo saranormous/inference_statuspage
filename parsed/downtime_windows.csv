@@ -558,3 +558,7 @@ together,together_288,2026-04-22T12:17:37Z,2026-04-22T12:44:37Z,27,feed,OpenAI G
 together,together_289,2026-04-22T13:02:40Z,2026-04-22T13:32:36Z,29,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_290,2026-04-22T14:56:35Z,2026-04-22T15:14:29Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 modal,modal_138,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execution is degraded,minor,
+together,together_292,2026-04-23T14:29:52Z,2026-04-23T17:06:11Z,156,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
+together,together_293,2026-04-23T14:31:55Z,2026-04-23T17:08:09Z,156,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
+together,together_294,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multilingual E5 Large Instruct outage,major,Multilingual E5 Large Instruct
+together,together_291,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
