@@ -561,3 +561,11 @@ together,together_291,2026-04-23T14:29:52Z,2026-04-23T17:06:11Z,156,feed,Google 
 together,together_292,2026-04-23T14:31:55Z,2026-04-23T17:08:09Z,156,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
 together,together_293,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multilingual E5 Large Instruct outage,major,Multilingual E5 Large Instruct
 together,together_290,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_294,2026-04-25T01:08:13Z,2026-04-25T01:41:08Z,32,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
+together,together_296,2026-04-25T02:29:01Z,2026-04-25T03:17:11Z,48,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
+together,together_295,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+fireworks,fireworks_82,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_297,2026-04-25T04:03:10Z,2026-04-25T04:15:18Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_298,2026-04-25T04:51:16Z,2026-04-25T05:16:06Z,24,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
+together,together_299,2026-04-25T07:54:17Z,2026-04-25T09:50:32Z,116,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
+together,together_300,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
