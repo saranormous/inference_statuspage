@@ -564,8 +564,13 @@ together,together_290,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 23
 together,together_294,2026-04-25T01:08:13Z,2026-04-25T01:41:08Z,32,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
 together,together_296,2026-04-25T02:29:01Z,2026-04-25T03:17:11Z,48,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
 together,together_295,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_301,2026-04-25T03:19:51Z,2026-04-25T18:34:52Z,915,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
 fireworks,fireworks_82,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_297,2026-04-25T04:03:10Z,2026-04-25T04:15:18Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_298,2026-04-25T04:51:16Z,2026-04-25T05:16:06Z,24,feed,Deepseek V3.1 outage,minor,Deepseek V3.1
 together,together_299,2026-04-25T07:54:17Z,2026-04-25T09:50:32Z,116,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
 together,together_300,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_303,2026-04-25T20:32:32Z,2026-04-25T21:10:31Z,37,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_302,2026-04-25T20:41:06Z,2026-04-25T21:04:28Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_304,2026-04-25T22:19:00Z,2026-04-25T23:03:17Z,44,feed,MiniMax M2.5 outage,minor,MiniMax M2.5
+together,together_305,2026-04-25T23:13:19Z,2026-04-25T23:40:15Z,26,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
