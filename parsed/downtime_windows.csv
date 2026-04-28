@@ -576,3 +576,5 @@ together,together_304,2026-04-25T23:13:19Z,2026-04-25T23:40:15Z,26,feed,ZAI GLM 
 together,together_305,2026-04-27T11:35:07Z,2026-04-27T11:55:00Z,19,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_306,2026-04-27T14:29:49Z,2026-04-27T15:29:01Z,59,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_307,2026-04-27T14:46:48Z,2026-04-27T15:52:39Z,65,feed,Deepseek R1 outage,major,Deepseek R1
+modal,modal_139,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
+together,together_308,2026-04-28T01:53:37Z,2026-04-28T02:05:44Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
