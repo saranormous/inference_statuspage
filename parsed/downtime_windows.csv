@@ -577,3 +577,6 @@ together,together_305,2026-04-27T14:29:49Z,2026-04-27T15:29:01Z,59,feed,FLUX.1 K
 together,together_306,2026-04-27T14:46:48Z,2026-04-27T15:52:39Z,65,feed,Deepseek R1 outage,major,Deepseek R1
 modal,modal_139,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
 together,together_307,2026-04-28T01:53:37Z,2026-04-28T02:05:44Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_308,2026-04-28T13:34:03Z,2026-04-28T13:55:00Z,20,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_309,2026-04-28T14:40:58Z,2026-04-28T14:55:08Z,14,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_310,2026-04-28T15:59:57Z,2026-04-28T16:24:16Z,24,feed,Kimi K2.6 outage,minor,Kimi K2.6
