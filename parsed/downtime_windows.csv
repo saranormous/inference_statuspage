@@ -571,3 +571,4 @@ together,together_296,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI 
 together,together_297,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_298,2026-04-29T17:43:14Z,2026-04-29T18:25:15Z,42,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 together,together_299,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+fireworks,fireworks_84,2026-04-30T03:45:38Z,2026-04-30T03:47:38Z,2,feed,Llama 3.3 70B Instruct chat completion API outage,minor,Llama 3.3 70B Instruct chat completion API
