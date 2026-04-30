@@ -563,9 +563,11 @@ together,together_290,2026-04-28T14:40:58Z,2026-04-28T14:55:08Z,14,feed,Kimi K2.
 together,together_291,2026-04-28T15:59:57Z,2026-04-28T16:24:16Z,24,feed,Kimi K2.6 outage,minor,Kimi K2.6
 together,together_292,2026-04-28T16:13:50Z,2026-04-28T18:31:12Z,137,feed,Qwen3.5 9B outage,major,Qwen3.5 9B
 together,together_293,2026-04-28T18:53:58Z,2026-04-28T19:18:15Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+modal,modal_140,2026-04-28T21:30:00Z,2026-04-29T20:32:00Z,1382,feed,Some sandbox functionality is degraded when using CIDR allowlists,minor,Sandboxes
 fireworks,fireworks_83,2026-04-28T23:37:58Z,2026-04-28T23:39:57Z,1,feed,Qwen3 VL 30B A3B Thinking chat completion API outage,minor,Qwen3 VL 30B A3B Thinking chat completion API
 together,together_294,2026-04-29T00:41:54Z,2026-04-29T00:55:50Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_295,2026-04-29T05:29:55Z,2026-04-29T06:17:40Z,47,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_296,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
 together,together_297,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_298,2026-04-29T17:43:14Z,2026-04-29T18:25:15Z,42,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_299,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B

@@ -31,7 +31,7 @@
       "Image builds",
       "OIDC Endpoint"
     ],
-    "incident_count": 139
+    "incident_count": 140
   },
   "together": {
     "name": "Together AI",
@@ -48,7 +48,7 @@
       "Inference - Voice",
       "Inference - Moderation"
     ],
-    "incident_count": 298
+    "incident_count": 299
   },
   "baseten": {
     "name": "Baseten",
