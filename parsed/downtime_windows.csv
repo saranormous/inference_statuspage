@@ -573,3 +573,6 @@ fireworks,fireworks_84,2026-04-30T03:45:38Z,2026-04-30T03:47:38Z,2,feed,Llama 3.
 fireworks,fireworks_85,2026-04-30T14:48:00Z,2026-04-30T14:55:34Z,7,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_298,2026-04-30T14:51:11Z,2026-04-30T15:06:39Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_299,2026-04-30T22:05:17Z,2026-04-30T22:29:42Z,24,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
+together,together_300,2026-05-01T00:31:03Z,2026-05-01T00:59:49Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_301,2026-05-01T03:14:34Z,2026-05-01T03:35:53Z,21,feed,Whisper Large V3 outage,minor,Whisper Large V3
+together,together_302,2026-05-01T06:28:54Z,2026-05-01T06:43:56Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
