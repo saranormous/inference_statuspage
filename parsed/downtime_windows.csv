@@ -577,3 +577,5 @@ together,together_300,2026-05-02T09:14:14Z,2026-05-02T09:34:02Z,19,feed,Kimi K2.
 together,together_301,2026-05-03T15:03:22Z,2026-05-03T15:23:28Z,20,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_302,2026-05-03T19:40:10Z,2026-05-03T19:59:04Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_303,2026-05-03T21:28:53Z,2026-05-03T21:43:54Z,15,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_304,2026-05-04T04:32:18Z,2026-05-04T04:58:24Z,26,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_305,2026-05-04T05:44:19Z,2026-05-04T06:04:21Z,20,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
