@@ -583,3 +583,4 @@ together,together_307,2026-05-04T12:01:45Z,2026-05-04T15:52:30Z,230,feed,Deepsee
 together,together_308,2026-05-04T15:58:39Z,2026-05-04T17:28:40Z,90,feed,Deepseek R1 outage,major,Deepseek R1
 together,together_309,2026-05-05T11:06:01Z,2026-05-05T11:32:12Z,26,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 fireworks,fireworks_85,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+together,together_310,2026-05-06T21:18:05Z,2026-05-06T22:06:14Z,48,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
