@@ -584,3 +584,10 @@ together,together_308,2026-05-04T15:58:39Z,2026-05-04T17:28:40Z,90,feed,Deepseek
 together,together_309,2026-05-05T11:06:01Z,2026-05-05T11:32:12Z,26,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 fireworks,fireworks_85,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_310,2026-05-06T21:18:05Z,2026-05-06T22:06:14Z,48,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_311,2026-05-06T23:20:14Z,2026-05-07T00:26:03Z,65,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
+together,together_314,2026-05-07T00:24:05Z,2026-05-07T02:04:30Z,100,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_313,2026-05-07T01:06:53Z,2026-05-07T01:49:00Z,42,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_312,2026-05-07T01:14:58Z,2026-05-07T01:38:04Z,23,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_317,2026-05-07T01:35:02Z,2026-05-07T06:38:29Z,303,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
+together,together_315,2026-05-07T04:23:56Z,2026-05-07T04:39:37Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_316,2026-05-07T05:05:03Z,2026-05-07T06:21:54Z,76,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
