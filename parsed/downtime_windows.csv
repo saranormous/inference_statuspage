@@ -594,3 +594,9 @@ together,together_318,2026-05-07T06:25:40Z,2026-05-07T12:45:13Z,379,feed,Qwen3 2
 baseten,baseten_lzxw0ljfd5dr,2026-05-07T07:50:20.000-07:00,2026-05-07T08:37:33.000-07:00,47,feed,Elevated errors for models in single region,minor,Dedicated Inference
 together,together_320,2026-05-07T14:32:41Z,2026-05-07T15:26:33Z,53,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_319,2026-05-07T14:56:47Z,2026-05-07T15:14:49Z,18,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_321,2026-05-07T18:56:46Z,2026-05-07T19:26:47Z,30,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_322,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+modal,modal_141,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
+together,together_323,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+modal,modal_142,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
+modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T00:22:00Z,0,feed,Internal data stores are failing,minor,
