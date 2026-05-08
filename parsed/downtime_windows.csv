@@ -599,4 +599,4 @@ together,together_322,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI G
 modal,modal_141,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
 together,together_323,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
 modal,modal_142,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
-modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T00:22:00Z,0,feed,Internal data stores are failing,minor,
+modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T03:50:00Z,208,feed,Internal data stores are failing,major,
