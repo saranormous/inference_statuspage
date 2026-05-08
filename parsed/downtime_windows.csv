@@ -599,4 +599,7 @@ together,together_322,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI G
 modal,modal_141,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
 together,together_323,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
 modal,modal_142,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
-modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T03:50:00Z,208,feed,Internal data stores are failing,major,
+modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
+together,together_324,2026-05-08T14:18:55Z,2026-05-08T15:12:40Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_325,2026-05-08T15:33:52Z,2026-05-08T16:27:00Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_326,2026-05-08T16:31:38Z,2026-05-08T18:12:40Z,101,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
