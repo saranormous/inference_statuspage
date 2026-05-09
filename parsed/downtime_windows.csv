@@ -605,4 +605,5 @@ together,together_326,2026-05-08T16:31:38Z,2026-05-08T18:12:40Z,101,feed,FLUX.1 
 baseten,baseten_whc7r80qfh2w,2026-05-08T16:40:49.284-07:00,2026-05-08T17:22:48.819-07:00,41,feed,Intermittent failure in loading the webapp — inference is *not* affected,none,"Model Management API,Web Application"
 together,together_327,2026-05-08T20:24:57Z,2026-05-08T21:02:59Z,38,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_328,2026-05-08T21:07:57Z,2026-05-08T21:51:09Z,43,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_329,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
 modal,modal_144,2026-05-11T00:00:06Z,2026-05-11T00:00:06Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
