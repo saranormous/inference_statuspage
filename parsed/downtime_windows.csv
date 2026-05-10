@@ -602,4 +602,5 @@ together,together_324,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 
 baseten,baseten_g7fbbc1r9ckt,2026-05-09T17:30:56.000-07:00,2026-05-09T20:24:36.543-07:00,173,feed,Training cluster is down due to a provider failure,major,Training
 together,together_325,2026-05-10T01:04:07Z,2026-05-10T01:18:11Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_326,2026-05-10T06:30:02Z,2026-05-10T06:44:01Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_327,2026-05-10T15:39:54Z,2026-05-10T15:59:05Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 modal,modal_144,2026-05-11T00:00:06Z,2026-05-11T00:00:06Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
