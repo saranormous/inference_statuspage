@@ -71,7 +71,6 @@ modal,modal_69,2025-02-11T18:09:00Z,2025-02-11T18:16:00Z,7,feed,"Frontend, Web A
 modal,modal_70,2025-02-11T18:09:00Z,2025-02-11T18:13:00Z,4,feed,Modal services are offline,minor,
 modal,modal_71,2025-02-18T03:35:27Z,2025-02-18T03:37:48Z,2,feed,"CPU functions, GPU functions, and 1 other service are down",major,"CPU functions,GPU functions"
 modal,modal_72,2025-02-24T22:31:00Z,2025-02-24T22:44:00Z,13,feed,Some services are down,major,
-baseten,baseten_dqtnsy04843q,2025-02-25T09:40:05.370-08:00,2025-02-25T10:17:38.919-08:00,37,feed,Web app is inaccessible — inference is *not* affected,major,"Model Management API,Web Application"
 baseten,baseten_ygwnq3l5xp8g,2025-02-25T10:54:52.919-08:00,2025-02-25T14:12:03.800-08:00,197,feed,Web app and non-inference API are intermittently down due to DDOS — inference is *not* affected,minor,"Model Management API,Web Application"
 baseten,baseten_dkpnrd2b8mqb,2025-03-18T15:03:12.660-07:00,2025-03-18T16:02:15.926-07:00,59,feed,Degradation in model builds,minor,Model Management API
 modal,modal_73,2025-03-18T21:47:14Z,2025-03-18T21:50:53Z,3,feed,Image builds is down,major,Image builds
@@ -604,4 +603,7 @@ baseten,baseten_whc7r80qfh2w,2026-05-08T16:40:49.284-07:00,2026-05-08T17:22:48.8
 together,together_326,2026-05-08T20:24:57Z,2026-05-08T21:02:59Z,38,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_327,2026-05-08T21:07:57Z,2026-05-08T21:51:09Z,43,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_328,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+baseten,baseten_g7fbbc1r9ckt,2026-05-09T17:30:56.000-07:00,2026-05-09T20:24:36.543-07:00,173,feed,Training cluster is down due to a provider failure,major,Training
+together,together_329,2026-05-10T01:04:07Z,2026-05-10T01:18:11Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_330,2026-05-10T06:30:02Z,2026-05-10T06:44:01Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 modal,modal_144,2026-05-11T00:00:06Z,2026-05-11T00:00:06Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
