@@ -608,3 +608,6 @@ together,together_329,2026-05-10T23:57:59Z,2026-05-11T00:10:24Z,12,feed,Kimi K2.
 modal,modal_144,2026-05-11T00:00:00Z,2026-05-11T00:00:00Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
 together,together_330,2026-05-11T04:54:59Z,2026-05-11T05:20:13Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_331,2026-05-11T06:58:09Z,2026-05-11T07:17:07Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_332,2026-05-11T13:03:49Z,2026-05-11T13:47:15Z,43,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_333,2026-05-11T13:28:53Z,2026-05-11T13:56:53Z,28,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_334,2026-05-11T17:25:19Z,2026-05-11T18:10:12Z,44,feed,Kimi K2.6 outage,minor,Kimi K2.6
