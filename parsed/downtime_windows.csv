@@ -619,3 +619,5 @@ together,together_339,2026-05-12T03:46:21Z,2026-05-12T05:28:18Z,101,feed,Qwen3 C
 together,together_340,2026-05-12T07:13:21Z,2026-05-12T07:46:23Z,33,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
 together,together_341,2026-05-12T08:07:50Z,2026-05-12T08:22:18Z,14,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_342,2026-05-12T11:45:58Z,2026-05-12T12:06:58Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_343,2026-05-12T13:10:32Z,2026-05-12T14:10:24Z,59,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_344,2026-05-12T17:29:16Z,2026-05-12T18:02:09Z,32,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
