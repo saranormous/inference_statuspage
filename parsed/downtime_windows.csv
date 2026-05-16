@@ -71,7 +71,6 @@ modal,modal_69,2025-02-11T18:09:00Z,2025-02-11T18:16:00Z,7,feed,"Frontend, Web A
 modal,modal_70,2025-02-11T18:09:00Z,2025-02-11T18:13:00Z,4,feed,Modal services are offline,minor,
 modal,modal_71,2025-02-18T03:35:27Z,2025-02-18T03:37:48Z,2,feed,"CPU functions, GPU functions, and 1 other service are down",major,"CPU functions,GPU functions"
 modal,modal_72,2025-02-24T22:31:00Z,2025-02-24T22:44:00Z,13,feed,Some services are down,major,
-baseten,baseten_ygwnq3l5xp8g,2025-02-25T10:54:52.919-08:00,2025-02-25T14:12:03.800-08:00,197,feed,Web app and non-inference API are intermittently down due to DDOS — inference is *not* affected,minor,"Model Management API,Web Application"
 baseten,baseten_dkpnrd2b8mqb,2025-03-18T15:03:12.660-07:00,2025-03-18T16:02:15.926-07:00,59,feed,Degradation in model builds,minor,Model Management API
 modal,modal_73,2025-03-18T21:47:14Z,2025-03-18T21:50:53Z,3,feed,Image builds is down,major,Image builds
 baseten,baseten_pxdskq7b8rst,2025-03-21T11:26:31.476-07:00,2025-03-21T11:32:41.771-07:00,6,feed,"Degraded routing on a small subset of inference calls, affecting 3 customers.",minor,Dedicated Inference
@@ -535,3 +534,7 @@ together,together_295,2026-05-15T04:10:21Z,2026-05-15T04:37:27Z,27,feed,Qwen3 Co
 together,together_296,2026-05-15T04:45:57Z,2026-05-15T05:07:04Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
 together,together_297,2026-05-15T08:28:49Z,2026-05-15T08:43:54Z,15,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
 together,together_298,2026-05-15T17:07:51Z,2026-05-15T17:28:52Z,21,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
+together,together_299,2026-05-16T00:07:56Z,2026-05-16T00:47:07Z,39,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_300,2026-05-16T02:13:27Z,2026-05-16T02:26:07Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_301,2026-05-16T05:25:03Z,2026-05-16T05:50:09Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
