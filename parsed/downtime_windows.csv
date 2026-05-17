@@ -162,11 +162,9 @@ baseten,baseten_n2kgjd0911bn,2026-02-09T07:20:22.282-08:00,2026-02-09T09:33:45.5
 modal,modal_124,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
 modal,modal_125,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
-fireworks,fireworks_1,2026-02-16T05:25:55Z,2026-02-16T05:28:49Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-fireworks,fireworks_2,2026-02-16T07:04:56Z,2026-02-16T07:07:52Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_1,2026-02-16T20:40:55Z,2026-02-17T04:05:02Z,444,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
-fireworks,fireworks_3,2026-02-17T08:59:09Z,2026-02-17T09:02:02Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-fireworks,fireworks_4,2026-02-17T21:46:58Z,2026-02-17T21:49:48Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_1,2026-02-17T08:59:09Z,2026-02-17T09:02:02Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_2,2026-02-17T21:46:58Z,2026-02-17T21:49:48Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 modal,modal_126,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
 together,together_2,2026-02-20T14:24:22Z,2026-02-20T15:24:16Z,59,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_3,2026-02-21T00:02:22Z,2026-02-21T02:11:22Z,129,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
@@ -198,20 +196,20 @@ modal,modal_128,2026-03-02T21:12:00Z,2026-03-02T22:43:00Z,91,feed,Task logs are 
 together,together_25,2026-03-04T22:20:03Z,2026-03-04T22:32:08Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_26,2026-03-04T23:44:04Z,2026-03-04T23:56:12Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_27,2026-03-05T04:38:08Z,2026-03-05T04:50:11Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-fireworks,fireworks_5,2026-03-05T17:20:56Z,2026-03-05T17:23:04Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_3,2026-03-05T17:20:56Z,2026-03-05T17:23:04Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_29,2026-03-05T22:28:22Z,2026-03-06T09:10:30Z,642,feed,Orpheus TTS outage,major,Orpheus TTS
-fireworks,fireworks_6,2026-03-05T23:02:51Z,2026-03-05T23:05:17Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-fireworks,fireworks_7,2026-03-06T02:17:49Z,2026-03-06T02:20:04Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_4,2026-03-05T23:02:51Z,2026-03-05T23:05:17Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_5,2026-03-06T02:17:49Z,2026-03-06T02:20:04Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_28,2026-03-06T05:43:50Z,2026-03-06T05:58:55Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_30,2026-03-07T00:32:01Z,2026-03-07T00:44:13Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_31,2026-03-08T03:20:42Z,2026-03-08T03:35:26Z,14,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 modal,modal_129,2026-03-09T03:33:14Z,2026-03-09T04:09:07Z,35,feed,Image builds is down,major,Image builds
 modal,modal_130,2026-03-09T03:58:00Z,2026-03-09T04:06:00Z,8,feed,sandbox scheduling unavailable,major,Sandboxes
-fireworks,fireworks_8,2026-03-09T11:47:15Z,2026-03-09T11:50:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_9,2026-03-09T11:59:18Z,2026-03-09T12:11:10Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_6,2026-03-09T11:47:15Z,2026-03-09T11:50:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_7,2026-03-09T11:59:18Z,2026-03-09T12:11:10Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_32,2026-03-09T20:01:02Z,2026-03-09T20:28:07Z,27,feed,Kokoro-82M outage,minor,Kokoro-82M
 together,together_33,2026-03-10T14:20:32Z,2026-03-10T14:33:04Z,12,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
-fireworks,fireworks_10,2026-03-10T16:42:09Z,2026-03-10T16:54:16Z,12,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_8,2026-03-10T16:42:09Z,2026-03-10T16:54:16Z,12,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_35,2026-03-10T21:15:17Z,2026-03-10T22:03:23Z,48,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_36,2026-03-10T21:16:00Z,2026-03-10T22:04:06Z,48,feed,Kokoro-82M outage,minor,Kokoro-82M
 together,together_37,2026-03-10T21:16:12Z,2026-03-10T22:04:14Z,48,feed,Orpheus TTS outage,minor,Orpheus TTS
@@ -227,19 +225,19 @@ together,together_45,2026-03-12T08:14:41Z,2026-03-12T08:32:44Z,18,feed,OpenAI GP
 baseten,baseten_8xgkfl1jkjnq,2026-03-12T09:42:06.037-07:00,2026-03-12T09:59:14.791-07:00,17,feed,gpt-oss model API service degradation,minor,Model APIs
 together,together_46,2026-03-12T11:20:30Z,2026-03-12T13:29:27Z,128,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
 modal,modal_131,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
-fireworks,fireworks_11,2026-03-13T03:12:37Z,2026-03-13T03:20:47Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
+fireworks,fireworks_9,2026-03-13T03:12:37Z,2026-03-13T03:20:47Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
 together,together_47,2026-03-13T04:32:29Z,2026-03-13T05:02:26Z,29,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_48,2026-03-13T08:35:35Z,2026-03-13T09:41:35Z,66,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
 together,together_49,2026-03-13T10:02:30Z,2026-03-13T10:41:36Z,39,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_50,2026-03-13T17:47:26Z,2026-03-13T18:47:30Z,60,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
 together,together_51,2026-03-14T08:19:27Z,2026-03-14T08:43:34Z,24,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_52,2026-03-14T12:59:36Z,2026-03-14T13:11:37Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-fireworks,fireworks_12,2026-03-14T14:50:21Z,2026-03-14T15:08:09Z,17,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_13,2026-03-14T15:32:23Z,2026-03-14T15:44:12Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_14,2026-03-14T16:44:16Z,2026-03-14T16:50:10Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_15,2026-03-14T16:59:10Z,2026-03-14T17:26:12Z,27,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_16,2026-03-14T17:32:15Z,2026-03-14T17:35:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_17,2026-03-14T17:38:13Z,2026-03-14T18:05:18Z,27,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_10,2026-03-14T14:50:21Z,2026-03-14T15:08:09Z,17,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_11,2026-03-14T15:32:23Z,2026-03-14T15:44:12Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_12,2026-03-14T16:44:16Z,2026-03-14T16:50:10Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_13,2026-03-14T16:59:10Z,2026-03-14T17:26:12Z,27,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_14,2026-03-14T17:32:15Z,2026-03-14T17:35:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_15,2026-03-14T17:38:13Z,2026-03-14T18:05:18Z,27,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_53,2026-03-14T17:43:28Z,2026-03-14T17:55:35Z,12,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_54,2026-03-15T04:04:31Z,2026-03-15T04:49:31Z,45,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_58,2026-03-16T21:06:15Z,2026-03-16T21:36:13Z,29,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
@@ -300,7 +298,7 @@ together,together_108,2026-03-30T19:44:19Z,2026-03-30T19:56:38Z,12,feed,Moonshot
 together,together_109,2026-03-30T20:32:36Z,2026-03-30T20:47:25Z,14,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_110,2026-03-31T02:05:26Z,2026-03-31T02:20:35Z,15,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_111,2026-03-31T02:26:22Z,2026-03-31T02:56:31Z,30,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
-fireworks,fireworks_18,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_16,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_112,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_113,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_114,2026-04-01T11:43:52Z,2026-04-01T11:59:13Z,15,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
@@ -316,7 +314,7 @@ together,together_118,2026-04-06T18:23:19Z,2026-04-06T19:03:24Z,40,feed,FLUX.1 [
 modal,modal_135,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
 together,together_119,2026-04-07T13:00:52Z,2026-04-07T13:14:00Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 modal,modal_136,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
-fireworks,fireworks_19,2026-04-07T14:58:13Z,2026-04-07T15:00:20Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_17,2026-04-07T14:58:13Z,2026-04-07T15:00:20Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_120,2026-04-07T18:03:03Z,2026-04-07T18:30:10Z,27,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_121,2026-04-07T19:06:25Z,2026-04-07T19:21:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_122,2026-04-07T19:37:43Z,2026-04-07T20:34:03Z,56,feed,Kokoro-82M outage,minor,Kokoro-82M
@@ -338,7 +336,7 @@ together,together_137,2026-04-09T15:37:07Z,2026-04-09T15:49:02Z,11,feed,ZAI GLM 
 together,together_138,2026-04-09T22:47:55Z,2026-04-09T23:00:01Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_139,2026-04-10T03:55:09Z,2026-04-10T04:29:17Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_140,2026-04-10T05:15:52Z,2026-04-10T05:28:59Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
-fireworks,fireworks_20,2026-04-10T06:55:18Z,2026-04-10T06:57:19Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_18,2026-04-10T06:55:18Z,2026-04-10T06:57:19Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_141,2026-04-10T12:31:00Z,2026-04-10T12:44:21Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_142,2026-04-10T14:00:45Z,2026-04-10T14:14:06Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_143,2026-04-10T16:38:17Z,2026-04-10T17:02:11Z,23,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
@@ -361,7 +359,7 @@ together,together_158,2026-04-14T12:15:49Z,2026-04-14T12:29:13Z,13,feed,FLUX.1 K
 together,together_160,2026-04-14T13:14:09Z,2026-04-14T14:12:13Z,58,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_159,2026-04-14T13:15:45Z,2026-04-14T13:29:14Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
 together,together_161,2026-04-14T15:00:47Z,2026-04-14T15:13:59Z,13,feed,FLUX.1 Krea [dev] outage,minor,FLUX.1 Krea [dev]
-fireworks,fireworks_21,2026-04-14T17:32:49Z,2026-04-14T17:37:54Z,5,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_19,2026-04-14T17:32:49Z,2026-04-14T17:37:54Z,5,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_162,2026-04-14T18:53:19Z,2026-04-14T19:09:24Z,16,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_163,2026-04-14T20:29:20Z,2026-04-14T20:42:48Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 together,together_164,2026-04-14T23:47:28Z,2026-04-15T00:05:40Z,18,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
@@ -374,27 +372,27 @@ together,together_170,2026-04-15T16:55:31Z,2026-04-15T17:34:19Z,38,feed,ZAI GLM 
 together,together_171,2026-04-15T17:37:42Z,2026-04-15T17:49:44Z,12,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_173,2026-04-15T17:55:39Z,2026-04-15T19:16:21Z,80,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
 together,together_172,2026-04-15T18:23:20Z,2026-04-15T18:54:25Z,31,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-fireworks,fireworks_22,2026-04-15T21:38:30Z,2026-04-15T21:50:21Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_20,2026-04-15T21:38:30Z,2026-04-15T21:50:21Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_174,2026-04-16T00:41:44Z,2026-04-16T00:59:27Z,17,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
-fireworks,fireworks_23,2026-04-16T06:20:06Z,2026-04-16T06:32:09Z,12,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_24,2026-04-16T06:56:33Z,2026-04-16T06:59:07Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_25,2026-04-16T09:59:59Z,2026-04-16T10:05:25Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_26,2026-04-16T10:09:11Z,2026-04-16T10:11:22Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_27,2026-04-16T10:53:26Z,2026-04-16T10:56:51Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_28,2026-04-16T11:59:19Z,2026-04-16T12:05:29Z,6,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_29,2026-04-16T12:23:26Z,2026-04-16T12:32:15Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_30,2026-04-16T12:50:32Z,2026-04-16T13:02:13Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_31,2026-04-16T13:23:16Z,2026-04-16T13:32:19Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_32,2026-04-16T13:59:13Z,2026-04-16T14:08:16Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_33,2026-04-16T14:29:18Z,2026-04-16T14:32:14Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_21,2026-04-16T06:20:06Z,2026-04-16T06:32:09Z,12,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_22,2026-04-16T06:56:33Z,2026-04-16T06:59:07Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_23,2026-04-16T09:59:59Z,2026-04-16T10:05:25Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_24,2026-04-16T10:09:11Z,2026-04-16T10:11:22Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_25,2026-04-16T10:53:26Z,2026-04-16T10:56:51Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_26,2026-04-16T11:59:19Z,2026-04-16T12:05:29Z,6,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_27,2026-04-16T12:23:26Z,2026-04-16T12:32:15Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_28,2026-04-16T12:50:32Z,2026-04-16T13:02:13Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_29,2026-04-16T13:23:16Z,2026-04-16T13:32:19Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_30,2026-04-16T13:59:13Z,2026-04-16T14:08:16Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_31,2026-04-16T14:29:18Z,2026-04-16T14:32:14Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_175,2026-04-16T15:11:22Z,2026-04-16T16:06:19Z,54,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-fireworks,fireworks_34,2026-04-16T15:14:43Z,2026-04-16T15:26:14Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_35,2026-04-16T15:47:21Z,2026-04-16T15:50:26Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_36,2026-04-16T15:56:21Z,2026-04-16T16:05:29Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_37,2026-04-16T16:30:49Z,2026-04-16T16:38:55Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
-fireworks,fireworks_38,2026-04-16T16:50:25Z,2026-04-16T16:53:36Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_32,2026-04-16T15:14:43Z,2026-04-16T15:26:14Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_33,2026-04-16T15:47:21Z,2026-04-16T15:50:26Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_34,2026-04-16T15:56:21Z,2026-04-16T16:05:29Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_35,2026-04-16T16:30:49Z,2026-04-16T16:38:55Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
+fireworks,fireworks_36,2026-04-16T16:50:25Z,2026-04-16T16:53:36Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_176,2026-04-16T17:53:35Z,2026-04-16T18:26:40Z,33,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-fireworks,fireworks_39,2026-04-16T20:26:36Z,2026-04-16T20:32:01Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_37,2026-04-16T20:26:36Z,2026-04-16T20:32:01Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_177,2026-04-17T11:41:57Z,2026-04-17T11:54:30Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_178,2026-04-17T12:18:07Z,2026-04-17T12:36:12Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 modal,modal_137,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
@@ -425,7 +423,7 @@ together,together_202,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multili
 together,together_199,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_203,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_207,2026-04-25T03:19:51Z,2026-04-25T18:34:52Z,915,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-fireworks,fireworks_40,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_38,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_204,2026-04-25T04:03:10Z,2026-04-25T04:15:18Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_205,2026-04-25T07:54:17Z,2026-04-25T09:50:32Z,116,feed,Moonshot Kimi K2.5 outage,major,Moonshot Kimi K2.5
 together,together_206,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
@@ -448,7 +446,7 @@ together,together_221,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI 
 together,together_222,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_223,2026-04-29T17:43:14Z,2026-04-29T18:25:15Z,42,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 together,together_224,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-fireworks,fireworks_41,2026-04-30T14:48:00Z,2026-04-30T14:55:34Z,7,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_39,2026-04-30T14:48:00Z,2026-04-30T14:55:34Z,7,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_225,2026-04-30T14:51:11Z,2026-04-30T15:06:39Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_226,2026-04-30T22:05:17Z,2026-04-30T22:29:42Z,24,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
 together,together_227,2026-05-01T00:31:03Z,2026-05-01T00:59:49Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
@@ -462,7 +460,7 @@ together,together_234,2026-05-03T21:28:53Z,2026-05-03T21:43:54Z,15,feed,Kimi K2.
 together,together_235,2026-05-04T04:32:18Z,2026-05-04T04:58:24Z,26,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
 together,together_236,2026-05-04T05:44:19Z,2026-05-04T06:04:21Z,20,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
 together,together_237,2026-05-05T11:06:01Z,2026-05-05T11:32:12Z,26,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-fireworks,fireworks_42,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
+fireworks,fireworks_40,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_238,2026-05-06T21:18:05Z,2026-05-06T22:06:14Z,48,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 together,together_239,2026-05-06T23:20:14Z,2026-05-07T00:26:03Z,65,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
 together,together_242,2026-05-07T00:24:05Z,2026-05-07T02:04:30Z,100,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
@@ -526,8 +524,8 @@ together,together_290,2026-05-13T09:16:49Z,2026-05-13T09:34:58Z,18,feed,DeepSeek
 together,together_291,2026-05-13T11:50:51Z,2026-05-13T12:43:58Z,53,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
 together,together_292,2026-05-13T13:59:01Z,2026-05-13T14:17:21Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_293,2026-05-13T22:07:28Z,2026-05-13T22:22:09Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-fireworks,fireworks_43,2026-05-13T22:50:16Z,2026-05-13T22:59:08Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_44,2026-05-14T08:14:13Z,2026-05-14T08:17:15Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_41,2026-05-13T22:50:16Z,2026-05-13T22:59:08Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_42,2026-05-14T08:14:13Z,2026-05-14T08:17:15Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_294,2026-05-15T01:11:59Z,2026-05-15T02:07:06Z,55,feed,Kimi K2.6 outage,minor,Kimi K2.6
 together,together_295,2026-05-15T04:10:21Z,2026-05-15T04:37:27Z,27,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
 together,together_296,2026-05-15T04:45:57Z,2026-05-15T05:07:04Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
@@ -539,3 +537,5 @@ together,together_300,2026-05-16T02:13:27Z,2026-05-16T02:26:07Z,12,feed,Qwen3.5 
 together,together_301,2026-05-16T05:25:03Z,2026-05-16T05:50:09Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_302,2026-05-16T08:00:54Z,2026-05-16T08:25:10Z,24,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
+together,together_303,2026-05-16T19:12:35Z,2026-05-16T19:42:07Z,29,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
+together,together_304,2026-05-16T19:45:31Z,2026-05-16T21:03:18Z,77,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
