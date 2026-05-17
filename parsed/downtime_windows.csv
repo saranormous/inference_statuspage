@@ -540,3 +540,4 @@ together,together_302,2026-05-16T19:12:35Z,2026-05-16T19:42:07Z,29,feed,Google G
 together,together_303,2026-05-16T19:45:31Z,2026-05-16T21:03:18Z,77,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
 together,together_304,2026-05-17T06:59:58Z,2026-05-17T07:58:59Z,59,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_305,2026-05-17T08:55:05Z,2026-05-17T09:29:54Z,34,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_306,2026-05-17T13:12:28Z,2026-05-17T13:43:55Z,31,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
