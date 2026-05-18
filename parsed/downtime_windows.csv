@@ -72,7 +72,6 @@ modal,modal_70,2025-02-11T18:09:00Z,2025-02-11T18:13:00Z,4,feed,Modal services a
 modal,modal_71,2025-02-18T03:35:27Z,2025-02-18T03:37:48Z,2,feed,"CPU functions, GPU functions, and 1 other service are down",major,"CPU functions,GPU functions"
 modal,modal_72,2025-02-24T22:31:00Z,2025-02-24T22:44:00Z,13,feed,Some services are down,major,
 modal,modal_73,2025-03-18T21:47:14Z,2025-03-18T21:50:53Z,3,feed,Image builds is down,major,Image builds
-baseten,baseten_pxdskq7b8rst,2025-03-21T11:26:31.476-07:00,2025-03-21T11:32:41.771-07:00,6,feed,"Degraded routing on a small subset of inference calls, affecting 3 customers.",minor,Dedicated Inference
 modal,modal_74,2025-03-21T21:50:27Z,2025-03-21T22:45:14Z,54,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
 modal,modal_75,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
 modal,modal_76,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
@@ -543,3 +542,7 @@ together,together_307,2026-05-18T02:27:01Z,2026-05-18T02:40:08Z,13,feed,Qwen3.5 
 together,together_308,2026-05-18T05:03:48Z,2026-05-18T05:28:51Z,25,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_310,2026-05-18T05:27:52Z,2026-05-18T05:50:46Z,22,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_309,2026-05-18T05:29:25Z,2026-05-18T05:41:29Z,12,feed,Moonshot Kimi K2.5 outage,minor,Moonshot Kimi K2.5
+baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
+together,together_311,2026-05-18T13:13:06Z,2026-05-18T13:36:54Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_312,2026-05-18T13:56:58Z,2026-05-18T14:25:06Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_313,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
