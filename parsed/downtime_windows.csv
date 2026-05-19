@@ -548,3 +548,7 @@ together,together_312,2026-05-18T13:56:58Z,2026-05-18T14:25:06Z,28,feed,Qwen3.5 
 together,together_313,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
 together,together_314,2026-05-19T06:44:57Z,2026-05-19T07:09:58Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_315,2026-05-19T07:24:18Z,2026-05-19T07:38:01Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_316,2026-05-19T13:20:53Z,2026-05-19T13:35:07Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+modal,modal_145,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
+together,together_317,2026-05-19T14:25:12Z,2026-05-19T14:47:07Z,21,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_318,2026-05-19T16:07:05Z,2026-05-19T16:35:36Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
