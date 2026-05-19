@@ -546,3 +546,5 @@ baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.6
 together,together_311,2026-05-18T13:13:06Z,2026-05-18T13:36:54Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
 together,together_312,2026-05-18T13:56:58Z,2026-05-18T14:25:06Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_313,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_314,2026-05-19T06:44:57Z,2026-05-19T07:09:58Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_315,2026-05-19T07:24:18Z,2026-05-19T07:38:01Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
