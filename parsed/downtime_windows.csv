@@ -562,4 +562,13 @@ together,together_325,2026-05-20T10:58:39Z,2026-05-20T11:20:42Z,22,feed,OpenAI G
 together,together_326,2026-05-20T11:19:51Z,2026-05-20T11:44:55Z,25,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_328,2026-05-20T12:09:37Z,2026-05-20T12:32:43Z,23,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
 together,together_327,2026-05-20T12:14:56Z,2026-05-20T12:30:15Z,15,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_330,2026-05-20T12:15:17Z,2026-05-20T13:29:25Z,74,feed,Pearl-ai Gemma 4 31B IT outage,major,Pearl-ai Gemma 4 31B IT
 together,together_329,2026-05-20T12:19:12Z,2026-05-20T12:33:55Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_331,2026-05-20T12:52:23Z,2026-05-20T13:37:21Z,44,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_332,2026-05-20T13:21:48Z,2026-05-20T13:45:37Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_334,2026-05-20T13:30:51Z,2026-05-20T14:17:48Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_335,2026-05-20T13:44:20Z,2026-05-20T14:31:22Z,47,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_333,2026-05-20T13:49:21Z,2026-05-20T14:06:19Z,16,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_336,2026-05-20T14:37:26Z,2026-05-20T15:22:27Z,45,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_337,2026-05-20T15:31:32Z,2026-05-20T15:56:17Z,24,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_338,2026-05-20T16:10:23Z,2026-05-20T16:25:24Z,15,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
