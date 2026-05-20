@@ -75,7 +75,6 @@ modal,modal_73,2025-03-18T21:47:14Z,2025-03-18T21:50:53Z,3,feed,Image builds is 
 modal,modal_74,2025-03-21T21:50:27Z,2025-03-21T22:45:14Z,54,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
 modal,modal_75,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
 modal,modal_76,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
-baseten,baseten_swds6rcwbyt2,2025-04-03T17:25:47.560-07:00,2025-04-03T17:36:46.237-07:00,10,feed,Elevated GPU device failures in us-east,none,Dedicated Inference
 modal,modal_77,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
 baseten,baseten_xrlxq49dwjwz,2025-04-24T11:30:59.991-07:00,2025-04-24T12:04:15.601-07:00,33,feed,A few A100 nodes are failing. Recovery is in progress.,minor,Dedicated Inference
 baseten,baseten_xy6rgcr63dft,2025-05-01T17:43:28.082-07:00,2025-05-01T17:59:38.255-07:00,16,feed,Noticing elevated inference latencies in one cluster,minor,Dedicated Inference
@@ -552,3 +551,7 @@ together,together_316,2026-05-19T13:20:53Z,2026-05-19T13:35:07Z,14,feed,Qwen3.5 
 modal,modal_145,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
 together,together_317,2026-05-19T14:25:12Z,2026-05-19T14:47:07Z,21,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_318,2026-05-19T16:07:05Z,2026-05-19T16:35:36Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+baseten,baseten_23mb35cz5yz6,2026-05-19T18:40:54.155-07:00,2026-05-19T18:54:13.249-07:00,13,feed,Elevated errors for models in single region,minor,Dedicated Inference
+together,together_319,2026-05-20T00:46:26Z,2026-05-20T02:34:32Z,108,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,major,Qwen3 Coder 480B A35B Instruct FP8
+together,together_320,2026-05-20T02:33:48Z,2026-05-20T02:49:55Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_321,2026-05-20T03:52:19Z,2026-05-20T04:19:20Z,27,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
