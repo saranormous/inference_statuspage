@@ -76,7 +76,6 @@ modal,modal_74,2025-03-21T21:50:27Z,2025-03-21T22:45:14Z,54,feed,Volumes and Ima
 modal,modal_75,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
 modal,modal_76,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
 modal,modal_77,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
-baseten,baseten_xrlxq49dwjwz,2025-04-24T11:30:59.991-07:00,2025-04-24T12:04:15.601-07:00,33,feed,A few A100 nodes are failing. Recovery is in progress.,minor,Dedicated Inference
 baseten,baseten_xy6rgcr63dft,2025-05-01T17:43:28.082-07:00,2025-05-01T17:59:38.255-07:00,16,feed,Noticing elevated inference latencies in one cluster,minor,Dedicated Inference
 modal,modal_78,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox scheduling is down,major,Sandboxes
 modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
@@ -509,3 +508,4 @@ together,together_272,2026-05-22T04:58:46Z,2026-05-22T05:11:38Z,12,feed,Pearl-ai
 together,together_273,2026-05-23T12:41:57Z,2026-05-23T12:59:49Z,17,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_274,2026-05-25T21:51:54Z,2026-05-25T22:04:56Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_275,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
