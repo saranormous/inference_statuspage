@@ -507,3 +507,4 @@ together,together_271,2026-05-23T12:41:57Z,2026-05-23T12:59:49Z,17,feed,Google G
 together,together_272,2026-05-25T21:51:54Z,2026-05-25T22:04:56Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_273,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
+together,together_274,2026-05-27T15:24:02Z,2026-05-27T16:16:16Z,52,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
