@@ -488,3 +488,5 @@ together,together_252,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
 together,together_253,2026-05-27T15:24:02Z,2026-05-27T16:16:16Z,52,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_254,2026-05-28T10:03:18Z,2026-05-28T10:16:23Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+together,together_255,2026-05-29T15:43:10Z,2026-05-29T15:55:49Z,12,feed,Meta Llama 3.3 70B Instruct Turbo outage,minor,Meta Llama 3.3 70B Instruct Turbo
+modal,modal_146,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
