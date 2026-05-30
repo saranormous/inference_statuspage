@@ -80,7 +80,6 @@ modal,modal_78,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox schedul
 modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
 modal,modal_80,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
 modal,modal_81,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
-baseten,baseten_gjqhgf6nqp0l,2025-06-03T03:02:17.721-07:00,2025-06-03T06:40:41.560-07:00,218,feed,The main web application is not loading; inference is unaffected,minor,Web Application
 baseten,baseten_j64s8szdkqn5,2025-06-03T10:59:56.223-07:00,2025-06-03T11:05:08.039-07:00,5,feed,The web application and the model management API are having intermittent failures. Inference is *not* affected.,minor,"Model Management API,Web Application"
 baseten,baseten_6z5mjrgrp27x,2025-06-06T06:00:00.000-07:00,2025-06-06T06:00:00.000-07:00,0,feed,Degraded performance only on Deepseek V3 0324,minor,
 baseten,baseten_152th078gwqz,2025-06-06T07:00:00.000-07:00,2025-06-06T07:00:00.000-07:00,0,feed,Deepseek V3 API Operational,none,
@@ -488,5 +487,6 @@ together,together_252,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
 together,together_253,2026-05-27T15:24:02Z,2026-05-27T16:16:16Z,52,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_254,2026-05-28T10:03:18Z,2026-05-28T10:16:23Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
+baseten,baseten_8d0l6vnghxk6,2026-05-29T12:31:24.628-07:00,2026-05-29T13:04:13.058-07:00,32,feed,Elevated async inference errors in a single cluster,minor,Dedicated Inference
 together,together_255,2026-05-29T15:43:10Z,2026-05-29T15:55:49Z,12,feed,Meta Llama 3.3 70B Instruct Turbo outage,minor,Meta Llama 3.3 70B Instruct Turbo
 modal,modal_146,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
