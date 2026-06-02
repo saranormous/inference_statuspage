@@ -494,3 +494,7 @@ modal,modal_146,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization S
 together,together_256,2026-06-01T05:46:04Z,2026-06-01T05:58:04Z,12,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 modal,modal_147,2026-06-01T15:40:35Z,2026-06-01T16:53:52Z,73,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
 modal,modal_148,2026-06-01T16:39:00Z,2026-06-01T16:52:00Z,13,feed,Database incident affecting services,minor,
+together,together_258,2026-06-02T15:31:20Z,2026-06-02T15:55:23Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_257,2026-06-02T15:32:35Z,2026-06-02T15:50:34Z,17,feed,Whisper Large V3 outage,minor,Whisper Large V3
+together,together_259,2026-06-02T16:01:23Z,2026-06-02T16:19:19Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_260,2026-06-02T17:13:23Z,2026-06-02T17:31:22Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
