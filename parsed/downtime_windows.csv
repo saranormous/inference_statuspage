@@ -498,3 +498,5 @@ together,together_259,2026-06-02T16:01:23Z,2026-06-02T16:19:19Z,17,feed,Orpheus 
 together,together_260,2026-06-02T17:13:23Z,2026-06-02T17:31:22Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_261,2026-06-02T18:37:16Z,2026-06-02T19:14:18Z,37,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_262,2026-06-02T19:20:42Z,2026-06-02T20:03:30Z,42,feed,Whisper Large V3 outage,minor,Whisper Large V3
+modal,modal_149,2026-06-03T13:03:00Z,2026-06-03T13:03:00Z,0,feed,auth subsystem failures causing multiple issues,minor,
+modal,modal_150,2026-06-03T13:05:23Z,2026-06-03T13:14:28Z,9,feed,"Web endpoints, Volumes, and 2 other services are down",major,"Web endpoints,Volumes"
