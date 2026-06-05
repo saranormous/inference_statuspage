@@ -48,7 +48,7 @@
       "Inference - Voice",
       "Inference - Moderation"
     ],
-    "incident_count": 260
+    "incident_count": 241
   },
   "baseten": {
     "name": "Baseten",
@@ -61,6 +61,6 @@
       "Web Application",
       "Homepage and Docs"
     ],
-    "incident_count": 50
+    "incident_count": 0
   }
 }

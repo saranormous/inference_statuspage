@@ -80,28 +80,15 @@ modal,modal_78,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox schedul
 modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
 modal,modal_80,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
 modal,modal_81,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
-baseten,baseten_6z5mjrgrp27x,2025-06-06T06:00:00.000-07:00,2025-06-06T06:00:00.000-07:00,0,feed,Degraded performance only on Deepseek V3 0324,minor,
-baseten,baseten_152th078gwqz,2025-06-06T07:00:00.000-07:00,2025-06-06T07:00:00.000-07:00,0,feed,Deepseek V3 API Operational,none,
 modal,modal_82,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
-baseten,baseten_p4s4zsjhg198,2025-06-12T11:17:41.000-07:00,2025-06-12T11:33:01.010-07:00,15,feed,Major outage in GCP with partial impact on several customers,none,Dedicated Inference
-baseten,baseten_6tz79y70lfqj,2025-06-20T10:38:54.420-07:00,2025-06-20T10:44:28.417-07:00,5,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_83,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
 modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
 modal,modal_85,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
-baseten,baseten_lx2sbv625c14,2025-07-04T07:12:24.461-07:00,2025-07-04T07:23:03.663-07:00,10,feed,Issue with image builds for new models,minor,Model Management API
 modal,modal_86,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
 modal,modal_87,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
-baseten,baseten_h3xkkd16z72v,2025-07-16T09:02:34.000-07:00,2025-07-16T11:54:34.101-07:00,172,feed,Elevated inference latencies in 3 clusters,minor,Dedicated Inference
-baseten,baseten_mb2mqcd34dt7,2025-07-19T21:14:40.257-07:00,2025-07-19T22:41:17.866-07:00,86,feed,DeepSeek and Llama model APIs are down. Dedicated inference is *not* affected.,none,Model APIs
-baseten,baseten_xk4jypqwx42f,2025-07-19T22:48:47.561-07:00,2025-07-19T22:55:18.559-07:00,6,feed,Elevated errors in model APIs. Dedicated inference is *not* affected.,major,Model APIs
 modal,modal_88,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
-baseten,baseten_2wpr5xp5hf0l,2025-07-22T12:09:21.337-07:00,2025-07-22T12:24:21.296-07:00,14,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_89,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
-baseten,baseten_j8b9c9l30xpx,2025-07-23T11:32:05.000-07:00,2025-07-23T11:43:42.951-07:00,11,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_90,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
-baseten,baseten_yyqqq80zjnxy,2025-07-24T00:06:58.763-07:00,2025-07-24T01:05:12.516-07:00,58,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
-baseten,baseten_3mdm1dtt570h,2025-07-25T05:21:20.213-07:00,2025-07-25T05:58:30.138-07:00,37,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
-baseten,baseten_xpvch69rhydw,2025-08-05T21:18:47.749-07:00,2025-08-05T21:34:20.176-07:00,15,feed,GCP is reporting elevated packet loss in us-central1,minor,"Dedicated Inference,Model APIs"
 modal,modal_91,2025-08-12T05:38:00Z,2025-08-12T06:30:00Z,52,feed,Degraded container scheduling,minor,GPU functions
 modal,modal_92,2025-08-19T15:01:00Z,2025-08-19T15:24:00Z,23,feed,Image builds / volumes experiencing issues,minor,"Volumes,Image builds"
 modal,modal_93,2025-08-20T15:39:00Z,2025-08-20T15:39:00Z,0,feed,All services are online,minor,
@@ -109,24 +96,12 @@ modal,modal_94,2025-08-21T18:33:00Z,2025-08-21T19:24:00Z,51,feed,Degraded task s
 modal,modal_95,2025-08-26T14:31:00Z,2025-08-26T15:10:00Z,39,feed,Modal.com dashboards and image builds are degraded,minor,Image builds
 modal,modal_96,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S scheduling latency is high",minor,
 modal,modal_97,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
-baseten,baseten_2rk8vtk4q4nj,2025-09-22T11:41:28.000-07:00,2025-09-22T11:54:03.000-07:00,12,feed,L4 capacity in single us-east region having issues,minor,Dedicated Inference
 modal,modal_98,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
-baseten,baseten_txq6n57kv1pv,2025-09-24T17:17:46.657-07:00,2025-09-24T18:15:10.400-07:00,57,feed,Build Infrastructure degraded due to Dockerhub outage,major,Web Application
 modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
-baseten,baseten_fmwnrh1vsjlt,2025-10-13T12:31:00.255-07:00,2025-10-13T12:45:23.095-07:00,14,feed,High latency on Baseten Web Application and Model Management APIs. Inference is unaffected.,minor,"Model Management API,Web Application"
 modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
-baseten,baseten_x4zc1xry34fs,2025-10-20T00:15:50.000-07:00,2025-10-20T02:31:37.000-07:00,135,feed,Baseten Web Application is down due to AWS outage. Inference is unaffected.,minor,Web Application
 modal,modal_101,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
-baseten,baseten_9f069dvppqpq,2025-10-20T12:38:44.000-07:00,2025-10-20T19:15:47.154-07:00,397,feed,Login timing out on webapp,minor,Web Application
-baseten,baseten_c2smd7s42rhl,2025-10-22T17:29:29.408-07:00,2025-10-22T17:44:38.134-07:00,15,feed,Model logs are slow to load in a single cluster. Inference is not affected.,minor,Web Application
-baseten,baseten_276pjvpkllss,2025-10-24T14:46:58.087-07:00,2025-10-24T19:00:53.166-07:00,253,feed,Slower than usual scale-ups in 2 regions,minor,Dedicated Inference
 modal,modal_102,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
-baseten,baseten_mx3wcd2337rp,2025-10-25T06:27:58.224-07:00,2025-10-25T10:10:44.953-07:00,222,feed,Slower than usual scale-ups in 1 region,minor,Dedicated Inference
-baseten,baseten_w99gz3g3djkd,2025-10-30T08:01:56.000-07:00,2025-10-30T08:10:53.000-07:00,8,feed,Elevated errors in model deploys and promotions in 2 clusters. Inference is *not* affected.,major,Model Management API
-baseten,baseten_90lr1l8kg5s9,2025-11-01T13:27:16.477-07:00,2025-11-01T14:06:01.407-07:00,38,feed,Elevated errors and delays in new model deploys in 1 cluster. Inference is *not* affected.,none,Model Management API
-baseten,baseten_t2qt0s2pcwjt,2025-11-03T05:45:56.243-08:00,2025-11-03T06:01:07.987-08:00,15,feed,New builds are failing to push. Inference is *not* affected,minor,Model Management API
 modal,modal_103,2025-11-10T20:17:00Z,2025-11-10T22:34:00Z,137,feed,Elevated latency on some RPCs,minor,
-baseten,baseten_q4qgnl6lhlfh,2025-11-17T05:01:18.000-08:00,2025-11-17T05:20:36.000-08:00,19,feed,Elevated error rates for inference requests for a subset of models in GCP us-central1,major,Dedicated Inference
 modal,modal_104,2025-11-19T09:00:00Z,2025-11-19T09:00:00Z,0,feed,Volume version 2 maintenance,minor,Volumes
 modal,modal_105,2025-11-20T03:08:00Z,2025-11-20T03:08:00Z,0,feed,Web endpoints incurring degradation,minor,Web endpoints
 modal,modal_106,2025-11-25T15:08:00Z,2025-11-25T15:25:00Z,17,feed,Config change causes container filesystem IO errors,minor,
@@ -134,32 +109,23 @@ modal,modal_107,2025-11-27T00:21:00Z,2025-11-27T00:21:00Z,0,feed,"CPU functions,
 modal,modal_108,2025-12-01T16:25:43Z,2025-12-01T16:51:00Z,25,feed,Some services are down,major,
 modal,modal_109,2025-12-03T19:10:00Z,2025-12-03T19:50:00Z,40,feed,"DNS servers flooded with MX records, causing DNS query timeouts",minor,
 modal,modal_110,2025-12-05T01:10:00Z,2025-12-05T01:10:00Z,0,feed,Frontend website is down,major,Frontend
-baseten,baseten_h293c5jvmd85,2025-12-06T12:46:21.287-08:00,2025-12-06T13:06:47.662-08:00,20,feed,Deepseek V3-0324 on Model APIs is down. **Dedicated inference is not affected**.,major,Model APIs
 modal,modal_111,2025-12-10T09:52:00Z,2025-12-10T10:05:00Z,13,feed,GPU Function queueing due to Tailscale outage,major,GPU functions
 modal,modal_112,2025-12-16T12:25:00Z,2025-12-16T13:37:00Z,72,feed,Issue with volumes,major,Volumes
 modal,modal_113,2025-12-18T19:57:46Z,2025-12-18T20:07:02Z,9,feed,Image builds is down,major,Image builds
-baseten,baseten_9db4l4h05ltd,2025-12-20T16:40:48.780-08:00,2025-12-20T17:35:31.252-08:00,54,feed,Slower than usual scale-ups and new deploys for all models in GCP,minor,Dedicated Inference
-baseten,baseten_vm9ds80g7ky5,2025-12-21T08:49:42.762-08:00,2025-12-21T09:11:40.033-08:00,21,feed,GPT-OSS on Model APIs is degraded. **Dedicated inference is not affected**.,minor,Model APIs
 modal,modal_114,2025-12-24T02:31:00Z,2025-12-24T02:47:00Z,16,feed,Scheduling of new containers failing,minor,
 modal,modal_115,2025-12-28T09:12:00Z,2025-12-28T11:06:00Z,114,feed,Some services are down due to Database,major,
 modal,modal_116,2026-01-14T23:04:00Z,2026-01-15T00:00:00Z,56,feed,Capacity Loss,minor,
 modal,modal_117,2026-01-15T01:15:00Z,2026-01-15T22:27:00Z,1272,feed,Intermittent problems accessing Volumes via CLI and dashboard,major,Volumes
 modal,modal_118,2026-01-18T05:43:00Z,2026-01-18T06:03:00Z,20,feed,Flash Proxy down in us-west,major,
 modal,modal_119,2026-01-21T02:00:00Z,2026-01-21T05:40:00Z,220,feed,Volume degradation,major,Volumes
-baseten,baseten_29kl9tbwfzk9,2026-01-21T12:34:39.951-08:00,2026-01-21T13:37:49.333-08:00,63,feed,Elevated latency for inference requests in single region in Baseten Cloud West,minor,Dedicated Inference
-baseten,baseten_cvq9y46gb1jy,2026-01-22T12:17:39.622-08:00,2026-01-22T12:41:37.796-08:00,23,feed,Baseten web app is down. **Inference is unaffected**,major,Web Application
 modal,modal_120,2026-01-24T11:10:20Z,2026-01-24T11:16:39Z,6,feed,Image builds is down,major,Image builds
 modal,modal_121,2026-02-01T09:03:00Z,2026-02-01T09:41:00Z,38,feed,Dashboard is degraded,minor,
 modal,modal_122,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is down,major,Image builds
 modal,modal_123,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
-baseten,baseten_n2kgjd0911bn,2026-02-09T07:20:22.282-08:00,2026-02-09T09:33:45.599-08:00,133,feed,Elevated inference latencies in AWS us-west-2,minor,Dedicated Inference
 modal,modal_124,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
 modal,modal_125,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
-baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
 modal,modal_126,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
 modal,modal_127,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with container scheduling,minor,GPU functions
-baseten,baseten_ybjb53lgnlpx,2026-02-27T09:45:03.000-08:00,2026-02-27T10:39:09.003-08:00,54,feed,Partial inference outage in AWS us-east-1,minor,Dedicated Inference
-baseten,baseten_tbh0pbfkd5g8,2026-02-27T16:19:56.000-08:00,2026-02-27T17:02:17.000-08:00,42,feed,Elevated 500s on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
 modal,modal_128,2026-03-02T21:12:00Z,2026-03-02T22:43:00Z,91,feed,Task logs are delayed,major,
 modal,modal_129,2026-03-09T03:33:14Z,2026-03-09T04:09:07Z,35,feed,Image builds is down,major,Image builds
 modal,modal_130,2026-03-09T03:58:00Z,2026-03-09T04:06:00Z,8,feed,sandbox scheduling unavailable,major,Sandboxes
@@ -174,7 +140,6 @@ together,together_2,2026-03-10T21:17:34Z,2026-03-10T22:02:38Z,45,feed,Multilingu
 together,together_6,2026-03-12T05:50:39Z,2026-03-12T06:02:40Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_7,2026-03-12T06:47:36Z,2026-03-12T07:08:40Z,21,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_8,2026-03-12T08:14:41Z,2026-03-12T08:32:44Z,18,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-baseten,baseten_8xgkfl1jkjnq,2026-03-12T09:42:06.037-07:00,2026-03-12T09:59:14.791-07:00,17,feed,gpt-oss model API service degradation,minor,Model APIs
 modal,modal_131,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
 fireworks,fireworks_4,2026-03-13T03:12:37Z,2026-03-13T03:20:47Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
 together,together_9,2026-03-13T08:35:35Z,2026-03-13T09:41:35Z,66,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
@@ -220,64 +185,59 @@ together,together_40,2026-03-26T20:21:49Z,2026-03-26T21:36:24Z,74,feed,ZAI GLM 5
 together,together_41,2026-03-26T22:14:25Z,2026-03-26T22:29:04Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_42,2026-03-26T22:21:44Z,2026-03-26T22:41:24Z,19,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
 together,together_44,2026-03-27T03:59:00Z,2026-03-27T04:11:25Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_45,2026-03-27T03:59:21Z,2026-03-27T04:31:20Z,31,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_46,2026-03-30T02:23:33Z,2026-03-30T02:50:37Z,27,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
-together,together_47,2026-03-30T03:14:32Z,2026-03-30T03:26:45Z,12,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
-together,together_48,2026-03-30T03:59:41Z,2026-03-30T04:14:37Z,14,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
+together,together_45,2026-03-30T02:23:33Z,2026-03-30T02:50:37Z,27,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
+together,together_46,2026-03-30T03:14:32Z,2026-03-30T03:26:45Z,12,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
+together,together_47,2026-03-30T03:59:41Z,2026-03-30T04:14:37Z,14,feed,Multilingual E5 Large Instruct outage,minor,Multilingual E5 Large Instruct
 fireworks,fireworks_11,2026-04-01T03:05:14Z,2026-04-01T03:08:03Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_49,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_50,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-baseten,baseten_rhrjd3t222x2,2026-04-01T15:30:54.000-07:00,2026-04-01T17:30:38.000-07:00,119,feed,Elevated deploy failures. Inference is **not** affected.,minor,Model Management API
+together,together_48,2026-04-01T05:58:24Z,2026-04-01T06:26:33Z,28,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_49,2026-04-01T09:32:06Z,2026-04-01T09:47:12Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 modal,modal_133,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
 modal,modal_134,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
-together,together_51,2026-04-03T00:48:05Z,2026-04-03T02:38:58Z,110,feed,Voxtral Mini 3B 2507 outage,major,Voxtral Mini 3B 2507
-baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
-together,together_52,2026-04-03T15:37:52Z,2026-04-03T16:09:31Z,31,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_53,2026-04-03T16:13:52Z,2026-04-03T16:27:14Z,13,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-together,together_54,2026-04-06T18:23:19Z,2026-04-06T19:03:24Z,40,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_50,2026-04-03T00:48:05Z,2026-04-03T02:38:58Z,110,feed,Voxtral Mini 3B 2507 outage,major,Voxtral Mini 3B 2507
+together,together_51,2026-04-03T15:37:52Z,2026-04-03T16:09:31Z,31,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_52,2026-04-03T16:13:52Z,2026-04-03T16:27:14Z,13,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_53,2026-04-06T18:23:19Z,2026-04-06T19:03:24Z,40,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 modal,modal_135,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
 modal,modal_136,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
 fireworks,fireworks_12,2026-04-07T14:58:13Z,2026-04-07T15:00:20Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_55,2026-04-07T18:03:03Z,2026-04-07T18:30:10Z,27,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_56,2026-04-07T19:06:25Z,2026-04-07T19:21:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_57,2026-04-07T19:37:43Z,2026-04-07T20:34:03Z,56,feed,Kokoro-82M outage,minor,Kokoro-82M
-together,together_58,2026-04-07T21:51:25Z,2026-04-07T22:06:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_59,2026-04-07T22:11:26Z,2026-04-07T23:01:37Z,50,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_60,2026-04-07T22:51:03Z,2026-04-07T23:27:04Z,36,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_61,2026-04-08T12:33:00Z,2026-04-08T12:48:02Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_62,2026-04-08T19:44:39Z,2026-04-08T19:56:46Z,12,feed,Whisper Large V3 outage,minor,Whisper Large V3
-together,together_63,2026-04-09T00:33:57Z,2026-04-09T00:46:56Z,12,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_64,2026-04-09T03:33:54Z,2026-04-09T06:07:51Z,153,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-together,together_65,2026-04-09T12:38:08Z,2026-04-09T12:53:03Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_66,2026-04-09T13:40:15Z,2026-04-09T15:12:59Z,92,feed,ZAI GLM 5.1 outage,major,ZAI GLM 5.1
-together,together_67,2026-04-09T15:16:34Z,2026-04-09T15:31:13Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_68,2026-04-09T15:37:07Z,2026-04-09T15:49:02Z,11,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_69,2026-04-09T22:47:55Z,2026-04-09T23:00:01Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_70,2026-04-10T03:55:09Z,2026-04-10T04:29:17Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_54,2026-04-07T18:03:03Z,2026-04-07T18:30:10Z,27,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_55,2026-04-07T19:06:25Z,2026-04-07T19:21:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_56,2026-04-07T19:37:43Z,2026-04-07T20:34:03Z,56,feed,Kokoro-82M outage,minor,Kokoro-82M
+together,together_57,2026-04-07T21:51:25Z,2026-04-07T22:06:27Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_58,2026-04-07T22:11:26Z,2026-04-07T23:01:37Z,50,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_59,2026-04-07T22:51:03Z,2026-04-07T23:27:04Z,36,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_60,2026-04-08T12:33:00Z,2026-04-08T12:48:02Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_61,2026-04-08T19:44:39Z,2026-04-08T19:56:46Z,12,feed,Whisper Large V3 outage,minor,Whisper Large V3
+together,together_62,2026-04-09T00:33:57Z,2026-04-09T00:46:56Z,12,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_63,2026-04-09T03:33:54Z,2026-04-09T06:07:51Z,153,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
+together,together_64,2026-04-09T12:38:08Z,2026-04-09T12:53:03Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_65,2026-04-09T13:40:15Z,2026-04-09T15:12:59Z,92,feed,ZAI GLM 5.1 outage,major,ZAI GLM 5.1
+together,together_66,2026-04-09T15:16:34Z,2026-04-09T15:31:13Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_67,2026-04-09T15:37:07Z,2026-04-09T15:49:02Z,11,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_68,2026-04-09T22:47:55Z,2026-04-09T23:00:01Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_69,2026-04-10T03:55:09Z,2026-04-10T04:29:17Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 fireworks,fireworks_13,2026-04-10T06:55:18Z,2026-04-10T06:57:19Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_71,2026-04-10T16:38:17Z,2026-04-10T17:02:11Z,23,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_72,2026-04-10T19:46:49Z,2026-04-10T20:07:56Z,21,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_73,2026-04-11T02:35:31Z,2026-04-11T03:02:36Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_74,2026-04-12T11:03:19Z,2026-04-12T11:15:41Z,12,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_75,2026-04-12T12:36:47Z,2026-04-12T12:56:54Z,20,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
-together,together_76,2026-04-12T13:51:50Z,2026-04-12T14:06:09Z,14,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
-together,together_77,2026-04-12T14:50:53Z,2026-04-12T15:14:01Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_78,2026-04-12T23:27:35Z,2026-04-12T23:47:27Z,19,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_79,2026-04-13T02:19:03Z,2026-04-13T02:35:17Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-baseten,baseten_pv607pnjmzk7,2026-04-13T08:42:27.479-07:00,2026-04-13T09:31:44.215-07:00,49,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-together,together_80,2026-04-13T13:38:11Z,2026-04-13T13:51:37Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_81,2026-04-14T13:14:09Z,2026-04-14T14:12:13Z,58,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_70,2026-04-10T16:38:17Z,2026-04-10T17:02:11Z,23,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_71,2026-04-10T19:46:49Z,2026-04-10T20:07:56Z,21,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_72,2026-04-11T02:35:31Z,2026-04-11T03:02:36Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_73,2026-04-12T11:03:19Z,2026-04-12T11:15:41Z,12,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_74,2026-04-12T12:36:47Z,2026-04-12T12:56:54Z,20,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
+together,together_75,2026-04-12T13:51:50Z,2026-04-12T14:06:09Z,14,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
+together,together_76,2026-04-12T14:50:53Z,2026-04-12T15:14:01Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_77,2026-04-12T23:27:35Z,2026-04-12T23:47:27Z,19,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_78,2026-04-13T02:19:03Z,2026-04-13T02:35:17Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_79,2026-04-13T13:38:11Z,2026-04-13T13:51:37Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_80,2026-04-14T13:14:09Z,2026-04-14T14:12:13Z,58,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 fireworks,fireworks_14,2026-04-14T17:32:49Z,2026-04-14T17:37:54Z,5,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_82,2026-04-14T18:53:19Z,2026-04-14T19:09:24Z,16,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_83,2026-04-14T20:29:20Z,2026-04-14T20:42:48Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_84,2026-04-15T08:56:11Z,2026-04-15T09:39:26Z,43,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_85,2026-04-15T11:59:17Z,2026-04-15T12:39:38Z,40,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_86,2026-04-15T12:26:21Z,2026-04-15T16:34:28Z,248,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
-together,together_87,2026-04-15T16:55:31Z,2026-04-15T17:34:19Z,38,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_88,2026-04-15T17:37:42Z,2026-04-15T17:49:44Z,12,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_90,2026-04-15T17:55:39Z,2026-04-15T19:16:21Z,80,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
-together,together_89,2026-04-15T18:23:20Z,2026-04-15T18:54:25Z,31,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_81,2026-04-14T18:53:19Z,2026-04-14T19:09:24Z,16,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_82,2026-04-14T20:29:20Z,2026-04-14T20:42:48Z,13,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_83,2026-04-15T08:56:11Z,2026-04-15T09:39:26Z,43,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_84,2026-04-15T11:59:17Z,2026-04-15T12:39:38Z,40,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_85,2026-04-15T12:26:21Z,2026-04-15T16:34:28Z,248,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
+together,together_86,2026-04-15T16:55:31Z,2026-04-15T17:34:19Z,38,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_87,2026-04-15T17:37:42Z,2026-04-15T17:49:44Z,12,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_89,2026-04-15T17:55:39Z,2026-04-15T19:16:21Z,80,feed,ZAI GLM 5 FP4 outage,major,ZAI GLM 5 FP4
+together,together_88,2026-04-15T18:23:20Z,2026-04-15T18:54:25Z,31,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 fireworks,fireworks_15,2026-04-15T21:38:30Z,2026-04-15T21:50:21Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_16,2026-04-16T06:20:06Z,2026-04-16T06:32:09Z,12,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_17,2026-04-16T06:56:33Z,2026-04-16T06:59:07Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
@@ -290,211 +250,182 @@ fireworks,fireworks_23,2026-04-16T12:50:32Z,2026-04-16T13:02:13Z,11,feed,Nomic E
 fireworks,fireworks_24,2026-04-16T13:23:16Z,2026-04-16T13:32:19Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_25,2026-04-16T13:59:13Z,2026-04-16T14:08:16Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_26,2026-04-16T14:29:18Z,2026-04-16T14:32:14Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_91,2026-04-16T15:11:22Z,2026-04-16T16:06:19Z,54,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_90,2026-04-16T15:11:22Z,2026-04-16T16:06:19Z,54,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
 fireworks,fireworks_27,2026-04-16T15:14:43Z,2026-04-16T15:26:14Z,11,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_28,2026-04-16T15:47:21Z,2026-04-16T15:50:26Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_29,2026-04-16T15:56:21Z,2026-04-16T16:05:29Z,9,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_30,2026-04-16T16:30:49Z,2026-04-16T16:38:55Z,8,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
 fireworks,fireworks_31,2026-04-16T16:50:25Z,2026-04-16T16:53:36Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_92,2026-04-16T17:53:35Z,2026-04-16T18:26:40Z,33,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_91,2026-04-16T17:53:35Z,2026-04-16T18:26:40Z,33,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 fireworks,fireworks_32,2026-04-16T20:26:36Z,2026-04-16T20:32:01Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_93,2026-04-17T11:41:57Z,2026-04-17T11:54:30Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_94,2026-04-17T12:18:07Z,2026-04-17T12:36:12Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_92,2026-04-17T11:41:57Z,2026-04-17T11:54:30Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_93,2026-04-17T12:18:07Z,2026-04-17T12:36:12Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
 modal,modal_137,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
-together,together_95,2026-04-17T15:11:37Z,2026-04-17T15:36:26Z,24,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_96,2026-04-17T15:41:29Z,2026-04-17T16:21:25Z,39,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_97,2026-04-17T17:31:19Z,2026-04-17T17:46:23Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_98,2026-04-17T22:22:58Z,2026-04-17T23:05:03Z,42,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
-together,together_99,2026-04-17T23:20:39Z,2026-04-17T23:55:17Z,34,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_100,2026-04-18T01:20:18Z,2026-04-18T01:39:57Z,19,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_101,2026-04-20T09:56:36Z,2026-04-20T10:23:47Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_102,2026-04-21T23:15:12Z,2026-04-21T23:33:16Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_103,2026-04-22T01:12:08Z,2026-04-22T01:36:01Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_104,2026-04-22T04:24:00Z,2026-04-22T04:39:08Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_105,2026-04-22T04:45:09Z,2026-04-22T05:51:14Z,66,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_106,2026-04-22T12:17:37Z,2026-04-22T12:44:37Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_107,2026-04-22T13:02:40Z,2026-04-22T13:32:36Z,29,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_108,2026-04-22T14:56:35Z,2026-04-22T15:14:29Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_94,2026-04-17T15:11:37Z,2026-04-17T15:36:26Z,24,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_95,2026-04-17T15:41:29Z,2026-04-17T16:21:25Z,39,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_96,2026-04-17T17:31:19Z,2026-04-17T17:46:23Z,15,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_97,2026-04-17T22:22:58Z,2026-04-17T23:05:03Z,42,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+together,together_98,2026-04-17T23:20:39Z,2026-04-17T23:55:17Z,34,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_99,2026-04-18T01:20:18Z,2026-04-18T01:39:57Z,19,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_100,2026-04-20T09:56:36Z,2026-04-20T10:23:47Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_101,2026-04-21T23:15:12Z,2026-04-21T23:33:16Z,18,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_102,2026-04-22T01:12:08Z,2026-04-22T01:36:01Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_103,2026-04-22T04:24:00Z,2026-04-22T04:39:08Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_104,2026-04-22T04:45:09Z,2026-04-22T05:51:14Z,66,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_105,2026-04-22T12:17:37Z,2026-04-22T12:44:37Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_106,2026-04-22T13:02:40Z,2026-04-22T13:32:36Z,29,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_107,2026-04-22T14:56:35Z,2026-04-22T15:14:29Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 modal,modal_138,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execution is degraded,minor,
-together,together_110,2026-04-23T14:29:52Z,2026-04-23T17:06:11Z,156,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
-together,together_111,2026-04-23T14:31:55Z,2026-04-23T17:08:09Z,156,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
-together,together_112,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multilingual E5 Large Instruct outage,major,Multilingual E5 Large Instruct
-together,together_109,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_113,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_116,2026-04-25T03:19:51Z,2026-04-25T18:34:52Z,915,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
+together,together_109,2026-04-23T14:29:52Z,2026-04-23T17:06:11Z,156,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
+together,together_110,2026-04-23T14:31:55Z,2026-04-23T17:08:09Z,156,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
+together,together_111,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multilingual E5 Large Instruct outage,major,Multilingual E5 Large Instruct
+together,together_108,2026-04-23T15:42:10Z,2026-04-23T16:06:06Z,23,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_112,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_115,2026-04-25T03:19:51Z,2026-04-25T18:34:52Z,915,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
 fireworks,fireworks_33,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_114,2026-04-25T04:03:10Z,2026-04-25T04:15:18Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_115,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_118,2026-04-25T20:32:32Z,2026-04-25T21:10:31Z,37,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_117,2026-04-25T20:41:06Z,2026-04-25T21:04:28Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_119,2026-04-25T23:13:19Z,2026-04-25T23:40:15Z,26,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_120,2026-04-27T11:35:07Z,2026-04-27T11:55:00Z,19,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_113,2026-04-25T04:03:10Z,2026-04-25T04:15:18Z,12,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_114,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_117,2026-04-25T20:32:32Z,2026-04-25T21:10:31Z,37,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_116,2026-04-25T20:41:06Z,2026-04-25T21:04:28Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_118,2026-04-25T23:13:19Z,2026-04-25T23:40:15Z,26,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_119,2026-04-27T11:35:07Z,2026-04-27T11:55:00Z,19,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 modal,modal_139,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
-together,together_121,2026-04-28T01:53:37Z,2026-04-28T02:05:44Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_122,2026-04-28T13:34:03Z,2026-04-28T13:55:00Z,20,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_123,2026-04-28T14:40:58Z,2026-04-28T14:55:08Z,14,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_124,2026-04-28T15:59:57Z,2026-04-28T16:24:16Z,24,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_125,2026-04-28T16:13:50Z,2026-04-28T18:31:12Z,137,feed,Qwen3.5 9B outage,major,Qwen3.5 9B
-together,together_126,2026-04-28T18:53:58Z,2026-04-28T19:18:15Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_120,2026-04-28T01:53:37Z,2026-04-28T02:05:44Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_121,2026-04-28T13:34:03Z,2026-04-28T13:55:00Z,20,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_122,2026-04-28T14:40:58Z,2026-04-28T14:55:08Z,14,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_123,2026-04-28T15:59:57Z,2026-04-28T16:24:16Z,24,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_124,2026-04-28T16:13:50Z,2026-04-28T18:31:12Z,137,feed,Qwen3.5 9B outage,major,Qwen3.5 9B
+together,together_125,2026-04-28T18:53:58Z,2026-04-28T19:18:15Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 modal,modal_140,2026-04-28T21:30:00Z,2026-04-29T20:32:00Z,1382,feed,Some sandbox functionality is degraded when using CIDR allowlists,minor,Sandboxes
-together,together_127,2026-04-29T00:41:54Z,2026-04-29T00:55:50Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_128,2026-04-29T05:29:55Z,2026-04-29T06:17:40Z,47,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_129,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
-together,together_130,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_131,2026-04-29T17:43:14Z,2026-04-29T18:25:15Z,42,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
-together,together_132,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_126,2026-04-29T00:41:54Z,2026-04-29T00:55:50Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_127,2026-04-29T05:29:55Z,2026-04-29T06:17:40Z,47,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_128,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
+together,together_129,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_130,2026-04-29T17:43:14Z,2026-04-29T18:25:15Z,42,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_131,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 fireworks,fireworks_34,2026-04-30T14:48:00Z,2026-04-30T14:55:34Z,7,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_133,2026-04-30T14:51:11Z,2026-04-30T15:06:39Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_134,2026-05-01T00:31:03Z,2026-05-01T00:59:49Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_135,2026-05-01T03:14:34Z,2026-05-01T03:35:53Z,21,feed,Whisper Large V3 outage,minor,Whisper Large V3
-together,together_136,2026-05-01T17:05:07Z,2026-05-01T19:21:00Z,135,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_137,2026-05-02T09:14:14Z,2026-05-02T09:34:02Z,19,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_138,2026-05-03T19:40:10Z,2026-05-03T19:59:04Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_139,2026-05-03T21:28:53Z,2026-05-03T21:43:54Z,15,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_140,2026-05-04T04:32:18Z,2026-05-04T04:58:24Z,26,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_141,2026-05-04T05:44:19Z,2026-05-04T06:04:21Z,20,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_142,2026-05-05T11:06:01Z,2026-05-05T11:32:12Z,26,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_132,2026-04-30T14:51:11Z,2026-04-30T15:06:39Z,15,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_133,2026-05-01T00:31:03Z,2026-05-01T00:59:49Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_134,2026-05-01T03:14:34Z,2026-05-01T03:35:53Z,21,feed,Whisper Large V3 outage,minor,Whisper Large V3
+together,together_135,2026-05-01T17:05:07Z,2026-05-01T19:21:00Z,135,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_136,2026-05-02T09:14:14Z,2026-05-02T09:34:02Z,19,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_137,2026-05-03T19:40:10Z,2026-05-03T19:59:04Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_138,2026-05-03T21:28:53Z,2026-05-03T21:43:54Z,15,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_139,2026-05-05T11:06:01Z,2026-05-05T11:32:12Z,26,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 fireworks,fireworks_35,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_143,2026-05-06T21:18:05Z,2026-05-06T22:06:14Z,48,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_144,2026-05-06T23:20:14Z,2026-05-07T00:26:03Z,65,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
-together,together_147,2026-05-07T00:24:05Z,2026-05-07T02:04:30Z,100,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-together,together_146,2026-05-07T01:06:53Z,2026-05-07T01:49:00Z,42,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_145,2026-05-07T01:14:58Z,2026-05-07T01:38:04Z,23,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_150,2026-05-07T01:35:02Z,2026-05-07T06:38:29Z,303,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
-together,together_148,2026-05-07T04:23:56Z,2026-05-07T04:39:37Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_149,2026-05-07T05:05:03Z,2026-05-07T06:21:54Z,76,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_151,2026-05-07T06:25:40Z,2026-05-07T12:45:13Z,379,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
-baseten,baseten_lzxw0ljfd5dr,2026-05-07T07:50:20.000-07:00,2026-05-07T08:37:33.000-07:00,47,feed,Elevated errors for models in single region,minor,Dedicated Inference
-together,together_152,2026-05-07T14:56:47Z,2026-05-07T15:14:49Z,18,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_153,2026-05-07T18:56:46Z,2026-05-07T19:26:47Z,30,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_154,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_140,2026-05-06T21:18:05Z,2026-05-06T22:06:14Z,48,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_141,2026-05-06T23:20:14Z,2026-05-07T00:26:03Z,65,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
+together,together_144,2026-05-07T00:24:05Z,2026-05-07T02:04:30Z,100,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_143,2026-05-07T01:06:53Z,2026-05-07T01:49:00Z,42,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_142,2026-05-07T01:14:58Z,2026-05-07T01:38:04Z,23,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_147,2026-05-07T01:35:02Z,2026-05-07T06:38:29Z,303,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
+together,together_145,2026-05-07T04:23:56Z,2026-05-07T04:39:37Z,15,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_146,2026-05-07T05:05:03Z,2026-05-07T06:21:54Z,76,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_148,2026-05-07T06:25:40Z,2026-05-07T12:45:13Z,379,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,major,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_149,2026-05-07T14:56:47Z,2026-05-07T15:14:49Z,18,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_150,2026-05-07T18:56:46Z,2026-05-07T19:26:47Z,30,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_151,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
 modal,modal_141,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
-together,together_155,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+together,together_152,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
 modal,modal_142,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
 modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
-together,together_156,2026-05-08T14:18:55Z,2026-05-08T15:12:40Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_157,2026-05-08T15:33:52Z,2026-05-08T16:27:00Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_158,2026-05-08T16:31:38Z,2026-05-08T18:12:40Z,101,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-baseten,baseten_whc7r80qfh2w,2026-05-08T16:40:49.284-07:00,2026-05-08T17:22:48.819-07:00,41,feed,Intermittent failure in loading the webapp — inference is *not* affected,none,"Model Management API,Web Application"
-together,together_159,2026-05-08T20:24:57Z,2026-05-08T21:02:59Z,38,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_160,2026-05-08T21:07:57Z,2026-05-08T21:51:09Z,43,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_161,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-baseten,baseten_g7fbbc1r9ckt,2026-05-09T17:30:56.000-07:00,2026-05-09T20:24:36.543-07:00,173,feed,Training cluster is down due to a provider failure,major,Training
-together,together_162,2026-05-10T01:04:07Z,2026-05-10T01:18:11Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_163,2026-05-10T06:30:02Z,2026-05-10T06:44:01Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_164,2026-05-10T15:39:54Z,2026-05-10T15:59:05Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_165,2026-05-10T21:38:11Z,2026-05-10T21:55:14Z,17,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
-together,together_166,2026-05-10T23:57:59Z,2026-05-11T00:10:24Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_153,2026-05-08T14:18:55Z,2026-05-08T15:12:40Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_154,2026-05-08T15:33:52Z,2026-05-08T16:27:00Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_155,2026-05-08T16:31:38Z,2026-05-08T18:12:40Z,101,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_156,2026-05-08T20:24:57Z,2026-05-08T21:02:59Z,38,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_157,2026-05-08T21:07:57Z,2026-05-08T21:51:09Z,43,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_158,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_159,2026-05-10T01:04:07Z,2026-05-10T01:18:11Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_160,2026-05-10T06:30:02Z,2026-05-10T06:44:01Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_161,2026-05-10T15:39:54Z,2026-05-10T15:59:05Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_162,2026-05-10T21:38:11Z,2026-05-10T21:55:14Z,17,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_163,2026-05-10T23:57:59Z,2026-05-11T00:10:24Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
 modal,modal_144,2026-05-11T00:00:00Z,2026-05-11T00:00:00Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
-together,together_167,2026-05-11T04:54:59Z,2026-05-11T05:20:13Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_168,2026-05-11T06:58:09Z,2026-05-11T07:17:07Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_169,2026-05-11T13:03:49Z,2026-05-11T13:47:15Z,43,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_170,2026-05-11T13:28:53Z,2026-05-11T13:56:53Z,28,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_171,2026-05-11T17:25:19Z,2026-05-11T18:10:12Z,44,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_172,2026-05-11T19:17:35Z,2026-05-11T20:53:13Z,95,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-together,together_173,2026-05-11T23:10:54Z,2026-05-11T23:28:59Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_174,2026-05-12T00:04:19Z,2026-05-12T00:22:56Z,18,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_175,2026-05-12T01:01:29Z,2026-05-12T01:58:15Z,56,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_176,2026-05-12T03:46:21Z,2026-05-12T05:28:18Z,101,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,major,Qwen3 Coder 480B A35B Instruct FP8
-together,together_177,2026-05-12T07:13:21Z,2026-05-12T07:46:23Z,33,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_178,2026-05-12T08:07:50Z,2026-05-12T08:22:18Z,14,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_179,2026-05-12T11:45:58Z,2026-05-12T12:06:58Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_180,2026-05-12T13:10:32Z,2026-05-12T14:10:24Z,59,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_181,2026-05-12T17:29:16Z,2026-05-12T18:02:09Z,32,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_185,2026-05-12T23:07:18Z,2026-05-12T23:28:16Z,20,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_184,2026-05-12T23:07:21Z,2026-05-12T23:25:13Z,17,feed,Kokoro-82M outage,minor,Kokoro-82M
-together,together_186,2026-05-12T23:07:52Z,2026-05-12T23:41:00Z,33,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_182,2026-05-12T23:08:07Z,2026-05-12T23:20:11Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_183,2026-05-12T23:09:56Z,2026-05-12T23:24:19Z,14,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
-together,together_187,2026-05-12T23:34:11Z,2026-05-12T23:49:04Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
-together,together_188,2026-05-12T23:35:07Z,2026-05-12T23:50:05Z,14,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
-together,together_189,2026-05-12T23:36:16Z,2026-05-13T01:24:23Z,108,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-together,together_190,2026-05-13T03:44:47Z,2026-05-13T04:05:47Z,21,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_191,2026-05-13T05:19:12Z,2026-05-13T05:37:14Z,18,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
-together,together_192,2026-05-13T06:26:57Z,2026-05-13T06:50:44Z,23,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_193,2026-05-13T09:16:49Z,2026-05-13T09:34:58Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_194,2026-05-13T11:50:51Z,2026-05-13T12:43:58Z,53,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
-together,together_195,2026-05-13T13:59:01Z,2026-05-13T14:17:21Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_196,2026-05-13T22:07:28Z,2026-05-13T22:22:09Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_164,2026-05-11T04:54:59Z,2026-05-11T05:20:13Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_165,2026-05-11T06:58:09Z,2026-05-11T07:17:07Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_166,2026-05-11T13:03:49Z,2026-05-11T13:47:15Z,43,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_167,2026-05-11T13:28:53Z,2026-05-11T13:56:53Z,28,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_168,2026-05-11T17:25:19Z,2026-05-11T18:10:12Z,44,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_169,2026-05-11T19:17:35Z,2026-05-11T20:53:13Z,95,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
+together,together_170,2026-05-11T23:10:54Z,2026-05-11T23:28:59Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_171,2026-05-12T08:07:50Z,2026-05-12T08:22:18Z,14,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
+together,together_172,2026-05-12T11:45:58Z,2026-05-12T12:06:58Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_173,2026-05-12T13:10:32Z,2026-05-12T14:10:24Z,59,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_174,2026-05-12T17:29:16Z,2026-05-12T18:02:09Z,32,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_178,2026-05-12T23:07:18Z,2026-05-12T23:28:16Z,20,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_177,2026-05-12T23:07:21Z,2026-05-12T23:25:13Z,17,feed,Kokoro-82M outage,minor,Kokoro-82M
+together,together_179,2026-05-12T23:07:52Z,2026-05-12T23:41:00Z,33,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_175,2026-05-12T23:08:07Z,2026-05-12T23:20:11Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_176,2026-05-12T23:09:56Z,2026-05-12T23:24:19Z,14,feed,Voxtral Mini 3B 2507 outage,minor,Voxtral Mini 3B 2507
+together,together_180,2026-05-12T23:34:11Z,2026-05-12T23:49:04Z,14,feed,Qwen3 235B A22B Instruct 2507 Throughput outage,minor,Qwen3 235B A22B Instruct 2507 Throughput
+together,together_181,2026-05-12T23:35:07Z,2026-05-12T23:50:05Z,14,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
+together,together_182,2026-05-12T23:36:16Z,2026-05-13T01:24:23Z,108,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_183,2026-05-13T03:44:47Z,2026-05-13T04:05:47Z,21,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_184,2026-05-13T05:19:12Z,2026-05-13T05:37:14Z,18,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_185,2026-05-13T06:26:57Z,2026-05-13T06:50:44Z,23,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_186,2026-05-13T09:16:49Z,2026-05-13T09:34:58Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_187,2026-05-13T11:50:51Z,2026-05-13T12:43:58Z,53,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
+together,together_188,2026-05-13T13:59:01Z,2026-05-13T14:17:21Z,18,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_189,2026-05-13T22:07:28Z,2026-05-13T22:22:09Z,14,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 fireworks,fireworks_36,2026-05-13T22:50:16Z,2026-05-13T22:59:08Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_37,2026-05-14T08:14:13Z,2026-05-14T08:17:15Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-baseten,baseten_z04ygyq8nfn7,2026-05-14T18:00:00.000-07:00,2026-05-14T20:00:00.000-07:00,120,feed,Elevated errors in a single cluster,minor,Dedicated Inference
-together,together_197,2026-05-15T01:11:59Z,2026-05-15T02:07:06Z,55,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_198,2026-05-15T04:10:21Z,2026-05-15T04:37:27Z,27,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_199,2026-05-15T04:45:57Z,2026-05-15T05:07:04Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_200,2026-05-15T08:28:49Z,2026-05-15T08:43:54Z,15,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
-together,together_201,2026-05-15T17:07:51Z,2026-05-15T17:28:52Z,21,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
-baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
-together,together_202,2026-05-16T00:07:56Z,2026-05-16T00:47:07Z,39,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_203,2026-05-16T02:13:27Z,2026-05-16T02:26:07Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_204,2026-05-16T05:25:03Z,2026-05-16T05:50:09Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_205,2026-05-16T08:00:54Z,2026-05-16T08:25:10Z,24,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
-together,together_206,2026-05-16T19:12:35Z,2026-05-16T19:42:07Z,29,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
-together,together_207,2026-05-16T19:45:31Z,2026-05-16T21:03:18Z,77,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
-together,together_208,2026-05-17T06:59:58Z,2026-05-17T07:58:59Z,59,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_209,2026-05-17T08:55:05Z,2026-05-17T09:29:54Z,34,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_210,2026-05-17T13:12:28Z,2026-05-17T13:43:55Z,31,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
-together,together_211,2026-05-18T02:27:01Z,2026-05-18T02:40:08Z,13,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_212,2026-05-18T05:03:48Z,2026-05-18T05:28:51Z,25,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_213,2026-05-18T05:27:52Z,2026-05-18T05:50:46Z,22,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
-together,together_214,2026-05-18T13:13:06Z,2026-05-18T13:36:54Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_215,2026-05-18T13:56:58Z,2026-05-18T14:25:06Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_216,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_217,2026-05-19T06:44:57Z,2026-05-19T07:09:58Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_218,2026-05-19T07:24:18Z,2026-05-19T07:38:01Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_219,2026-05-19T13:20:53Z,2026-05-19T13:35:07Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_190,2026-05-15T01:11:59Z,2026-05-15T02:07:06Z,55,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_191,2026-05-15T04:45:57Z,2026-05-15T05:07:04Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_192,2026-05-15T08:28:49Z,2026-05-15T08:43:54Z,15,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+together,together_193,2026-05-15T17:07:51Z,2026-05-15T17:28:52Z,21,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
+together,together_194,2026-05-16T00:07:56Z,2026-05-16T00:47:07Z,39,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_195,2026-05-16T02:13:27Z,2026-05-16T02:26:07Z,12,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_196,2026-05-16T05:25:03Z,2026-05-16T05:50:09Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_197,2026-05-16T08:00:54Z,2026-05-16T08:25:10Z,24,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_198,2026-05-16T19:12:35Z,2026-05-16T19:42:07Z,29,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
+together,together_199,2026-05-16T19:45:31Z,2026-05-16T21:03:18Z,77,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
+together,together_200,2026-05-17T06:59:58Z,2026-05-17T07:58:59Z,59,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_201,2026-05-17T08:55:05Z,2026-05-17T09:29:54Z,34,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_202,2026-05-17T13:12:28Z,2026-05-17T13:43:55Z,31,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
+together,together_203,2026-05-18T02:27:01Z,2026-05-18T02:40:08Z,13,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_204,2026-05-18T05:03:48Z,2026-05-18T05:28:51Z,25,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_205,2026-05-18T05:27:52Z,2026-05-18T05:50:46Z,22,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_206,2026-05-18T13:13:06Z,2026-05-18T13:36:54Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_207,2026-05-18T13:56:58Z,2026-05-18T14:25:06Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_208,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_209,2026-05-19T06:44:57Z,2026-05-19T07:09:58Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_210,2026-05-19T13:20:53Z,2026-05-19T13:35:07Z,14,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 modal,modal_145,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
-together,together_220,2026-05-19T14:25:12Z,2026-05-19T14:47:07Z,21,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-together,together_221,2026-05-19T16:07:05Z,2026-05-19T16:35:36Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-baseten,baseten_23mb35cz5yz6,2026-05-19T18:40:54.155-07:00,2026-05-19T18:54:13.249-07:00,13,feed,Elevated errors for models in single region,minor,Dedicated Inference
-together,together_222,2026-05-20T00:46:26Z,2026-05-20T02:34:32Z,108,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,major,Qwen3 Coder 480B A35B Instruct FP8
-together,together_223,2026-05-20T02:33:48Z,2026-05-20T02:49:55Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_224,2026-05-20T03:52:19Z,2026-05-20T04:19:20Z,27,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_225,2026-05-20T08:28:22Z,2026-05-20T09:19:23Z,51,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_226,2026-05-20T09:34:21Z,2026-05-20T10:22:27Z,48,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_227,2026-05-20T10:30:22Z,2026-05-20T10:53:21Z,22,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_228,2026-05-20T10:58:39Z,2026-05-20T11:20:42Z,22,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_229,2026-05-20T11:19:51Z,2026-05-20T11:44:55Z,25,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_231,2026-05-20T12:09:37Z,2026-05-20T12:32:43Z,23,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_230,2026-05-20T12:14:56Z,2026-05-20T12:30:15Z,15,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
-together,together_233,2026-05-20T12:15:17Z,2026-05-20T13:29:25Z,74,feed,Pearl-ai Gemma 4 31B IT outage,major,Pearl-ai Gemma 4 31B IT
-together,together_232,2026-05-20T12:19:12Z,2026-05-20T12:33:55Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_234,2026-05-20T12:52:23Z,2026-05-20T13:37:21Z,44,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_235,2026-05-20T13:21:48Z,2026-05-20T13:45:37Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_237,2026-05-20T13:30:51Z,2026-05-20T14:17:48Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_238,2026-05-20T13:44:20Z,2026-05-20T14:31:22Z,47,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
-together,together_236,2026-05-20T13:49:21Z,2026-05-20T14:06:19Z,16,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_239,2026-05-20T14:37:26Z,2026-05-20T15:22:27Z,45,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_240,2026-05-20T15:31:32Z,2026-05-20T15:56:17Z,24,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_241,2026-05-20T16:10:23Z,2026-05-20T16:25:24Z,15,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-together,together_242,2026-05-20T19:25:52Z,2026-05-20T19:50:12Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_243,2026-05-22T04:58:46Z,2026-05-22T05:11:38Z,12,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_244,2026-05-23T12:41:57Z,2026-05-23T12:59:49Z,17,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_245,2026-05-25T21:51:54Z,2026-05-25T22:04:56Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_246,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
-together,together_247,2026-05-27T15:24:02Z,2026-05-27T16:16:16Z,52,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
-together,together_248,2026-05-28T10:03:18Z,2026-05-28T10:16:23Z,13,feed,Qwen3 Coder 480B A35B Instruct FP8 outage,minor,Qwen3 Coder 480B A35B Instruct FP8
-baseten,baseten_8d0l6vnghxk6,2026-05-29T12:31:24.628-07:00,2026-05-29T13:04:13.058-07:00,32,feed,Elevated async inference errors in a single cluster,minor,Dedicated Inference
-together,together_249,2026-05-29T15:43:10Z,2026-05-29T15:55:49Z,12,feed,Meta Llama 3.3 70B Instruct Turbo outage,minor,Meta Llama 3.3 70B Instruct Turbo
-together,together_250,2026-05-30T15:40:12Z,2026-05-30T15:52:27Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_251,2026-05-30T23:48:55Z,2026-05-31T00:01:56Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_252,2026-05-31T00:59:54Z,2026-05-31T01:13:54Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_253,2026-05-31T05:56:46Z,2026-05-31T06:11:12Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_211,2026-05-19T14:25:12Z,2026-05-19T14:47:07Z,21,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_212,2026-05-19T16:07:05Z,2026-05-19T16:35:36Z,28,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_213,2026-05-20T02:33:48Z,2026-05-20T02:49:55Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_214,2026-05-20T10:30:22Z,2026-05-20T10:53:21Z,22,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
+together,together_215,2026-05-20T10:58:39Z,2026-05-20T11:20:42Z,22,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_216,2026-05-20T11:19:51Z,2026-05-20T11:44:55Z,25,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_218,2026-05-20T12:09:37Z,2026-05-20T12:32:43Z,23,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_217,2026-05-20T12:14:56Z,2026-05-20T12:30:15Z,15,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_220,2026-05-20T12:15:17Z,2026-05-20T13:29:25Z,74,feed,Pearl-ai Gemma 4 31B IT outage,major,Pearl-ai Gemma 4 31B IT
+together,together_219,2026-05-20T12:19:12Z,2026-05-20T12:33:55Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_221,2026-05-20T13:21:48Z,2026-05-20T13:45:37Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_222,2026-05-20T13:30:51Z,2026-05-20T14:17:48Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_223,2026-05-20T13:44:20Z,2026-05-20T14:31:22Z,47,feed,Llama 3 8B Instruct Lite outage,minor,Llama 3 8B Instruct Lite
+together,together_224,2026-05-20T19:25:52Z,2026-05-20T19:50:12Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_225,2026-05-22T04:58:46Z,2026-05-22T05:11:38Z,12,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
+together,together_226,2026-05-23T12:41:57Z,2026-05-23T12:59:49Z,17,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_227,2026-05-25T21:51:54Z,2026-05-25T22:04:56Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_228,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_229,2026-05-27T15:24:02Z,2026-05-27T16:16:16Z,52,feed,ZAI GLM 5 FP4 outage,minor,ZAI GLM 5 FP4
+together,together_230,2026-05-29T15:43:10Z,2026-05-29T15:55:49Z,12,feed,Meta Llama 3.3 70B Instruct Turbo outage,minor,Meta Llama 3.3 70B Instruct Turbo
+together,together_231,2026-05-30T15:40:12Z,2026-05-30T15:52:27Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
+together,together_232,2026-05-30T23:48:55Z,2026-05-31T00:01:56Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_233,2026-05-31T00:59:54Z,2026-05-31T01:13:54Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
+together,together_234,2026-05-31T05:56:46Z,2026-05-31T06:11:12Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 fireworks,fireworks_38,2026-05-31T09:02:25Z,2026-05-31T09:05:04Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 modal,modal_146,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
-together,together_254,2026-06-01T05:46:04Z,2026-06-01T05:58:04Z,12,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
+together,together_235,2026-06-01T05:46:04Z,2026-06-01T05:58:04Z,12,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 modal,modal_147,2026-06-01T15:40:35Z,2026-06-01T16:53:52Z,73,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
 modal,modal_148,2026-06-01T16:39:00Z,2026-06-01T16:52:00Z,13,feed,Database incident affecting services,minor,
-together,together_256,2026-06-02T15:31:20Z,2026-06-02T15:55:23Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_255,2026-06-02T15:32:35Z,2026-06-02T15:50:34Z,17,feed,Whisper Large V3 outage,minor,Whisper Large V3
-together,together_257,2026-06-02T16:01:23Z,2026-06-02T16:19:19Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_258,2026-06-02T17:13:23Z,2026-06-02T17:31:22Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_259,2026-06-02T18:37:16Z,2026-06-02T19:14:18Z,37,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_260,2026-06-02T19:20:42Z,2026-06-02T20:03:30Z,42,feed,Whisper Large V3 outage,minor,Whisper Large V3
-baseten,baseten_yhr7cg1sttv2,2026-06-03T07:56:57.273-07:00,2026-06-03T10:11:42.000-07:00,134,feed,Slower than usual scale-ups for some models using H100s,minor,Dedicated Inference
+together,together_237,2026-06-02T15:31:20Z,2026-06-02T15:55:23Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_236,2026-06-02T15:32:35Z,2026-06-02T15:50:34Z,17,feed,Whisper Large V3 outage,minor,Whisper Large V3
+together,together_238,2026-06-02T16:01:23Z,2026-06-02T16:19:19Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_239,2026-06-02T17:13:23Z,2026-06-02T17:31:22Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_240,2026-06-02T18:37:16Z,2026-06-02T19:14:18Z,37,feed,Orpheus TTS outage,minor,Orpheus TTS
+together,together_241,2026-06-02T19:20:42Z,2026-06-02T20:03:30Z,42,feed,Whisper Large V3 outage,minor,Whisper Large V3
 modal,modal_149,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 fireworks,fireworks_39,2026-06-03T15:46:11Z,2026-06-03T15:48:41Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 fireworks,fireworks_40,2026-06-03T15:55:17Z,2026-06-03T16:03:30Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
