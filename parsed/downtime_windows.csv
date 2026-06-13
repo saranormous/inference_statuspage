@@ -81,7 +81,6 @@ modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is
 modal,modal_80,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
 modal,modal_81,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
 modal,modal_82,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
-baseten,baseten_p4s4zsjhg198,2025-06-12T11:17:41.000-07:00,2025-06-12T11:33:01.010-07:00,15,feed,Major outage in GCP with partial impact on several customers,none,Dedicated Inference
 baseten,baseten_6tz79y70lfqj,2025-06-20T10:38:54.420-07:00,2025-06-20T10:44:28.417-07:00,5,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_83,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
 modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
@@ -471,3 +470,5 @@ together,together_239,2026-06-08T11:05:44Z,2026-06-08T11:40:29Z,34,feed,Google G
 together,together_240,2026-06-09T09:12:45Z,2026-06-09T09:41:36Z,28,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_241,2026-06-09T16:44:55Z,2026-06-09T17:10:26Z,25,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_242,2026-06-12T16:25:45Z,2026-06-12T17:29:13Z,63,feed,DeepSeek V4 Pro outage,major,DeepSeek V4 Pro
+baseten,baseten_9xtd3fhj921n,2026-06-13T11:25:24.361-07:00,2026-06-13T18:27:54Z,0,feed,Elevated errors for models in a single cluster,minor,Dedicated Inference
+together,together_243,2026-06-13T14:20:44Z,2026-06-13T14:50:27Z,29,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
