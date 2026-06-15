@@ -81,7 +81,6 @@ modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is
 modal,modal_80,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
 modal,modal_81,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
 modal,modal_82,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
-baseten,baseten_6tz79y70lfqj,2025-06-20T10:38:54.420-07:00,2025-06-20T10:44:28.417-07:00,5,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_83,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
 modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
 modal,modal_85,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
@@ -468,3 +467,5 @@ together,together_236,2026-06-14T06:19:44Z,2026-06-14T06:45:00Z,25,feed,Google G
 together,together_237,2026-06-14T08:10:59Z,2026-06-14T08:24:50Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_238,2026-06-14T19:36:22Z,2026-06-14T19:59:51Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_239,2026-06-14T21:20:44Z,2026-06-14T21:45:05Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+baseten,baseten_40m6gzr3002p,2026-06-15T09:14:00.820-07:00,2026-06-15T09:58:16.937-07:00,44,feed,Elevated errors for models in a single EU cloud provider,minor,Dedicated Inference
+together,together_240,2026-06-15T16:31:28Z,2026-06-15T16:46:33Z,15,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
