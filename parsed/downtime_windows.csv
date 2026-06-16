@@ -469,3 +469,6 @@ together,together_237,2026-06-15T16:31:28Z,2026-06-15T16:46:33Z,15,feed,Pearl-ai
 together,together_238,2026-06-16T01:30:55Z,2026-06-16T01:44:50Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_239,2026-06-16T04:46:18Z,2026-06-16T05:01:15Z,14,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_240,2026-06-16T07:36:23Z,2026-06-16T07:51:20Z,14,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
+modal,modal_150,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
+modal,modal_151,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
+modal,modal_152,2026-06-16T17:18:00Z,2026-06-16T17:18:00Z,0,feed,Image builds are down,major,Image builds
