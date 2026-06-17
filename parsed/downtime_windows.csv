@@ -469,3 +469,4 @@ modal,modal_150,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume oper
 modal,modal_151,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
 modal,modal_152,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds are down,major,Image builds
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
+together,together_238,2026-06-17T15:31:46Z,2026-06-17T15:43:57Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
