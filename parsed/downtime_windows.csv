@@ -468,7 +468,7 @@ modal,modal_152,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds 
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
 together,together_236,2026-06-17T15:31:46Z,2026-06-17T15:43:57Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_237,2026-06-18T01:04:13Z,2026-06-18T01:29:39Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
-baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T13:06:29Z,0,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
+baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T07:30:17.695-07:00,103,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
 together,together_238,2026-06-18T06:29:54Z,2026-06-18T06:47:53Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_239,2026-06-18T06:51:02Z,2026-06-18T07:20:30Z,29,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 fireworks,fireworks_32,2026-06-18T07:10:07Z,2026-06-18T07:18:25Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
