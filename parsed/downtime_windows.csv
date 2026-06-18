@@ -86,7 +86,6 @@ modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web
 modal,modal_85,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
 modal,modal_86,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
 modal,modal_87,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
-baseten,baseten_h3xkkd16z72v,2025-07-16T09:02:34.000-07:00,2025-07-16T11:54:34.101-07:00,172,feed,Elevated inference latencies in 3 clusters,minor,Dedicated Inference
 baseten,baseten_mb2mqcd34dt7,2025-07-19T21:14:40.257-07:00,2025-07-19T22:41:17.866-07:00,86,feed,DeepSeek and Llama model APIs are down. Dedicated inference is *not* affected.,none,Model APIs
 baseten,baseten_xk4jypqwx42f,2025-07-19T22:48:47.561-07:00,2025-07-19T22:55:18.559-07:00,6,feed,Elevated errors in model APIs. Dedicated inference is *not* affected.,major,Model APIs
 modal,modal_88,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
@@ -469,6 +468,8 @@ modal,modal_152,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds 
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
 together,together_236,2026-06-17T15:31:46Z,2026-06-17T15:43:57Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 together,together_237,2026-06-18T01:04:13Z,2026-06-18T01:29:39Z,25,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T13:06:29Z,0,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
 together,together_238,2026-06-18T06:29:54Z,2026-06-18T06:47:53Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_239,2026-06-18T06:51:02Z,2026-06-18T07:20:30Z,29,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 fireworks,fireworks_32,2026-06-18T07:10:07Z,2026-06-18T07:18:25Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_240,2026-06-18T10:46:47Z,2026-06-18T10:59:54Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
