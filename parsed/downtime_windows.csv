@@ -493,3 +493,4 @@ together,together_254,2026-06-20T20:46:54Z,2026-06-20T21:04:51Z,17,feed,Google G
 together,together_255,2026-06-20T21:39:44Z,2026-06-20T23:24:58Z,105,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
 fireworks,fireworks_36,2026-06-20T23:38:30Z,2026-06-20T23:41:14Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
 together,together_256,2026-06-20T23:49:49Z,2026-06-21T00:13:57Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_257,2026-06-21T12:03:24Z,2026-06-21T12:18:32Z,15,feed,GLM 5.2 outage,minor,GLM 5.2
