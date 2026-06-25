@@ -475,3 +475,4 @@ together,together_236,2026-06-21T17:48:35Z,2026-06-21T18:03:21Z,14,feed,GLM 5.2 
 baseten,baseten_36p8wdb70csl,2026-06-22T17:10:14.425-07:00,2026-06-22T17:54:43.697-07:00,44,feed,Slower than usual scale-ups. High failure rate for new model deploys. Existing replicas aren't impacted.,minor,"Dedicated Inference,Model Management API"
 together,together_237,2026-06-23T15:59:49Z,2026-06-23T16:17:34Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_238,2026-06-25T11:15:17Z,2026-06-25T11:35:33Z,20,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_239,2026-06-25T16:47:32Z,2026-06-25T16:59:41Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
