@@ -485,3 +485,7 @@ baseten,baseten_qhjwrnwd7wb3,2026-06-26T23:35:31.078-07:00,2026-06-26T23:50:31.6
 together,together_245,2026-06-26T23:43:09Z,2026-06-27T00:08:04Z,24,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
 together,together_246,2026-06-27T04:40:18Z,2026-06-27T04:52:23Z,12,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_247,2026-06-27T06:37:12Z,2026-06-27T06:55:28Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
+together,together_248,2026-06-27T13:52:06Z,2026-06-27T14:07:25Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
+fireworks,fireworks_38,2026-06-27T15:06:39Z,2026-06-27T15:10:07Z,3,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_39,2026-06-27T15:45:44Z,2026-06-27T15:49:50Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_249,2026-06-27T17:49:01Z,2026-06-27T18:07:09Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
