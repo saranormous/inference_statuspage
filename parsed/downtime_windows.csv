@@ -86,9 +86,7 @@ modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web
 modal,modal_85,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
 modal,modal_86,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
 modal,modal_87,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
-baseten,baseten_xk4jypqwx42f,2025-07-19T22:48:47.561-07:00,2025-07-19T22:55:18.559-07:00,6,feed,Elevated errors in model APIs. Dedicated inference is *not* affected.,major,Model APIs
 modal,modal_88,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
-baseten,baseten_2wpr5xp5hf0l,2025-07-22T12:09:21.337-07:00,2025-07-22T12:24:21.296-07:00,14,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_89,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
 baseten,baseten_j8b9c9l30xpx,2025-07-23T11:32:05.000-07:00,2025-07-23T11:43:42.951-07:00,11,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 modal,modal_90,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
@@ -481,4 +479,10 @@ together,together_241,2026-06-25T19:30:56Z,2026-06-25T19:51:51Z,20,feed,Nemotron
 together,together_242,2026-06-25T21:48:50Z,2026-06-25T22:09:53Z,21,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
 together,together_243,2026-06-25T22:18:51Z,2026-06-25T23:45:56Z,87,feed,Nemotron 3 Ultra 550B A55B outage,major,Nemotron 3 Ultra 550B A55B
 together,together_244,2026-06-26T08:46:10Z,2026-06-26T08:58:12Z,12,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
+baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
 together,together_245,2026-06-26T16:27:14Z,2026-06-26T17:17:05Z,49,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+baseten,baseten_mm1m26kdthpx,2026-06-26T16:41:14.000-07:00,2026-06-27T00:35:45Z,0,feed,Elevated model deployment failures. **Inference is not affected**,minor,Model Management API
+together,together_246,2026-06-26T19:21:04Z,2026-06-26T21:05:19Z,104,feed,Qwen3.5 397B A17B outage,major,Qwen3.5 397B A17B
+fireworks,fireworks_37,2026-06-26T19:31:12Z,2026-06-26T19:33:16Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_247,2026-06-26T22:50:58Z,2026-06-26T23:38:31Z,47,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
+together,together_248,2026-06-26T23:43:09Z,2026-06-27T00:08:04Z,24,feed,Qwen3.5 397B A17B outage,minor,Qwen3.5 397B A17B
