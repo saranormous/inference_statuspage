@@ -490,3 +490,5 @@ fireworks,fireworks_38,2026-06-27T15:06:39Z,2026-06-27T15:10:07Z,3,feed,OpenAI G
 fireworks,fireworks_39,2026-06-27T15:45:44Z,2026-06-27T15:49:50Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_249,2026-06-27T17:49:01Z,2026-06-27T18:07:09Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
 together,together_250,2026-06-28T13:11:35Z,2026-06-28T14:14:45Z,63,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
+fireworks,fireworks_40,2026-06-29T05:52:13Z,2026-06-29T05:54:59Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_41,2026-06-29T07:18:36Z,2026-06-29T07:24:17Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
