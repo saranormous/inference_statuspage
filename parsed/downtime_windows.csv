@@ -460,3 +460,4 @@ fireworks,fireworks_40,2026-06-29T07:18:36Z,2026-06-29T07:24:17Z,5,feed,OpenAI G
 baseten,baseten_bj0gvndmpyf6,2026-06-29T11:26:41.000-07:00,2026-06-29T12:01:52.000-07:00,35,feed,Elevated error rates on GLM 5.2 Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 fireworks,fireworks_41,2026-06-29T15:40:22Z,2026-06-29T15:49:34Z,9,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 modal,modal_153,2026-06-29T21:02:00Z,2026-06-29T21:02:00Z,0,feed,Storage degraded - impacting app creation,minor,
+fireworks,fireworks_42,2026-06-30T11:40:08Z,2026-06-30T11:42:54Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
