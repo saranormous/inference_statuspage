@@ -469,3 +469,6 @@ fireworks,fireworks_46,2026-06-30T16:46:09Z,2026-06-30T16:48:38Z,2,feed,OpenAI G
 fireworks,fireworks_47,2026-06-30T21:04:30Z,2026-06-30T21:09:37Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_219,2026-06-30T21:43:21Z,2026-06-30T22:07:27Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_220,2026-06-30T23:18:16Z,2026-07-01T00:33:16Z,75,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+together,together_221,2026-07-01T04:56:35Z,2026-07-01T05:14:36Z,18,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_222,2026-07-01T06:18:29Z,2026-07-01T06:36:16Z,17,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
+together,together_223,2026-07-01T07:03:19Z,2026-07-01T07:16:45Z,13,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
