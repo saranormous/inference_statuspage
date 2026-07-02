@@ -89,7 +89,6 @@ modal,modal_87,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions,
 modal,modal_88,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
 modal,modal_89,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
 modal,modal_90,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
-baseten,baseten_3mdm1dtt570h,2025-07-25T05:21:20.213-07:00,2025-07-25T05:58:30.138-07:00,37,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
 baseten,baseten_xpvch69rhydw,2025-08-05T21:18:47.749-07:00,2025-08-05T21:34:20.176-07:00,15,feed,GCP is reporting elevated packet loss in us-central1,minor,"Dedicated Inference,Model APIs"
 modal,modal_91,2025-08-12T05:38:00Z,2025-08-12T06:30:00Z,52,feed,Degraded container scheduling,minor,GPU functions
 modal,modal_92,2025-08-19T15:01:00Z,2025-08-19T15:24:00Z,23,feed,Image builds / volumes experiencing issues,minor,"Volumes,Image builds"
@@ -469,7 +468,10 @@ fireworks,fireworks_46,2026-06-30T16:46:09Z,2026-06-30T16:48:38Z,2,feed,OpenAI G
 fireworks,fireworks_47,2026-06-30T21:04:30Z,2026-06-30T21:09:37Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_219,2026-06-30T21:43:21Z,2026-06-30T22:07:27Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_220,2026-06-30T23:18:16Z,2026-07-01T00:33:16Z,75,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
+baseten,baseten_k01yx61pmsqg,2026-07-01T03:30:46.000-07:00,2026-07-01T04:30:11.000-07:00,59,feed,Elevated errors in a single EU cluster,major,Dedicated Inference
 together,together_221,2026-07-01T04:56:35Z,2026-07-01T05:14:36Z,18,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_222,2026-07-01T06:18:29Z,2026-07-01T06:36:16Z,17,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_223,2026-07-01T07:03:19Z,2026-07-01T07:16:45Z,13,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_224,2026-07-01T13:11:29Z,2026-07-01T14:56:27Z,104,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
+together,together_225,2026-07-01T18:22:15Z,2026-07-01T18:41:36Z,19,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
+together,together_226,2026-07-01T18:46:27Z,2026-07-01T19:21:19Z,34,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
