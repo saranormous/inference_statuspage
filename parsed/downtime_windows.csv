@@ -97,7 +97,6 @@ modal,modal_95,2025-08-26T14:31:00Z,2025-08-26T15:10:00Z,39,feed,Modal.com dashb
 modal,modal_96,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S scheduling latency is high",minor,
 modal,modal_97,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
 modal,modal_98,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
-baseten,baseten_txq6n57kv1pv,2025-09-24T17:17:46.657-07:00,2025-09-24T18:15:10.400-07:00,57,feed,Build Infrastructure degraded due to Dockerhub outage,major,Web Application
 modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
 baseten,baseten_fmwnrh1vsjlt,2025-10-13T12:31:00.255-07:00,2025-10-13T12:45:23.095-07:00,14,feed,High latency on Baseten Web Application and Model Management APIs. Inference is unaffected.,minor,"Model Management API,Web Application"
 modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
@@ -473,7 +472,8 @@ together,together_223,2026-07-01T18:22:15Z,2026-07-01T18:41:36Z,19,feed,Pearl-ai
 together,together_224,2026-07-01T18:46:27Z,2026-07-01T19:21:19Z,34,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_225,2026-07-02T01:49:19Z,2026-07-02T02:14:22Z,25,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 baseten,baseten_4v8v1mwdzrpq,2026-07-02T15:00:12.000-07:00,2026-07-02T16:13:51.428-07:00,73,feed,Degraded metrics performance in dashboard and API. **Inference is not affected**,minor,Model Management API
-baseten,baseten_dqwfrxx93m21,2026-07-02T17:21:01.047-07:00,2026-07-03T00:30:34Z,0,feed,Elevated inference 500s for a subset of models deployed in 1 cluster,minor,Dedicated Inference
+baseten,baseten_dqwfrxx93m21,2026-07-02T17:21:01.047-07:00,2026-07-02T17:36:48.646-07:00,15,feed,Elevated inference 500s for a subset of models deployed in 1 cluster,minor,Dedicated Inference
 together,together_226,2026-07-02T17:59:48Z,2026-07-02T18:25:00Z,25,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_227,2026-07-02T18:44:47Z,2026-07-02T19:04:51Z,20,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_228,2026-07-02T19:54:55Z,2026-07-02T20:49:56Z,55,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
+baseten,baseten_1xrz0dzks8y1,2026-07-02T19:59:34.232-07:00,2026-07-02T21:25:22.479-07:00,85,feed,Elevated errors for GLM 5.2 on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
