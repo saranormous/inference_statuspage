@@ -479,3 +479,5 @@ together,together_228,2026-07-02T19:54:55Z,2026-07-02T20:49:56Z,55,feed,Nemotron
 baseten,baseten_1xrz0dzks8y1,2026-07-02T19:59:34.232-07:00,2026-07-02T21:25:22.479-07:00,85,feed,Elevated errors for GLM 5.2 on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
 together,together_229,2026-07-03T10:53:36Z,2026-07-03T11:08:50Z,15,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 fireworks,fireworks_48,2026-07-03T15:01:19Z,2026-07-03T15:03:53Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_230,2026-07-03T20:37:42Z,2026-07-03T21:20:41Z,42,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_231,2026-07-03T21:54:44Z,2026-07-03T22:29:48Z,35,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
