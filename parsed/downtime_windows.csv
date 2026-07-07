@@ -98,7 +98,6 @@ modal,modal_96,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S sch
 modal,modal_97,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
 modal,modal_98,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
 modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
-baseten,baseten_fmwnrh1vsjlt,2025-10-13T12:31:00.255-07:00,2025-10-13T12:45:23.095-07:00,14,feed,High latency on Baseten Web Application and Model Management APIs. Inference is unaffected.,minor,"Model Management API,Web Application"
 modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
 baseten,baseten_x4zc1xry34fs,2025-10-20T00:15:50.000-07:00,2025-10-20T02:31:37.000-07:00,135,feed,Baseten Web Application is down due to AWS outage. Inference is unaffected.,minor,Web Application
 modal,modal_101,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
@@ -485,4 +484,5 @@ fireworks,fireworks_53,2026-07-04T11:43:13Z,2026-07-04T11:54:11Z,10,feed,OpenAI 
 fireworks,fireworks_54,2026-07-04T12:10:12Z,2026-07-04T12:33:08Z,22,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 fireworks,fireworks_55,2026-07-04T12:37:13Z,2026-07-04T12:51:35Z,14,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 fireworks,fireworks_56,2026-07-04T14:43:19Z,2026-07-04T14:57:16Z,13,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+baseten,baseten_2jf94qj81np7,2026-07-06T14:08:27.631-07:00,2026-07-06T14:22:15.137-07:00,13,feed,Elevated inference 500s — network outage in our cloud provider in Delaware,minor,Dedicated Inference
 fireworks,fireworks_57,2026-07-06T15:40:21Z,2026-07-06T15:48:40Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
