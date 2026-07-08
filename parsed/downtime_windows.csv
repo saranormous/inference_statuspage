@@ -484,3 +484,7 @@ baseten,baseten_2jf94qj81np7,2026-07-06T14:08:27.631-07:00,2026-07-06T14:22:15.1
 fireworks,fireworks_57,2026-07-06T15:40:21Z,2026-07-06T15:48:40Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 together,together_224,2026-07-07T00:34:04Z,2026-07-07T00:55:33Z,21,feed,ZAI GLM 5.1 outage,minor,ZAI GLM 5.1
 fireworks,fireworks_58,2026-07-07T02:32:13Z,2026-07-07T02:35:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+fireworks,fireworks_59,2026-07-07T18:31:00Z,2026-07-07T18:39:50Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_225,2026-07-07T19:42:10Z,2026-07-07T19:58:04Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
+fireworks,fireworks_60,2026-07-07T21:30:38Z,2026-07-07T21:50:08Z,19,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_61,2026-07-07T22:13:25Z,2026-07-07T22:18:10Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
