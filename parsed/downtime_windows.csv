@@ -100,7 +100,6 @@ modal,modal_98,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from moda
 modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
 modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
 modal,modal_101,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
-baseten,baseten_9f069dvppqpq,2025-10-20T12:38:44.000-07:00,2025-10-20T19:15:47.154-07:00,397,feed,Login timing out on webapp,minor,Web Application
 baseten,baseten_c2smd7s42rhl,2025-10-22T17:29:29.408-07:00,2025-10-22T17:44:38.134-07:00,15,feed,Model logs are slow to load in a single cluster. Inference is not affected.,minor,Web Application
 baseten,baseten_276pjvpkllss,2025-10-24T14:46:58.087-07:00,2025-10-24T19:00:53.166-07:00,253,feed,Slower than usual scale-ups in 2 regions,minor,Dedicated Inference
 modal,modal_102,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
@@ -481,3 +480,5 @@ fireworks,fireworks_59,2026-07-07T21:30:38Z,2026-07-07T21:50:08Z,19,feed,OpenAI 
 fireworks,fireworks_60,2026-07-07T22:13:25Z,2026-07-07T22:18:10Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_mpxvkc4rcj0s,2026-07-08T09:50:15.000-07:00,2026-07-08T11:45:29.000-07:00,115,feed,Metrics degradation in UI and API. **Inference not affected**,minor,Model Management API
 fireworks,fireworks_61,2026-07-08T13:55:10Z,2026-07-08T14:03:20Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+baseten,baseten_66x9fhdch2jt,2026-07-09T07:14:42.000-07:00,2026-07-09T07:28:16.000-07:00,13,feed,Elevated inference 500s for models deployed in 1 US-east cluster,minor,Dedicated Inference
+together,together_219,2026-07-09T14:56:30Z,2026-07-09T15:26:28Z,29,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
