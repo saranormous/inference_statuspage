@@ -483,3 +483,5 @@ fireworks,fireworks_61,2026-07-08T13:55:10Z,2026-07-08T14:03:20Z,8,feed,OpenAI G
 baseten,baseten_66x9fhdch2jt,2026-07-09T07:14:42.000-07:00,2026-07-09T07:28:16.000-07:00,13,feed,Elevated inference 500s for models deployed in 1 US-east cluster,minor,Dedicated Inference
 together,together_219,2026-07-09T14:56:30Z,2026-07-09T15:26:28Z,29,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 fireworks,fireworks_62,2026-07-09T22:31:20Z,2026-07-09T22:33:46Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+together,together_220,2026-07-10T02:24:54Z,2026-07-10T02:59:50Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_221,2026-07-10T05:43:09Z,2026-07-10T06:04:09Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
