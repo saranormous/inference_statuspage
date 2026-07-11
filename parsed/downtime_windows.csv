@@ -454,3 +454,6 @@ together,together_187,2026-07-10T05:43:09Z,2026-07-10T06:04:09Z,21,feed,Kimi K2.
 together,together_188,2026-07-10T14:26:20Z,2026-07-10T14:46:28Z,20,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_189,2026-07-11T05:46:49Z,2026-07-11T06:27:02Z,40,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 fireworks,fireworks_63,2026-07-11T07:53:18Z,2026-07-11T07:56:01Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_190,2026-07-11T13:43:10Z,2026-07-11T14:01:07Z,17,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
+together,together_191,2026-07-11T15:17:49Z,2026-07-11T15:29:49Z,12,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
+together,together_192,2026-07-11T16:21:26Z,2026-07-11T16:36:51Z,15,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
