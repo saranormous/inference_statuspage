@@ -454,3 +454,5 @@ baseten,baseten_dxz0s6v14mj9,2026-07-12T17:04:01.056-07:00,2026-07-12T19:10:34.3
 together,together_189,2026-07-12T18:49:09Z,2026-07-12T19:04:18Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
 fireworks,fireworks_62,2026-07-12T22:11:08Z,2026-07-12T22:14:08Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 together,together_190,2026-07-13T05:23:57Z,2026-07-13T05:38:52Z,14,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+fireworks,fireworks_63,2026-07-14T02:50:46Z,2026-07-14T02:54:05Z,3,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
+fireworks,fireworks_64,2026-07-14T05:04:09Z,2026-07-14T05:10:00Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
