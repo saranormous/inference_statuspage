@@ -439,6 +439,8 @@ together,together_188,2026-07-16T12:39:39Z,2026-07-16T13:20:13Z,40,feed,OpenAI G
 together,together_189,2026-07-16T19:34:25Z,2026-07-16T20:20:43Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
 together,together_190,2026-07-16T20:12:06Z,2026-07-16T20:41:27Z,29,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 together,together_191,2026-07-16T22:15:59Z,2026-07-16T23:02:53Z,46,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-baseten,baseten_rtc6l0sdjwyr,2026-07-17T17:22:55.697-07:00,2026-07-18T00:24:00Z,0,feed,Elevated inference errors in 1 Canada cluster due to provider network outage,minor,Dedicated Inference
+baseten,baseten_rtc6l0sdjwyr,2026-07-17T17:22:55.697-07:00,2026-07-17T17:28:34.425-07:00,5,feed,Elevated inference errors in 1 Canada cluster due to provider network outage,minor,Dedicated Inference
 fireworks,fireworks_48,2026-07-17T19:29:11Z,2026-07-17T19:32:05Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 fireworks,fireworks_49,2026-07-17T19:41:19Z,2026-07-17T19:47:13Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
+together,together_192,2026-07-18T03:16:45Z,2026-07-18T03:34:33Z,17,feed,Inkling outage,minor,Inkling
+together,together_193,2026-07-18T05:43:31Z,2026-07-18T05:55:33Z,12,feed,Inkling outage,minor,Inkling
