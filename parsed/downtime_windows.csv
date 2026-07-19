@@ -1,448 +1,51 @@
 provider,incident_id,downtime_start,downtime_end,duration_minutes,source,title,impact,components
-modal,modal_1,2023-03-17T22:43:20Z,2023-03-17T22:48:13Z,4,feed,"Webhooks and API, Webhooks, Function scheduling and execution, and 1 other service are down",major,
-modal,modal_2,2023-03-18T09:21:11Z,2023-03-18T09:22:10Z,0,feed,Webhooks and Function scheduling and execution are down,major,
-modal,modal_3,2023-03-21T07:07:27Z,2023-03-21T07:09:45Z,2,feed,CPU functions is down,major,CPU functions
-modal,modal_4,2023-03-26T14:00:00Z,2023-03-26T18:00:00Z,240,feed,Upgrading file-system encryption,major,
-modal,modal_5,2023-04-05T20:25:11Z,2023-04-05T20:26:45Z,1,feed,Webhooks and Function scheduling and execution are down,major,
-modal,modal_6,2023-04-12T22:17:42Z,2023-04-12T22:28:40Z,10,feed,CPU functions is down,major,CPU functions
-modal,modal_7,2023-04-14T03:59:19Z,2023-04-14T04:11:52Z,12,feed,CPU functions is down,major,CPU functions
-modal,modal_8,2023-04-20T00:00:00Z,2023-04-20T00:00:00Z,0,feed,Updates logging system and main database,minor,
-modal,modal_9,2023-04-20T07:21:18Z,2023-04-20T07:33:51Z,12,feed,"Webhooks and API, Webhooks, Function scheduling and execution, and 1 other service are down",major,
-modal,modal_10,2023-05-17T14:30:00Z,2023-05-17T14:30:00Z,0,feed,Upgrading network stack,minor,
-modal,modal_11,2023-05-25T17:00:00Z,2023-05-25T17:00:00Z,0,feed,Updating networking configuration,minor,
-modal,modal_12,2023-06-09T15:00:00Z,2023-06-09T15:00:00Z,0,feed,Database upgrade,minor,
-modal,modal_13,2023-06-13T20:31:00Z,2023-06-13T20:58:00Z,27,feed,Service degraded (upstream AWS outage),major,
-modal,modal_14,2023-06-19T20:02:40Z,2023-06-19T20:11:50Z,9,feed,Webhooks and Function scheduling and execution are down,major,
-modal,modal_15,2023-06-20T15:00:00Z,2023-06-20T15:00:00Z,0,feed,Upgrading databases,minor,
-modal,modal_16,2023-06-28T22:06:25Z,2023-06-28T22:09:18Z,2,feed,Webhooks and Function scheduling and execution are down,major,
-modal,modal_17,2023-07-02T23:09:27Z,2023-07-02T23:10:31Z,1,feed,CPU functions is down,major,CPU functions
-modal,modal_18,2023-07-28T19:00:00Z,2023-07-28T19:00:00Z,0,feed,Network maintenance,minor,
-modal,modal_19,2023-08-01T09:18:51Z,2023-08-01T09:22:16Z,3,feed,Webhooks and Function scheduling and execution are down,major,
-modal,modal_20,2023-08-10T13:00:00Z,2023-08-10T13:00:00Z,0,feed,Network maintenance,minor,
-modal,modal_21,2023-08-11T09:11:00Z,2023-08-11T09:17:00Z,6,feed,DNS issues on Oracle Cloud,minor,
-modal,modal_22,2023-08-19T09:14:25Z,2023-08-19T16:24:55Z,430,feed,"CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, GPU functions on AWS, GPU functions on GCP, GPU functions on OCI, and 4 other services are down",major,"CPU functions,GPU functions"
-modal,modal_23,2023-09-07T21:37:41Z,2023-09-07T21:43:55Z,6,feed,Web endpoints is down,major,Web endpoints
-modal,modal_24,2023-09-08T20:39:57Z,2023-09-08T21:59:40Z,79,feed,"CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, Web endpoints, and 2 other services are down",major,"CPU functions,Web endpoints"
-modal,modal_25,2023-09-21T18:00:00Z,2023-09-21T19:37:00Z,97,feed,Degraded performance in functions,minor,
-modal,modal_26,2023-09-29T18:00:00Z,2023-09-29T18:00:00Z,0,feed,Network maintenance,minor,
-modal,modal_27,2023-10-04T19:56:08Z,2023-10-04T19:58:08Z,2,feed,Web endpoints is down,major,Web endpoints
-modal,modal_28,2023-10-11T17:29:21Z,2023-10-11T17:32:52Z,3,feed,GPU functions on GCP and Web endpoints are down,major,"GPU functions,Web endpoints"
-modal,modal_29,2023-10-14T14:07:48Z,2023-10-14T14:26:38Z,18,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
-modal,modal_30,2023-10-16T15:00:00Z,2023-10-16T15:00:00Z,0,feed,Upgrading system components,minor,
-modal,modal_31,2023-10-24T16:47:00Z,2023-10-24T17:00:00Z,13,feed,Performance degradation,minor,
-modal,modal_32,2023-10-27T13:13:17Z,2023-10-27T14:35:35Z,82,feed,"GPU functions on GCP, GPU functions on OCI, API, Web endpoints, and 2 other services are down",major,"GPU functions,Web endpoints"
-modal,modal_33,2023-11-10T02:39:58Z,2023-11-10T02:44:22Z,4,feed,"CPU functions on GCP, CPU functions on OCI, Web endpoints, and 1 other service are down",major,"CPU functions,Web endpoints"
-modal,modal_34,2023-11-14T16:39:30Z,2023-11-14T16:46:52Z,7,feed,"CPU functions on AWS, CPU functions on GCP, CPU functions on OCI, Web endpoints, and 2 other services are down",major,"CPU functions,Web endpoints"
-modal,modal_35,2023-12-25T23:56:22Z,2023-12-26T15:48:16Z,951,feed,Web endpoints is down,major,Web endpoints
-modal,modal_36,2023-12-26T01:40:00Z,2023-12-26T01:40:00Z,0,feed,Web endpoint incident resolved,minor,Web endpoints
-modal,modal_37,2024-01-08T19:04:53Z,2024-01-08T19:38:32Z,33,feed,Web endpoints is down,major,Web endpoints
-modal,modal_38,2024-01-09T18:29:27Z,2024-01-09T20:52:47Z,143,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
-modal,modal_39,2024-01-17T04:59:00Z,2024-01-17T04:59:00Z,0,feed,Database upgrades,minor,
-modal,modal_40,2024-01-18T02:44:44Z,2024-01-18T08:52:00Z,367,feed,"Frontend, Web API, and 1 other service are down",major,"Frontend,Web API"
-modal,modal_41,2024-01-18T15:46:58Z,2024-01-18T23:07:56Z,440,feed,Frontend and Web API are down,major,"Frontend,Web API"
-modal,modal_42,2024-02-01T09:00:00Z,2024-02-01T09:00:00Z,0,feed,Database upgrade,minor,
-modal,modal_43,2024-02-14T12:20:00Z,2024-02-14T12:20:00Z,0,feed,DNS issues causing website downtime and degradation of the service,major,
-modal,modal_44,2024-02-27T00:32:39Z,2024-02-27T00:39:51Z,7,feed,Web endpoints is down,major,Web endpoints
-modal,modal_45,2024-03-07T03:57:23Z,2024-03-07T04:02:29Z,5,feed,Web endpoints is down,major,Web endpoints
-modal,modal_46,2024-03-20T19:00:00Z,2024-03-20T19:00:00Z,0,feed,Database upgrade,minor,
-modal,modal_47,2024-03-22T07:00:00Z,2024-03-22T07:00:00Z,0,feed,Database migration,minor,
-modal,modal_48,2024-04-05T04:00:00Z,2024-04-05T04:00:00Z,0,feed,Database migration,minor,
-modal,modal_49,2024-04-07T16:50:00Z,2024-04-07T16:50:00Z,0,feed,False alerts for downtime,major,
-modal,modal_50,2024-04-22T14:02:00Z,2024-04-22T15:41:00Z,99,feed,Database I/O load,major,
-modal,modal_51,2024-05-20T07:37:26Z,2024-05-20T07:42:07Z,4,feed,"CPU functions on AWS, CPU functions on GCP, and 4 other services are down",major,CPU functions
-modal,modal_52,2024-05-30T18:00:00Z,2024-05-30T18:00:00Z,0,feed,modal.com network ingress rollover,minor,
-modal,modal_53,2024-06-05T22:36:40Z,2024-06-05T22:44:34Z,7,feed,GPU functions on GCP and Web endpoints are down,major,"GPU functions,Web endpoints"
-modal,modal_54,2024-06-14T14:16:04Z,2024-06-14T14:47:03Z,30,feed,"CPU functions on AWS, CPU functions on GCP, and 4 other services are down",major,CPU functions
-modal,modal_55,2024-07-12T16:50:11Z,2024-07-12T23:35:09Z,404,feed,"CPU functions on GCP, Web endpoints, and 1 other service are down",major,"CPU functions,Web endpoints"
-modal,modal_56,2024-07-16T17:53:00Z,2024-07-16T18:43:00Z,50,feed,Modal function executions are degraded,minor,
-modal,modal_57,2024-07-25T06:50:00Z,2024-07-25T06:50:00Z,0,feed,Ephemeral apps and image builds are degraded.,minor,Image builds
-modal,modal_58,2024-09-13T17:59:00Z,2024-09-13T17:59:00Z,0,feed,Container filesystem 'file not found' bug,minor,
-modal,modal_59,2024-09-24T17:51:00Z,2024-09-24T17:51:00Z,0,feed,CPU container performance degradation from over-scheduling on GCE n1-standard instance class,minor,CPU functions
-modal,modal_60,2024-09-30T21:14:48Z,2024-09-30T21:17:34Z,2,feed,Image builds is down,major,Image builds
-modal,modal_61,2024-10-31T14:30:37Z,2024-10-31T14:52:01Z,21,feed,Volumes is down,major,Volumes
-modal,modal_62,2024-10-31T15:00:18Z,2024-10-31T15:00:18Z,0,feed,modal.com DNS updates,minor,
-modal,modal_63,2024-12-04T16:00:00Z,2024-12-04T16:00:00Z,0,feed,Upgrading system components,minor,
-modal,modal_64,2024-12-05T18:02:30Z,2024-12-05T18:04:36Z,2,feed,Snapshot restores (beta) is down,major,Snapshot restores
-modal,modal_65,2025-01-09T19:00:00Z,2025-01-09T19:35:00Z,35,feed,"Performance degradation across Functions, Sandboxes, and web endpoints",minor,"Web endpoints,Sandboxes"
-modal,modal_66,2025-01-15T01:08:27Z,2025-01-15T01:27:22Z,18,feed,Web endpoints is down,major,Web endpoints
-modal,modal_67,2025-01-24T18:16:00Z,2025-01-24T18:50:00Z,34,feed,Dashboard is unavailable,major,
-modal,modal_68,2025-02-06T18:00:39Z,2025-02-06T18:00:39Z,0,feed,Network infrastructure change,minor,
-modal,modal_69,2025-02-11T18:09:00Z,2025-02-11T18:16:00Z,7,feed,"Frontend, Web API, and 2 other services are down",major,"Frontend,Web API"
-modal,modal_70,2025-02-11T18:09:00Z,2025-02-11T18:13:00Z,4,feed,Modal services are offline,minor,
-modal,modal_71,2025-02-18T03:35:27Z,2025-02-18T03:37:48Z,2,feed,"CPU functions, GPU functions, and 1 other service are down",major,"CPU functions,GPU functions"
-modal,modal_72,2025-02-24T22:31:00Z,2025-02-24T22:44:00Z,13,feed,Some services are down,major,
-modal,modal_73,2025-03-18T21:47:14Z,2025-03-18T21:50:53Z,3,feed,Image builds is down,major,Image builds
-modal,modal_74,2025-03-21T21:50:27Z,2025-03-21T22:45:14Z,54,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
-modal,modal_75,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
-modal,modal_76,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
-modal,modal_77,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
-modal,modal_78,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox scheduling is down,major,Sandboxes
-modal,modal_79,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
-modal,modal_80,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
-modal,modal_81,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
-modal,modal_82,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
-modal,modal_83,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
-modal,modal_84,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
-modal,modal_85,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
-modal,modal_86,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
-modal,modal_87,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
-modal,modal_88,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
-modal,modal_89,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
-modal,modal_90,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
-modal,modal_91,2025-08-12T05:38:00Z,2025-08-12T06:30:00Z,52,feed,Degraded container scheduling,minor,GPU functions
-modal,modal_92,2025-08-19T15:01:00Z,2025-08-19T15:24:00Z,23,feed,Image builds / volumes experiencing issues,minor,"Volumes,Image builds"
-modal,modal_93,2025-08-20T15:39:00Z,2025-08-20T15:39:00Z,0,feed,All services are online,minor,
-modal,modal_94,2025-08-21T18:33:00Z,2025-08-21T19:24:00Z,51,feed,Degraded task startup / volume operations,minor,Volumes
-modal,modal_95,2025-08-26T14:31:00Z,2025-08-26T15:10:00Z,39,feed,Modal.com dashboards and image builds are degraded,minor,Image builds
-modal,modal_96,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S scheduling latency is high",minor,
-modal,modal_97,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
-modal,modal_98,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
-modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
-modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
-modal,modal_101,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
-modal,modal_102,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
-baseten,baseten_w99gz3g3djkd,2025-10-30T08:01:56.000-07:00,2025-10-30T08:10:53.000-07:00,8,feed,Elevated errors in model deploys and promotions in 2 clusters. Inference is *not* affected.,major,Model Management API
 baseten,baseten_90lr1l8kg5s9,2025-11-01T13:27:16.477-07:00,2025-11-01T14:06:01.407-07:00,38,feed,Elevated errors and delays in new model deploys in 1 cluster. Inference is *not* affected.,none,Model Management API
 baseten,baseten_t2qt0s2pcwjt,2025-11-03T05:45:56.243-08:00,2025-11-03T06:01:07.987-08:00,15,feed,New builds are failing to push. Inference is *not* affected,minor,Model Management API
-modal,modal_103,2025-11-10T20:17:00Z,2025-11-10T22:34:00Z,137,feed,Elevated latency on some RPCs,minor,
 baseten,baseten_q4qgnl6lhlfh,2025-11-17T05:01:18.000-08:00,2025-11-17T05:20:36.000-08:00,19,feed,Elevated error rates for inference requests for a subset of models in GCP us-central1,major,Dedicated Inference
-modal,modal_104,2025-11-19T09:00:00Z,2025-11-19T09:00:00Z,0,feed,Volume version 2 maintenance,minor,Volumes
-modal,modal_105,2025-11-20T03:08:00Z,2025-11-20T03:08:00Z,0,feed,Web endpoints incurring degradation,minor,Web endpoints
-modal,modal_106,2025-11-25T15:08:00Z,2025-11-25T15:25:00Z,17,feed,Config change causes container filesystem IO errors,minor,
-modal,modal_107,2025-11-27T00:21:00Z,2025-11-27T00:21:00Z,0,feed,"CPU functions, GPU functions, and 4 other services are down",major,"CPU functions,GPU functions"
-modal,modal_108,2025-12-01T16:25:43Z,2025-12-01T16:51:00Z,25,feed,Some services are down,major,
-modal,modal_109,2025-12-03T19:10:00Z,2025-12-03T19:50:00Z,40,feed,"DNS servers flooded with MX records, causing DNS query timeouts",minor,
-modal,modal_110,2025-12-05T01:10:00Z,2025-12-05T01:10:00Z,0,feed,Frontend website is down,major,Frontend
 baseten,baseten_h293c5jvmd85,2025-12-06T12:46:21.287-08:00,2025-12-06T13:06:47.662-08:00,20,feed,Deepseek V3-0324 on Model APIs is down. **Dedicated inference is not affected**.,major,Model APIs
-modal,modal_111,2025-12-10T09:52:00Z,2025-12-10T10:05:00Z,13,feed,GPU Function queueing due to Tailscale outage,major,GPU functions
-modal,modal_112,2025-12-16T12:25:00Z,2025-12-16T13:37:00Z,72,feed,Issue with volumes,major,Volumes
-modal,modal_113,2025-12-18T19:57:46Z,2025-12-18T20:07:02Z,9,feed,Image builds is down,major,Image builds
 baseten,baseten_9db4l4h05ltd,2025-12-20T16:40:48.780-08:00,2025-12-20T17:35:31.252-08:00,54,feed,Slower than usual scale-ups and new deploys for all models in GCP,minor,Dedicated Inference
 baseten,baseten_vm9ds80g7ky5,2025-12-21T08:49:42.762-08:00,2025-12-21T09:11:40.033-08:00,21,feed,GPT-OSS on Model APIs is degraded. **Dedicated inference is not affected**.,minor,Model APIs
-modal,modal_114,2025-12-24T02:31:00Z,2025-12-24T02:47:00Z,16,feed,Scheduling of new containers failing,minor,
-modal,modal_115,2025-12-28T09:12:00Z,2025-12-28T11:06:00Z,114,feed,Some services are down due to Database,major,
-modal,modal_116,2026-01-14T23:04:00Z,2026-01-15T00:00:00Z,56,feed,Capacity Loss,minor,
-modal,modal_117,2026-01-15T01:15:00Z,2026-01-15T22:27:00Z,1272,feed,Intermittent problems accessing Volumes via CLI and dashboard,major,Volumes
-modal,modal_118,2026-01-18T05:43:00Z,2026-01-18T06:03:00Z,20,feed,Flash Proxy down in us-west,major,
-modal,modal_119,2026-01-21T02:00:00Z,2026-01-21T05:40:00Z,220,feed,Volume degradation,major,Volumes
 baseten,baseten_29kl9tbwfzk9,2026-01-21T12:34:39.951-08:00,2026-01-21T13:37:49.333-08:00,63,feed,Elevated latency for inference requests in single region in Baseten Cloud West,minor,Dedicated Inference
 baseten,baseten_cvq9y46gb1jy,2026-01-22T12:17:39.622-08:00,2026-01-22T12:41:37.796-08:00,23,feed,Baseten web app is down. **Inference is unaffected**,major,Web Application
-modal,modal_120,2026-01-24T11:10:20Z,2026-01-24T11:16:39Z,6,feed,Image builds is down,major,Image builds
-modal,modal_121,2026-02-01T09:03:00Z,2026-02-01T09:41:00Z,38,feed,Dashboard is degraded,minor,
-modal,modal_122,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is down,major,Image builds
-modal,modal_123,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
 baseten,baseten_n2kgjd0911bn,2026-02-09T07:20:22.282-08:00,2026-02-09T09:33:45.599-08:00,133,feed,Elevated inference latencies in AWS us-west-2,minor,Dedicated Inference
-modal,modal_124,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
-modal,modal_125,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
-modal,modal_126,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
-modal,modal_127,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with container scheduling,minor,GPU functions
 baseten,baseten_ybjb53lgnlpx,2026-02-27T09:45:03.000-08:00,2026-02-27T10:39:09.003-08:00,54,feed,Partial inference outage in AWS us-east-1,minor,Dedicated Inference
 baseten,baseten_tbh0pbfkd5g8,2026-02-27T16:19:56.000-08:00,2026-02-27T17:02:17.000-08:00,42,feed,Elevated 500s on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
-modal,modal_128,2026-03-02T21:12:00Z,2026-03-02T22:43:00Z,91,feed,Task logs are delayed,major,
-modal,modal_129,2026-03-09T03:33:14Z,2026-03-09T04:09:07Z,35,feed,Image builds is down,major,Image builds
-modal,modal_130,2026-03-09T03:58:00Z,2026-03-09T04:06:00Z,8,feed,sandbox scheduling unavailable,major,Sandboxes
 baseten,baseten_8xgkfl1jkjnq,2026-03-12T09:42:06.037-07:00,2026-03-12T09:59:14.791-07:00,17,feed,gpt-oss model API service degradation,minor,Model APIs
-modal,modal_131,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
-modal,modal_132,2026-03-17T15:29:00Z,2026-03-17T15:38:00Z,9,feed,Sandbox scheduling degraded,minor,Sandboxes
 baseten,baseten_rhrjd3t222x2,2026-04-01T15:30:54.000-07:00,2026-04-01T17:30:38.000-07:00,119,feed,Elevated deploy failures. Inference is **not** affected.,minor,Model Management API
-modal,modal_133,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
-modal,modal_134,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
 baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
 baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-modal,modal_135,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
-modal,modal_136,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_pv607pnjmzk7,2026-04-13T08:42:27.479-07:00,2026-04-13T09:31:44.215-07:00,49,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-modal,modal_137,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
-together,together_1,2026-04-20T09:56:36Z,2026-04-20T10:23:47Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_2,2026-04-22T12:17:37Z,2026-04-22T12:44:37Z,27,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_3,2026-04-22T13:02:40Z,2026-04-22T13:32:36Z,29,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_4,2026-04-22T14:56:35Z,2026-04-22T15:14:29Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-modal,modal_138,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execution is degraded,minor,
-together,together_5,2026-04-23T14:29:52Z,2026-04-23T17:06:11Z,156,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
-together,together_6,2026-04-23T14:31:55Z,2026-04-23T17:08:09Z,156,feed,Meta Llama Guard 4 12B outage,major,Meta Llama Guard 4 12B
-together,together_7,2026-04-23T14:35:40Z,2026-04-23T17:08:30Z,152,feed,Multilingual E5 Large Instruct outage,major,Multilingual E5 Large Instruct
-together,together_8,2026-04-25T02:49:48Z,2026-04-25T03:02:21Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_10,2026-04-25T03:19:51Z,2026-04-25T18:34:52Z,915,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-fireworks,fireworks_1,2026-04-25T03:59:11Z,2026-04-25T04:02:10Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_9,2026-04-25T09:33:16Z,2026-04-25T09:57:29Z,24,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_11,2026-04-25T20:41:06Z,2026-04-25T21:04:28Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
-modal,modal_139,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
-together,together_12,2026-04-28T01:53:37Z,2026-04-28T02:05:44Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_13,2026-04-28T13:34:03Z,2026-04-28T13:55:00Z,20,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_14,2026-04-28T14:40:58Z,2026-04-28T14:55:08Z,14,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_15,2026-04-28T15:59:57Z,2026-04-28T16:24:16Z,24,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_16,2026-04-28T16:13:50Z,2026-04-28T18:31:12Z,137,feed,Qwen3.5 9B outage,major,Qwen3.5 9B
-together,together_17,2026-04-28T18:53:58Z,2026-04-28T19:18:15Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-modal,modal_140,2026-04-28T21:30:00Z,2026-04-29T20:32:00Z,1382,feed,Some sandbox functionality is degraded when using CIDR allowlists,minor,Sandboxes
-together,together_18,2026-04-29T00:41:54Z,2026-04-29T00:55:50Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_19,2026-04-29T05:29:55Z,2026-04-29T06:17:40Z,47,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_20,2026-04-29T07:56:38Z,2026-04-29T10:38:29Z,161,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
-together,together_21,2026-04-29T10:56:49Z,2026-04-29T11:53:42Z,56,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_22,2026-04-29T19:18:52Z,2026-04-29T19:36:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-fireworks,fireworks_2,2026-04-30T14:48:00Z,2026-04-30T14:55:34Z,7,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_23,2026-05-01T03:14:34Z,2026-05-01T03:35:53Z,21,feed,Whisper Large V3 outage,minor,Whisper Large V3
-together,together_24,2026-05-02T09:14:14Z,2026-05-02T09:34:02Z,19,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_25,2026-05-03T21:28:53Z,2026-05-03T21:43:54Z,15,feed,Kimi K2.6 outage,minor,Kimi K2.6
-fireworks,fireworks_3,2026-05-06T06:05:59Z,2026-05-06T06:07:54Z,1,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_28,2026-05-07T00:24:05Z,2026-05-07T02:04:30Z,100,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-together,together_27,2026-05-07T01:06:53Z,2026-05-07T01:49:00Z,42,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_26,2026-05-07T01:14:58Z,2026-05-07T01:38:04Z,23,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 baseten,baseten_lzxw0ljfd5dr,2026-05-07T07:50:20.000-07:00,2026-05-07T08:37:33.000-07:00,47,feed,Elevated errors for models in single region,minor,Dedicated Inference
-together,together_29,2026-05-07T14:56:47Z,2026-05-07T15:14:49Z,18,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_30,2026-05-07T18:56:46Z,2026-05-07T19:26:47Z,30,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_31,2026-05-07T19:29:57Z,2026-05-07T20:11:43Z,41,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-modal,modal_141,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
-together,together_32,2026-05-07T20:09:51Z,2026-05-07T20:22:59Z,13,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
-modal,modal_142,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
-modal,modal_143,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
-together,together_33,2026-05-08T14:18:55Z,2026-05-08T15:12:40Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_34,2026-05-08T15:33:52Z,2026-05-08T16:27:00Z,53,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_35,2026-05-08T16:31:38Z,2026-05-08T18:12:40Z,101,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
 baseten,baseten_whc7r80qfh2w,2026-05-08T16:40:49.284-07:00,2026-05-08T17:22:48.819-07:00,41,feed,Intermittent failure in loading the webapp — inference is *not* affected,none,"Model Management API,Web Application"
-together,together_36,2026-05-08T20:24:57Z,2026-05-08T21:02:59Z,38,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_37,2026-05-08T21:07:57Z,2026-05-08T21:51:09Z,43,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_38,2026-05-09T00:29:01Z,2026-05-09T02:54:22Z,145,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
 baseten,baseten_g7fbbc1r9ckt,2026-05-09T17:30:56.000-07:00,2026-05-09T20:24:36.543-07:00,173,feed,Training cluster is down due to a provider failure,major,Training
-together,together_39,2026-05-10T06:30:02Z,2026-05-10T06:44:01Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_40,2026-05-10T15:39:54Z,2026-05-10T15:59:05Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_41,2026-05-10T23:57:59Z,2026-05-11T00:10:24Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
-modal,modal_144,2026-05-11T00:00:00Z,2026-05-11T00:00:00Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
-together,together_42,2026-05-11T13:03:49Z,2026-05-11T13:47:15Z,43,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_43,2026-05-11T17:25:19Z,2026-05-11T18:10:12Z,44,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_44,2026-05-11T19:17:35Z,2026-05-11T20:53:13Z,95,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-together,together_45,2026-05-11T23:10:54Z,2026-05-11T23:28:59Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_46,2026-05-12T08:07:50Z,2026-05-12T08:22:18Z,14,feed,FLUX.1 [schnell] outage,minor,FLUX.1 [schnell]
-together,together_47,2026-05-12T11:45:58Z,2026-05-12T12:06:58Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_49,2026-05-12T23:07:18Z,2026-05-12T23:28:16Z,20,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_48,2026-05-12T23:07:21Z,2026-05-12T23:25:13Z,17,feed,Kokoro-82M outage,minor,Kokoro-82M
-together,together_50,2026-05-12T23:07:52Z,2026-05-12T23:41:00Z,33,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_51,2026-05-12T23:35:07Z,2026-05-12T23:50:05Z,14,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
-together,together_52,2026-05-12T23:36:16Z,2026-05-13T01:24:23Z,108,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
-together,together_53,2026-05-13T03:44:47Z,2026-05-13T04:05:47Z,21,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_54,2026-05-13T06:26:57Z,2026-05-13T06:50:44Z,23,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_55,2026-05-13T09:16:49Z,2026-05-13T09:34:58Z,18,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_56,2026-05-13T11:50:51Z,2026-05-13T12:43:58Z,53,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
-fireworks,fireworks_4,2026-05-13T22:50:16Z,2026-05-13T22:59:08Z,8,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_5,2026-05-14T08:14:13Z,2026-05-14T08:17:15Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
 baseten,baseten_z04ygyq8nfn7,2026-05-14T18:00:00.000-07:00,2026-05-14T20:00:00.000-07:00,120,feed,Elevated errors in a single cluster,minor,Dedicated Inference
-together,together_57,2026-05-15T01:11:59Z,2026-05-15T02:07:06Z,55,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_58,2026-05-15T04:45:57Z,2026-05-15T05:07:04Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_59,2026-05-15T08:28:49Z,2026-05-15T08:43:54Z,15,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
-together,together_60,2026-05-15T17:07:51Z,2026-05-15T17:28:52Z,21,feed,MiniMax M2.7 outage,minor,MiniMax M2.7
 baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
 baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
-together,together_61,2026-05-16T19:12:35Z,2026-05-16T19:42:07Z,29,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
-together,together_62,2026-05-16T19:45:31Z,2026-05-16T21:03:18Z,77,feed,Google Gemma 3N E4B IT outage,major,Google Gemma 3N E4B IT
-together,together_63,2026-05-17T06:59:58Z,2026-05-17T07:58:59Z,59,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_64,2026-05-17T13:12:28Z,2026-05-17T13:43:55Z,31,feed,Meta Llama Guard 4 12B outage,minor,Meta Llama Guard 4 12B
-together,together_65,2026-05-18T05:03:48Z,2026-05-18T05:28:51Z,25,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_66,2026-05-18T05:27:52Z,2026-05-18T05:50:46Z,22,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
-together,together_67,2026-05-18T13:13:06Z,2026-05-18T13:36:54Z,23,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_68,2026-05-18T15:06:54Z,2026-05-18T15:10:14Z,3,feed,Kimi K2.6 outage,minor,Kimi K2.6
-modal,modal_145,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
 baseten,baseten_23mb35cz5yz6,2026-05-19T18:40:54.155-07:00,2026-05-19T18:54:13.249-07:00,13,feed,Elevated errors for models in single region,minor,Dedicated Inference
-together,together_69,2026-05-20T02:33:48Z,2026-05-20T02:49:55Z,16,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_70,2026-05-20T10:30:22Z,2026-05-20T10:53:21Z,22,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_71,2026-05-20T10:58:39Z,2026-05-20T11:20:42Z,22,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_72,2026-05-20T11:19:51Z,2026-05-20T11:44:55Z,25,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_73,2026-05-20T12:09:37Z,2026-05-20T12:32:43Z,23,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_75,2026-05-20T12:15:17Z,2026-05-20T13:29:25Z,74,feed,Pearl-ai Gemma 4 31B IT outage,major,Pearl-ai Gemma 4 31B IT
-together,together_74,2026-05-20T12:19:12Z,2026-05-20T12:33:55Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_76,2026-05-20T13:21:48Z,2026-05-20T13:45:37Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_77,2026-05-20T13:30:51Z,2026-05-20T14:17:48Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_78,2026-05-20T19:25:52Z,2026-05-20T19:50:12Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_79,2026-05-22T04:58:46Z,2026-05-22T05:11:38Z,12,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_80,2026-05-23T12:41:57Z,2026-05-23T12:59:49Z,17,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_81,2026-05-25T21:51:54Z,2026-05-25T22:04:56Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_82,2026-05-26T08:23:53Z,2026-05-26T08:47:53Z,24,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
 baseten,baseten_8d0l6vnghxk6,2026-05-29T12:31:24.628-07:00,2026-05-29T13:04:13.058-07:00,32,feed,Elevated async inference errors in a single cluster,minor,Dedicated Inference
-together,together_83,2026-05-29T15:43:10Z,2026-05-29T15:55:49Z,12,feed,Meta Llama 3.3 70B Instruct Turbo outage,minor,Meta Llama 3.3 70B Instruct Turbo
-together,together_84,2026-05-30T15:40:12Z,2026-05-30T15:52:27Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_85,2026-05-30T23:48:55Z,2026-05-31T00:01:56Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_86,2026-05-31T00:59:54Z,2026-05-31T01:13:54Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_87,2026-05-31T05:56:46Z,2026-05-31T06:11:12Z,14,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-fireworks,fireworks_6,2026-05-31T09:02:25Z,2026-05-31T09:05:04Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-modal,modal_146,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
-modal,modal_147,2026-06-01T15:40:35Z,2026-06-01T16:53:52Z,73,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
-modal,modal_148,2026-06-01T16:39:00Z,2026-06-01T16:52:00Z,13,feed,Database incident affecting services,minor,
-together,together_89,2026-06-02T15:31:20Z,2026-06-02T15:55:23Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_88,2026-06-02T15:32:35Z,2026-06-02T15:50:34Z,17,feed,Whisper Large V3 outage,minor,Whisper Large V3
-together,together_90,2026-06-02T16:01:23Z,2026-06-02T16:19:19Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_91,2026-06-02T17:13:23Z,2026-06-02T17:31:22Z,17,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_92,2026-06-02T18:37:16Z,2026-06-02T19:14:18Z,37,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_93,2026-06-02T19:20:42Z,2026-06-02T20:03:30Z,42,feed,Whisper Large V3 outage,minor,Whisper Large V3
 baseten,baseten_yhr7cg1sttv2,2026-06-03T07:56:57.273-07:00,2026-06-03T10:11:42.000-07:00,134,feed,Slower than usual scale-ups for some models using H100s,minor,Dedicated Inference
-modal,modal_149,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
-fireworks,fireworks_7,2026-06-03T15:46:11Z,2026-06-03T15:48:41Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_8,2026-06-03T15:55:17Z,2026-06-03T16:03:30Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_9,2026-06-04T04:52:19Z,2026-06-04T04:54:08Z,1,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_6gkgfj1d2q6q,2026-06-04T13:53:22.498-07:00,2026-06-04T14:59:44.698-07:00,66,feed,Elevated latencies for a subset of models in a US-East cluster,minor,Dedicated Inference
 baseten,baseten_gg63b1vhlpm1,2026-06-04T19:10:16.000-07:00,2026-06-04T19:29:32.000-07:00,19,feed,Elevated errors in a single US-East cluster,major,Dedicated Inference
-together,together_94,2026-06-05T03:30:52Z,2026-06-05T03:44:37Z,13,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
-together,together_95,2026-06-06T00:05:40Z,2026-06-06T00:27:10Z,21,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_96,2026-06-06T23:21:57Z,2026-06-06T23:34:27Z,12,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
-together,together_97,2026-06-07T13:36:46Z,2026-06-07T13:58:33Z,21,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_98,2026-06-07T20:44:45Z,2026-06-07T20:59:50Z,15,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_99,2026-06-08T01:44:13Z,2026-06-08T02:21:31Z,37,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_100,2026-06-08T05:26:03Z,2026-06-08T05:44:51Z,18,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_101,2026-06-08T06:45:42Z,2026-06-08T07:05:06Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_102,2026-06-08T07:59:31Z,2026-06-08T08:15:15Z,15,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_103,2026-06-08T09:46:01Z,2026-06-08T09:59:32Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_104,2026-06-08T11:05:44Z,2026-06-08T11:40:29Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_105,2026-06-09T09:12:45Z,2026-06-09T09:41:36Z,28,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_106,2026-06-09T16:44:55Z,2026-06-09T17:10:26Z,25,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_107,2026-06-12T16:25:45Z,2026-06-12T17:29:13Z,63,feed,DeepSeek V4 Pro outage,major,DeepSeek V4 Pro
 baseten,baseten_9xtd3fhj921n,2026-06-13T11:25:24.000-07:00,2026-06-13T12:09:52.762-07:00,44,feed,Elevated errors for models in a single cloud provider,minor,Dedicated Inference
-together,together_108,2026-06-13T14:20:44Z,2026-06-13T14:50:27Z,29,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_109,2026-06-14T00:59:55Z,2026-06-14T01:35:05Z,35,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_110,2026-06-14T06:19:44Z,2026-06-14T06:45:00Z,25,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_111,2026-06-14T08:10:59Z,2026-06-14T08:24:50Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_112,2026-06-14T19:36:22Z,2026-06-14T19:59:51Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_113,2026-06-14T21:20:44Z,2026-06-14T21:45:05Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 baseten,baseten_40m6gzr3002p,2026-06-15T09:14:00.820-07:00,2026-06-15T09:58:16.937-07:00,44,feed,Elevated errors for models in a single EU cloud provider,minor,Dedicated Inference
-together,together_114,2026-06-15T16:31:28Z,2026-06-15T16:46:33Z,15,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_115,2026-06-16T01:30:55Z,2026-06-16T01:44:50Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_116,2026-06-16T04:46:18Z,2026-06-16T05:01:15Z,14,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_117,2026-06-16T07:36:23Z,2026-06-16T07:51:20Z,14,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-modal,modal_150,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
-modal,modal_151,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-modal,modal_152,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds are down,major,Image builds
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
-together,together_118,2026-06-17T15:31:46Z,2026-06-17T15:43:57Z,12,feed,DeepSeek V4 Pro outage,minor,DeepSeek V4 Pro
 baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T07:30:17.695-07:00,103,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
-together,together_119,2026-06-18T06:29:54Z,2026-06-18T06:47:53Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-together,together_120,2026-06-18T06:51:02Z,2026-06-18T07:20:30Z,29,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-fireworks,fireworks_10,2026-06-18T07:10:07Z,2026-06-18T07:18:25Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_121,2026-06-18T10:46:47Z,2026-06-18T10:59:54Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_122,2026-06-18T18:45:45Z,2026-06-18T19:00:00Z,14,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_123,2026-06-18T23:35:53Z,2026-06-18T23:59:50Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-fireworks,fireworks_11,2026-06-19T02:47:16Z,2026-06-19T02:50:29Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_124,2026-06-19T04:25:47Z,2026-06-19T04:50:21Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_125,2026-06-19T05:21:45Z,2026-06-19T05:34:53Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_126,2026-06-19T21:11:09Z,2026-06-19T21:34:50Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-fireworks,fireworks_12,2026-06-20T05:02:25Z,2026-06-20T05:09:09Z,6,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_127,2026-06-20T08:35:54Z,2026-06-20T09:14:50Z,38,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-fireworks,fireworks_13,2026-06-20T08:38:48Z,2026-06-20T08:41:02Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_128,2026-06-20T10:46:46Z,2026-06-20T11:25:01Z,38,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_129,2026-06-20T11:32:30Z,2026-06-20T12:05:00Z,32,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_130,2026-06-20T12:45:43Z,2026-06-20T13:04:54Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_131,2026-06-20T14:10:47Z,2026-06-20T14:34:53Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_132,2026-06-20T14:46:54Z,2026-06-20T15:24:51Z,37,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_133,2026-06-20T15:51:00Z,2026-06-20T16:10:23Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_134,2026-06-20T16:55:45Z,2026-06-20T17:10:03Z,14,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_135,2026-06-20T17:30:48Z,2026-06-20T17:49:55Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_136,2026-06-20T18:25:43Z,2026-06-20T18:44:58Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_137,2026-06-20T20:01:47Z,2026-06-20T20:24:56Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_138,2026-06-20T20:46:54Z,2026-06-20T21:04:51Z,17,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_139,2026-06-20T21:39:44Z,2026-06-20T23:24:58Z,105,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
-fireworks,fireworks_14,2026-06-20T23:38:30Z,2026-06-20T23:41:14Z,2,feed,Qwen3 Embedding 8B embeddings API outage,minor,Qwen3 Embedding 8B embeddings API
-together,together_140,2026-06-20T23:49:49Z,2026-06-21T00:13:57Z,24,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_141,2026-06-21T12:03:24Z,2026-06-21T12:18:32Z,15,feed,GLM 5.2 outage,minor,GLM 5.2
-together,together_142,2026-06-21T13:54:18Z,2026-06-21T14:15:34Z,21,feed,GLM 5.2 outage,minor,GLM 5.2
-together,together_143,2026-06-21T15:21:18Z,2026-06-21T16:19:27Z,58,feed,GLM 5.2 outage,minor,GLM 5.2
-together,together_144,2026-06-21T17:48:35Z,2026-06-21T18:03:21Z,14,feed,GLM 5.2 outage,minor,GLM 5.2
 baseten,baseten_36p8wdb70csl,2026-06-22T17:10:14.425-07:00,2026-06-22T17:54:43.697-07:00,44,feed,Slower than usual scale-ups. High failure rate for new model deploys. Existing replicas aren't impacted.,minor,"Dedicated Inference,Model Management API"
-together,together_145,2026-06-23T15:59:49Z,2026-06-23T16:17:34Z,17,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_146,2026-06-25T11:15:17Z,2026-06-25T11:35:33Z,20,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_147,2026-06-25T16:47:32Z,2026-06-25T16:59:41Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_148,2026-06-25T18:23:30Z,2026-06-25T18:41:36Z,18,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_149,2026-06-25T19:30:56Z,2026-06-25T19:51:51Z,20,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
-together,together_150,2026-06-25T21:48:50Z,2026-06-25T22:09:53Z,21,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
-together,together_151,2026-06-25T22:18:51Z,2026-06-25T23:45:56Z,87,feed,Nemotron 3 Ultra 550B A55B outage,major,Nemotron 3 Ultra 550B A55B
-together,together_152,2026-06-26T08:46:10Z,2026-06-26T08:58:12Z,12,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
 baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
 baseten,baseten_mm1m26kdthpx,2026-06-26T16:41:14.000-07:00,2026-06-26T17:55:40.109-07:00,74,feed,Elevated model deployment failures. **Inference is not affected**,minor,Model Management API
-fireworks,fireworks_15,2026-06-26T19:31:12Z,2026-06-26T19:33:16Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_qhjwrnwd7wb3,2026-06-26T23:35:31.078-07:00,2026-06-26T23:50:31.696-07:00,15,feed,Elevated inference 500s for models in 1 cluster due to cloud provider outage,minor,Dedicated Inference
-together,together_153,2026-06-27T04:40:18Z,2026-06-27T04:52:23Z,12,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_154,2026-06-27T06:37:12Z,2026-06-27T06:55:28Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-together,together_155,2026-06-27T13:52:06Z,2026-06-27T14:07:25Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-fireworks,fireworks_16,2026-06-27T15:06:39Z,2026-06-27T15:10:07Z,3,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_17,2026-06-27T15:45:44Z,2026-06-27T15:49:50Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_156,2026-06-27T17:49:01Z,2026-06-27T18:07:09Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-together,together_157,2026-06-28T13:11:35Z,2026-06-28T14:14:45Z,63,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
-fireworks,fireworks_18,2026-06-29T05:52:13Z,2026-06-29T05:54:59Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_19,2026-06-29T07:18:36Z,2026-06-29T07:24:17Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_bj0gvndmpyf6,2026-06-29T11:26:41.000-07:00,2026-06-29T12:01:52.000-07:00,35,feed,Elevated error rates on GLM 5.2 Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
-fireworks,fireworks_20,2026-06-29T15:40:22Z,2026-06-29T15:49:34Z,9,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-modal,modal_153,2026-06-29T21:02:00Z,2026-06-29T21:02:00Z,0,feed,Storage degraded - impacting app creation,minor,
-fireworks,fireworks_21,2026-06-30T11:40:08Z,2026-06-30T11:42:54Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_22,2026-06-30T12:40:23Z,2026-06-30T12:45:30Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_23,2026-06-30T15:10:17Z,2026-06-30T15:12:46Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_24,2026-06-30T15:17:37Z,2026-06-30T15:42:58Z,25,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_158,2026-06-30T15:56:54Z,2026-06-30T16:37:24Z,40,feed,Orpheus TTS outage,minor,Orpheus TTS
-fireworks,fireworks_25,2026-06-30T16:46:09Z,2026-06-30T16:48:38Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_26,2026-06-30T21:04:30Z,2026-06-30T21:09:37Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_159,2026-06-30T21:43:21Z,2026-06-30T22:07:27Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
-together,together_160,2026-06-30T23:18:16Z,2026-07-01T00:33:16Z,75,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
 baseten,baseten_k01yx61pmsqg,2026-07-01T03:30:46.000-07:00,2026-07-01T04:30:11.000-07:00,59,feed,Elevated errors in a single EU cluster,major,Dedicated Inference
-together,together_161,2026-07-01T04:56:35Z,2026-07-01T05:14:36Z,18,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-together,together_162,2026-07-01T06:18:29Z,2026-07-01T06:36:16Z,17,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_163,2026-07-01T07:03:19Z,2026-07-01T07:16:45Z,13,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_164,2026-07-01T13:11:29Z,2026-07-01T14:56:27Z,104,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
-together,together_165,2026-07-01T18:22:15Z,2026-07-01T18:41:36Z,19,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_166,2026-07-01T18:46:27Z,2026-07-01T19:21:19Z,34,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_167,2026-07-02T01:49:19Z,2026-07-02T02:14:22Z,25,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
 baseten,baseten_4v8v1mwdzrpq,2026-07-02T15:00:12.000-07:00,2026-07-02T16:13:51.428-07:00,73,feed,Degraded metrics performance in dashboard and API. **Inference is not affected**,minor,Model Management API
 baseten,baseten_dqwfrxx93m21,2026-07-02T17:21:01.047-07:00,2026-07-02T17:36:48.646-07:00,15,feed,Elevated inference 500s for a subset of models deployed in 1 cluster,minor,Dedicated Inference
-together,together_168,2026-07-02T17:59:48Z,2026-07-02T18:25:00Z,25,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_169,2026-07-02T18:44:47Z,2026-07-02T19:04:51Z,20,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_170,2026-07-02T19:54:55Z,2026-07-02T20:49:56Z,55,feed,Nemotron 3 Ultra 550B A55B outage,minor,Nemotron 3 Ultra 550B A55B
 baseten,baseten_1xrz0dzks8y1,2026-07-02T19:59:34.232-07:00,2026-07-02T21:25:22.479-07:00,85,feed,Elevated errors for GLM 5.2 on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
-together,together_171,2026-07-03T10:53:36Z,2026-07-03T11:08:50Z,15,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
-fireworks,fireworks_27,2026-07-03T15:01:19Z,2026-07-03T15:03:53Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_172,2026-07-03T20:37:42Z,2026-07-03T21:20:41Z,42,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_173,2026-07-03T21:54:44Z,2026-07-03T22:29:48Z,35,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-fireworks,fireworks_28,2026-07-04T09:18:44Z,2026-07-04T09:36:21Z,17,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_29,2026-07-04T10:24:53Z,2026-07-04T10:27:40Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_30,2026-07-04T11:03:36Z,2026-07-04T11:18:20Z,14,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_31,2026-07-04T11:22:07Z,2026-07-04T11:24:56Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_32,2026-07-04T11:37:13Z,2026-07-04T11:40:05Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_33,2026-07-04T11:43:13Z,2026-07-04T11:54:11Z,10,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_34,2026-07-04T12:10:12Z,2026-07-04T12:33:08Z,22,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_35,2026-07-04T12:37:13Z,2026-07-04T12:51:35Z,14,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_36,2026-07-04T14:43:19Z,2026-07-04T14:57:16Z,13,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_2jf94qj81np7,2026-07-06T14:08:27.631-07:00,2026-07-06T14:22:15.137-07:00,13,feed,Elevated inference 500s — network outage in our cloud provider in Delaware,minor,Dedicated Inference
-fireworks,fireworks_37,2026-07-06T15:40:21Z,2026-07-06T15:48:40Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_38,2026-07-07T02:32:13Z,2026-07-07T02:35:08Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_39,2026-07-07T18:31:00Z,2026-07-07T18:39:50Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_174,2026-07-07T19:42:10Z,2026-07-07T19:58:04Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-fireworks,fireworks_40,2026-07-07T21:30:38Z,2026-07-07T21:50:08Z,19,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_41,2026-07-07T22:13:25Z,2026-07-07T22:18:10Z,4,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_mpxvkc4rcj0s,2026-07-08T09:50:15.000-07:00,2026-07-08T11:45:29.000-07:00,115,feed,Metrics degradation in UI and API. **Inference not affected**,minor,Model Management API
-fireworks,fireworks_42,2026-07-08T13:55:10Z,2026-07-08T14:03:20Z,8,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
 baseten,baseten_66x9fhdch2jt,2026-07-09T07:14:42.000-07:00,2026-07-09T07:28:16.000-07:00,13,feed,Elevated inference 500s for models deployed in 1 US-east cluster,minor,Dedicated Inference
-together,together_175,2026-07-09T14:56:30Z,2026-07-09T15:26:28Z,29,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-fireworks,fireworks_43,2026-07-09T22:31:20Z,2026-07-09T22:33:46Z,2,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_176,2026-07-10T02:24:54Z,2026-07-10T02:59:50Z,34,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_177,2026-07-10T05:43:09Z,2026-07-10T06:04:09Z,21,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_178,2026-07-10T14:26:20Z,2026-07-10T14:46:28Z,20,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_179,2026-07-11T05:46:49Z,2026-07-11T06:27:02Z,40,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-fireworks,fireworks_44,2026-07-11T07:53:18Z,2026-07-11T07:56:01Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_180,2026-07-11T13:43:10Z,2026-07-11T14:01:07Z,17,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-together,together_181,2026-07-11T15:17:49Z,2026-07-11T15:29:49Z,12,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_182,2026-07-11T16:21:26Z,2026-07-11T16:36:51Z,15,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
 baseten,baseten_dxz0s6v14mj9,2026-07-12T17:04:01.056-07:00,2026-07-12T19:10:34.363-07:00,126,feed,Partial Outage on Model APIs,major,Model APIs
-together,together_183,2026-07-12T18:49:09Z,2026-07-12T19:04:18Z,15,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
-fireworks,fireworks_45,2026-07-12T22:11:08Z,2026-07-12T22:14:08Z,3,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_184,2026-07-13T05:23:57Z,2026-07-13T05:38:52Z,14,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-fireworks,fireworks_46,2026-07-14T02:50:46Z,2026-07-14T02:54:05Z,3,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-fireworks,fireworks_47,2026-07-14T05:04:09Z,2026-07-14T05:10:00Z,5,feed,OpenAI GPT OSS 20B chat completion API outage,minor,OpenAI GPT OSS 20B chat completion API
-together,together_185,2026-07-14T23:36:59Z,2026-07-14T23:49:07Z,12,feed,Kimi K2.6 outage,minor,Kimi K2.6
-together,together_186,2026-07-15T02:16:59Z,2026-07-15T02:29:41Z,12,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-together,together_187,2026-07-15T06:46:49Z,2026-07-15T07:05:12Z,18,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 baseten,baseten_8qvwtc5323pt,2026-07-16T02:06:26.585-07:00,2026-07-16T03:25:13.885-07:00,78,feed,Elevated errors in accessing the Baseten UI. **Inference is not affected**,minor,"Model Management API,Web Application"
-together,together_188,2026-07-16T12:39:39Z,2026-07-16T13:20:13Z,40,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_189,2026-07-16T19:34:25Z,2026-07-16T20:20:43Z,46,feed,OpenAI GPT OSS 20B outage,minor,OpenAI GPT OSS 20B
-together,together_190,2026-07-16T20:12:06Z,2026-07-16T20:41:27Z,29,feed,Pearl-ai Gemma 4 31B IT outage,minor,Pearl-ai Gemma 4 31B IT
-together,together_191,2026-07-16T22:15:59Z,2026-07-16T23:02:53Z,46,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 baseten,baseten_rtc6l0sdjwyr,2026-07-17T17:22:55.697-07:00,2026-07-17T17:28:34.425-07:00,5,feed,Elevated inference errors in 1 Canada cluster due to provider network outage,minor,Dedicated Inference
-fireworks,fireworks_48,2026-07-17T19:29:11Z,2026-07-17T19:32:05Z,2,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-fireworks,fireworks_49,2026-07-17T19:41:19Z,2026-07-17T19:47:13Z,5,feed,Nomic Embed Text v1.5 embeddings API outage,minor,Nomic Embed Text v1.5 embeddings API
-together,together_192,2026-07-18T03:16:45Z,2026-07-18T03:34:33Z,17,feed,Inkling outage,minor,Inkling
-together,together_193,2026-07-18T05:43:31Z,2026-07-18T05:55:33Z,12,feed,Inkling outage,minor,Inkling
-together,together_194,2026-07-18T12:46:33Z,2026-07-18T13:01:32Z,14,feed,Inkling outage,minor,Inkling
-together,together_195,2026-07-18T13:13:33Z,2026-07-18T13:31:36Z,18,feed,Inkling outage,minor,Inkling
+baseten,baseten_7m95k31r6w6l,2026-07-18T15:40:12.086-07:00,2026-07-18T16:12:32.235-07:00,32,feed,GLM 5.2 Model API partial outage due to provider network failure,major,Model APIs
