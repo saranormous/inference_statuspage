@@ -101,8 +101,6 @@ modal,modal_99,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints i
 modal,modal_100,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
 modal,modal_101,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
 modal,modal_102,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
-baseten,baseten_90lr1l8kg5s9,2025-11-01T13:27:16.477-07:00,2025-11-01T14:06:01.407-07:00,38,feed,Elevated errors and delays in new model deploys in 1 cluster. Inference is *not* affected.,none,Model Management API
-baseten,baseten_t2qt0s2pcwjt,2025-11-03T05:45:56.243-08:00,2025-11-03T06:01:07.987-08:00,15,feed,New builds are failing to push. Inference is *not* affected,minor,Model Management API
 modal,modal_103,2025-11-10T20:17:00Z,2025-11-10T22:34:00Z,137,feed,Elevated latency on some RPCs,minor,
 baseten,baseten_q4qgnl6lhlfh,2025-11-17T05:01:18.000-08:00,2025-11-17T05:20:36.000-08:00,19,feed,Elevated error rates for inference requests for a subset of models in GCP us-central1,major,Dedicated Inference
 modal,modal_104,2025-11-19T09:00:00Z,2025-11-19T09:00:00Z,0,feed,Volume version 2 maintenance,minor,Volumes
@@ -445,3 +443,7 @@ together,together_191,2026-07-21T17:27:57Z,2026-07-21T17:40:30Z,12,feed,Qwen2.5 
 together,together_192,2026-07-21T17:31:43Z,2026-07-21T17:55:36Z,23,feed,Inkling outage,minor,Inkling
 together,together_193,2026-07-22T02:41:37Z,2026-07-22T03:15:37Z,34,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
 together,together_194,2026-07-22T07:20:43Z,2026-07-22T07:39:55Z,19,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+baseten,baseten_wfv5w8c12mds,2026-07-22T10:45:12.013-07:00,2026-07-22T11:04:30.350-07:00,19,feed,Slower than usual scale-ups in 1 us-central cluster,minor,Dedicated Inference
+baseten,baseten_594dmfnrbx71,2026-07-22T10:49:51.000-07:00,2026-07-22T11:22:45.608-07:00,32,feed,Elevated inference failures for models in an EU cluster,minor,Dedicated Inference
+together,together_195,2026-07-22T14:28:53Z,2026-07-22T15:00:57Z,32,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_196,2026-07-22T15:44:48Z,2026-07-22T16:26:29Z,41,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
