@@ -447,3 +447,7 @@ baseten,baseten_wfv5w8c12mds,2026-07-22T10:45:12.013-07:00,2026-07-22T11:04:30.3
 baseten,baseten_594dmfnrbx71,2026-07-22T10:49:51.000-07:00,2026-07-22T11:22:45.608-07:00,32,feed,Elevated inference failures for models in an EU cluster,minor,Dedicated Inference
 together,together_195,2026-07-22T14:28:53Z,2026-07-22T15:00:57Z,32,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_196,2026-07-22T15:44:48Z,2026-07-22T16:26:29Z,41,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+together,together_197,2026-07-23T03:40:32Z,2026-07-23T03:59:55Z,19,feed,Inkling outage,minor,Inkling
+modal,modal_154,2026-07-23T04:19:00Z,2026-07-23T04:50:00Z,31,feed,modal.com is degraded,minor,
+together,together_198,2026-07-23T04:34:41Z,2026-07-23T04:49:40Z,14,feed,Inkling outage,minor,Inkling
+together,together_199,2026-07-23T05:51:26Z,2026-07-23T06:15:49Z,24,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
