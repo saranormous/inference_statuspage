@@ -450,3 +450,4 @@ modal,modal_154,2026-07-23T04:19:00Z,2026-07-23T04:50:00Z,31,feed,modal.com is d
 together,together_197,2026-07-23T04:34:41Z,2026-07-23T04:49:40Z,14,feed,Inkling outage,minor,Inkling
 together,together_198,2026-07-23T05:51:26Z,2026-07-23T06:15:49Z,24,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
 together,together_199,2026-07-23T16:05:31Z,2026-07-23T16:17:34Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
+fireworks,fireworks_49,2026-07-24T00:32:51Z,2026-07-24T00:35:50Z,2,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
