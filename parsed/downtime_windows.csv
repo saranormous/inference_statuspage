@@ -443,3 +443,4 @@ fireworks,fireworks_49,2026-07-24T00:32:51Z,2026-07-24T00:35:50Z,2,feed,OpenAI G
 together,together_189,2026-07-24T10:57:29Z,2026-07-24T11:15:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 modal,modal_155,2026-07-24T11:11:16Z,2026-07-24T11:15:20Z,4,feed,Flash Proxy (us-west) is down,major,
 together,together_190,2026-07-26T23:14:46Z,2026-07-26T23:49:50Z,35,feed,Inkling outage,minor,Inkling
+fireworks,fireworks_50,2026-07-27T15:32:42Z,2026-07-27T15:35:54Z,3,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
