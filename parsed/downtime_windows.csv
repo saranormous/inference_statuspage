@@ -439,3 +439,8 @@ modal,modal_155,2026-07-24T11:11:16Z,2026-07-24T11:15:20Z,4,feed,Flash Proxy (us
 together,together_184,2026-07-26T23:14:46Z,2026-07-26T23:49:50Z,35,feed,Inkling outage,minor,Inkling
 fireworks,fireworks_50,2026-07-27T15:32:42Z,2026-07-27T15:35:54Z,3,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
 together,together_185,2026-07-28T02:05:44Z,2026-07-28T02:19:45Z,14,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_186,2026-07-28T11:51:45Z,2026-07-28T12:44:55Z,53,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_187,2026-07-28T13:39:53Z,2026-07-28T14:00:01Z,20,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
+together,together_188,2026-07-28T13:51:46Z,2026-07-28T14:05:13Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_189,2026-07-28T14:16:04Z,2026-07-28T14:30:02Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+together,together_190,2026-07-28T14:51:47Z,2026-07-28T16:30:11Z,98,feed,Google Gemma 4 31B IT outage,major,Google Gemma 4 31B IT
