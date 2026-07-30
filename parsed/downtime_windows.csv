@@ -447,3 +447,7 @@ together,together_191,2026-07-29T01:31:48Z,2026-07-29T01:49:48Z,18,feed,Google G
 together,together_192,2026-07-29T01:41:53Z,2026-07-29T02:16:51Z,34,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
 together,together_193,2026-07-29T09:21:48Z,2026-07-29T09:35:08Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_194,2026-07-30T12:00:53Z,2026-07-30T12:19:50Z,18,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+fireworks,fireworks_50,2026-07-30T14:14:50Z,2026-07-30T14:17:47Z,2,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
+modal,modal_156,2026-07-30T15:31:00Z,2026-07-30T15:31:00Z,0,feed,Some services are down,major,
+fireworks,fireworks_51,2026-07-30T16:32:43Z,2026-07-30T16:35:50Z,3,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API
+fireworks,fireworks_52,2026-07-30T17:14:53Z,2026-07-30T17:18:10Z,3,feed,OpenAI GPT OSS 120B chat completion API outage,minor,OpenAI GPT OSS 120B chat completion API

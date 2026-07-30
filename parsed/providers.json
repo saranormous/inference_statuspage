@@ -14,7 +14,7 @@
       "Qwen3 Embedding 8B",
       "Qwen3 VL 30B A3B Thinking"
     ],
-    "incident_count": 49
+    "incident_count": 52
   },
   "modal": {
     "name": "Modal",
@@ -31,7 +31,7 @@
       "Image builds",
       "OIDC Endpoint"
     ],
-    "incident_count": 155
+    "incident_count": 156
   },
   "together": {
     "name": "Together AI",
