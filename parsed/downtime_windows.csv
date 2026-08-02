@@ -62,7 +62,6 @@ modal,modal_60,2025-12-05T01:10:00Z,2025-12-05T01:10:00Z,0,feed,Frontend website
 modal,modal_61,2025-12-10T09:52:00Z,2025-12-10T10:05:00Z,13,feed,GPU Function queueing due to Tailscale outage,major,GPU functions
 modal,modal_62,2025-12-16T12:25:00Z,2025-12-16T13:37:00Z,72,feed,Issue with volumes,major,Volumes
 modal,modal_63,2025-12-18T19:57:46Z,2025-12-18T20:07:02Z,9,feed,Image builds is down,major,Image builds
-baseten,baseten_9db4l4h05ltd,2025-12-20T16:40:48.780-08:00,2025-12-20T17:35:31.252-08:00,54,feed,Slower than usual scale-ups and new deploys for all models in GCP,minor,Dedicated Inference
 baseten,baseten_vm9ds80g7ky5,2025-12-21T08:49:42.762-08:00,2025-12-21T09:11:40.033-08:00,21,feed,GPT-OSS on Model APIs is degraded. **Dedicated inference is not affected**.,minor,Model APIs
 modal,modal_64,2025-12-24T02:31:00Z,2025-12-24T02:47:00Z,16,feed,Scheduling of new containers failing,minor,
 modal,modal_65,2025-12-28T09:12:00Z,2025-12-28T11:06:00Z,114,feed,Some services are down due to Database,major,
@@ -278,3 +277,4 @@ together,together_120,2026-08-01T09:50:58Z,2026-08-01T10:04:05Z,13,feed,Google G
 together,together_121,2026-08-01T10:53:52Z,2026-08-01T11:15:12Z,21,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
 together,together_122,2026-08-01T12:55:56Z,2026-08-01T13:34:52Z,38,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_123,2026-08-01T14:16:04Z,2026-08-01T14:39:52Z,23,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
+baseten,baseten_sm1fz455b875,2026-08-01T16:57:54.451-07:00,2026-08-02T00:27:55Z,0,feed,Elevated inference 502s for a subset of models in a single US cluster,minor,Dedicated Inference
