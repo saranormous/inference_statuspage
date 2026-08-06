@@ -1,111 +1,109 @@
 provider,incident_id,downtime_start,downtime_end,duration_minutes,source,title,impact,components
-modal,modal_1,2025-03-21T22:45:14Z,2025-03-21T22:45:14Z,0,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
-modal,modal_2,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
-modal,modal_3,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
-modal,modal_4,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
-modal,modal_5,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox scheduling is down,major,Sandboxes
-modal,modal_6,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
-modal,modal_7,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
-modal,modal_8,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
-modal,modal_9,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
-modal,modal_10,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
-modal,modal_11,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
-modal,modal_12,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
-modal,modal_13,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
-modal,modal_14,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
-modal,modal_15,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
-modal,modal_16,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
-modal,modal_17,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
-modal,modal_18,2025-08-12T05:38:00Z,2025-08-12T06:30:00Z,52,feed,Degraded container scheduling,minor,GPU functions
-modal,modal_19,2025-08-19T15:01:00Z,2025-08-19T15:24:00Z,23,feed,Image builds / volumes experiencing issues,minor,"Volumes,Image builds"
-modal,modal_20,2025-08-20T15:39:00Z,2025-08-20T15:39:00Z,0,feed,All services are online,minor,
-modal,modal_21,2025-08-21T18:33:00Z,2025-08-21T19:24:00Z,51,feed,Degraded task startup / volume operations,minor,Volumes
-modal,modal_22,2025-08-26T14:31:00Z,2025-08-26T15:10:00Z,39,feed,Modal.com dashboards and image builds are degraded,minor,Image builds
-modal,modal_23,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S scheduling latency is high",minor,
-modal,modal_24,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
-modal,modal_25,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
-modal,modal_26,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
-modal,modal_27,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
-modal,modal_28,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
-modal,modal_29,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
-modal,modal_30,2025-11-10T20:17:00Z,2025-11-10T22:34:00Z,137,feed,Elevated latency on some RPCs,minor,
-modal,modal_31,2025-11-19T09:00:00Z,2025-11-19T09:00:00Z,0,feed,Volume version 2 maintenance,minor,Volumes
-modal,modal_32,2025-11-20T03:08:00Z,2025-11-20T03:08:00Z,0,feed,Web endpoints incurring degradation,minor,Web endpoints
-modal,modal_33,2025-11-25T15:08:00Z,2025-11-25T15:25:00Z,17,feed,Config change causes container filesystem IO errors,minor,
-modal,modal_34,2025-11-27T00:21:00Z,2025-11-27T00:21:00Z,0,feed,"CPU functions, GPU functions, and 4 other services are down",major,"CPU functions,GPU functions"
-modal,modal_35,2025-12-01T16:25:43Z,2025-12-01T16:51:00Z,25,feed,Some services are down,major,
-modal,modal_36,2025-12-03T19:10:00Z,2025-12-03T19:50:00Z,40,feed,"DNS servers flooded with MX records, causing DNS query timeouts",minor,
-modal,modal_37,2025-12-05T01:10:00Z,2025-12-05T01:10:00Z,0,feed,Frontend website is down,major,Frontend
-modal,modal_38,2025-12-10T09:52:00Z,2025-12-10T10:05:00Z,13,feed,GPU Function queueing due to Tailscale outage,major,GPU functions
-modal,modal_39,2025-12-16T12:25:00Z,2025-12-16T13:37:00Z,72,feed,Issue with volumes,major,Volumes
-modal,modal_40,2025-12-18T19:57:46Z,2025-12-18T20:07:02Z,9,feed,Image builds is down,major,Image builds
+modal,modal_1,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
+modal,modal_2,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
+modal,modal_3,2025-05-08T19:22:00Z,2025-05-08T20:15:00Z,53,feed,Sandbox scheduling is down,major,Sandboxes
+modal,modal_4,2025-05-15T15:04:35Z,2025-05-15T15:09:26Z,4,feed,Web endpoints is down,major,Web endpoints
+modal,modal_5,2025-05-22T14:06:57Z,2025-05-22T14:09:32Z,2,feed,Web API is down,major,Web API
+modal,modal_6,2025-05-22T18:00:28Z,2025-05-22T18:00:28Z,0,feed,Internal networking update,minor,
+modal,modal_7,2025-06-07T03:59:21Z,2025-06-07T03:59:21Z,0,feed,Infrastructure Upgrade,minor,
+modal,modal_8,2025-06-27T02:51:00Z,2025-06-27T03:08:00Z,17,feed,Service incident,minor,
+modal,modal_9,2025-06-27T02:53:25Z,2025-06-27T03:08:12Z,14,feed,Web API and Web endpoints are down,major,"Web endpoints,Web API"
+modal,modal_10,2025-06-30T19:40:00Z,2025-06-30T19:59:00Z,19,feed,Sandbox exec processes fail after 5 minutes,minor,Sandboxes
+modal,modal_11,2025-07-14T18:00:00Z,2025-07-14T18:00:00Z,0,feed,Infrastructure Upgrade,minor,
+modal,modal_12,2025-07-14T18:26:00Z,2025-07-14T18:42:00Z,16,feed,"CPU functions, GPU functions, and 3 other services are down",major,"CPU functions,GPU functions"
+modal,modal_13,2025-07-22T01:09:00Z,2025-07-22T02:32:00Z,83,feed,"TLS issue with web endpoints on new, custom domains",major,Web endpoints
+modal,modal_14,2025-07-22T16:18:00Z,2025-07-22T16:20:00Z,2,feed,Investigating reports of dashboard unavailability,minor,
+modal,modal_15,2025-07-23T23:20:00Z,2025-07-23T23:40:00Z,20,feed,Dashboard and tasks logs are slow to update,minor,
+modal,modal_16,2025-08-12T05:38:00Z,2025-08-12T06:30:00Z,52,feed,Degraded container scheduling,minor,GPU functions
+modal,modal_17,2025-08-19T15:01:00Z,2025-08-19T15:24:00Z,23,feed,Image builds / volumes experiencing issues,minor,"Volumes,Image builds"
+modal,modal_18,2025-08-20T15:39:00Z,2025-08-20T15:39:00Z,0,feed,All services are online,minor,
+modal,modal_19,2025-08-21T18:33:00Z,2025-08-21T19:24:00Z,51,feed,Degraded task startup / volume operations,minor,Volumes
+modal,modal_20,2025-08-26T14:31:00Z,2025-08-26T15:10:00Z,39,feed,Modal.com dashboards and image builds are degraded,minor,Image builds
+modal,modal_21,2025-09-08T10:27:00Z,2025-09-08T11:06:00Z,39,feed,"A10G, L40S scheduling latency is high",minor,
+modal,modal_22,2025-09-15T13:45:42Z,2025-09-15T14:30:21Z,44,feed,Image builds is down,major,Image builds
+modal,modal_23,2025-09-22T15:55:00Z,2025-09-22T15:55:00Z,0,feed,Emails from modal.com are not sending,minor,
+modal,modal_24,2025-09-30T03:13:29Z,2025-09-30T03:26:57Z,13,feed,Web endpoints is down,major,Web endpoints
+modal,modal_25,2025-10-14T00:56:00Z,2025-10-14T01:14:00Z,18,feed,Modal Tunnels servers hitting certificate expiry,minor,
+modal,modal_26,2025-10-20T07:12:00Z,2025-10-20T23:30:00Z,978,feed,Some services are down,major,
+modal,modal_27,2025-10-24T20:29:00Z,2025-10-24T20:43:00Z,14,feed,Database issue affected the service,minor,
+modal,modal_28,2025-11-10T20:17:00Z,2025-11-10T22:34:00Z,137,feed,Elevated latency on some RPCs,minor,
+modal,modal_29,2025-11-19T09:00:00Z,2025-11-19T09:00:00Z,0,feed,Volume version 2 maintenance,minor,Volumes
+modal,modal_30,2025-11-20T03:08:00Z,2025-11-20T03:08:00Z,0,feed,Web endpoints incurring degradation,minor,Web endpoints
+modal,modal_31,2025-11-25T15:08:00Z,2025-11-25T15:25:00Z,17,feed,Config change causes container filesystem IO errors,minor,
+modal,modal_32,2025-11-27T00:21:00Z,2025-11-27T00:21:00Z,0,feed,"CPU functions, GPU functions, and 4 other services are down",major,"CPU functions,GPU functions"
+modal,modal_33,2025-12-01T16:25:43Z,2025-12-01T16:51:00Z,25,feed,Some services are down,major,
+modal,modal_34,2025-12-03T19:10:00Z,2025-12-03T19:50:00Z,40,feed,"DNS servers flooded with MX records, causing DNS query timeouts",minor,
+modal,modal_35,2025-12-05T01:10:00Z,2025-12-05T01:10:00Z,0,feed,Frontend website is down,major,Frontend
+modal,modal_36,2025-12-10T09:52:00Z,2025-12-10T10:05:00Z,13,feed,GPU Function queueing due to Tailscale outage,major,GPU functions
+modal,modal_37,2025-12-16T12:25:00Z,2025-12-16T13:37:00Z,72,feed,Issue with volumes,major,Volumes
+modal,modal_38,2025-12-18T19:57:46Z,2025-12-18T20:07:02Z,9,feed,Image builds is down,major,Image builds
 baseten,baseten_vm9ds80g7ky5,2025-12-21T08:49:42.762-08:00,2025-12-21T09:11:40.033-08:00,21,feed,GPT-OSS on Model APIs is degraded. **Dedicated inference is not affected**.,minor,Model APIs
-modal,modal_41,2025-12-24T02:31:00Z,2025-12-24T02:47:00Z,16,feed,Scheduling of new containers failing,minor,
-modal,modal_42,2025-12-28T09:12:00Z,2025-12-28T11:06:00Z,114,feed,Some services are down due to Database,major,
-modal,modal_43,2026-01-14T23:04:00Z,2026-01-15T00:00:00Z,56,feed,Capacity Loss,minor,
-modal,modal_44,2026-01-15T01:15:00Z,2026-01-15T22:27:00Z,1272,feed,Intermittent problems accessing Volumes via CLI and dashboard,major,Volumes
-modal,modal_45,2026-01-18T05:43:00Z,2026-01-18T06:03:00Z,20,feed,Flash Proxy down in us-west,major,
-modal,modal_46,2026-01-21T02:00:00Z,2026-01-21T05:40:00Z,220,feed,Volume degradation,major,Volumes
+modal,modal_39,2025-12-24T02:31:00Z,2025-12-24T02:47:00Z,16,feed,Scheduling of new containers failing,minor,
+modal,modal_40,2025-12-28T09:12:00Z,2025-12-28T11:06:00Z,114,feed,Some services are down due to Database,major,
+modal,modal_41,2026-01-14T23:04:00Z,2026-01-15T00:00:00Z,56,feed,Capacity Loss,minor,
+modal,modal_42,2026-01-15T01:15:00Z,2026-01-15T22:27:00Z,1272,feed,Intermittent problems accessing Volumes via CLI and dashboard,major,Volumes
+modal,modal_43,2026-01-18T05:43:00Z,2026-01-18T06:03:00Z,20,feed,Flash Proxy down in us-west,major,
+modal,modal_44,2026-01-21T02:00:00Z,2026-01-21T05:40:00Z,220,feed,Volume degradation,major,Volumes
 baseten,baseten_29kl9tbwfzk9,2026-01-21T12:34:39.951-08:00,2026-01-21T13:37:49.333-08:00,63,feed,Elevated latency for inference requests in single region in Baseten Cloud West,minor,Dedicated Inference
 baseten,baseten_cvq9y46gb1jy,2026-01-22T12:17:39.622-08:00,2026-01-22T12:41:37.796-08:00,23,feed,Baseten web app is down. **Inference is unaffected**,major,Web Application
-modal,modal_47,2026-01-24T11:10:20Z,2026-01-24T11:16:39Z,6,feed,Image builds is down,major,Image builds
-modal,modal_48,2026-02-01T09:03:00Z,2026-02-01T09:41:00Z,38,feed,Dashboard is degraded,minor,
-modal,modal_49,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is down,major,Image builds
-modal,modal_50,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
+modal,modal_45,2026-01-24T11:10:20Z,2026-01-24T11:16:39Z,6,feed,Image builds is down,major,Image builds
+modal,modal_46,2026-02-01T09:03:00Z,2026-02-01T09:41:00Z,38,feed,Dashboard is degraded,minor,
+modal,modal_47,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is down,major,Image builds
+modal,modal_48,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
 baseten,baseten_n2kgjd0911bn,2026-02-09T07:20:22.282-08:00,2026-02-09T09:33:45.599-08:00,133,feed,Elevated inference latencies in AWS us-west-2,minor,Dedicated Inference
-modal,modal_51,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
-modal,modal_52,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
+modal,modal_49,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
+modal,modal_50,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
-modal,modal_53,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
-modal,modal_54,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with container scheduling,minor,GPU functions
+modal,modal_51,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
+modal,modal_52,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with container scheduling,minor,GPU functions
 baseten,baseten_ybjb53lgnlpx,2026-02-27T09:45:03.000-08:00,2026-02-27T10:39:09.003-08:00,54,feed,Partial inference outage in AWS us-east-1,minor,Dedicated Inference
 baseten,baseten_tbh0pbfkd5g8,2026-02-27T16:19:56.000-08:00,2026-02-27T17:02:17.000-08:00,42,feed,Elevated 500s on Model APIs. **Dedicated Inference is not affected**,major,Model APIs
-modal,modal_55,2026-03-02T21:12:00Z,2026-03-02T22:43:00Z,91,feed,Task logs are delayed,major,
-modal,modal_56,2026-03-09T03:33:14Z,2026-03-09T04:09:07Z,35,feed,Image builds is down,major,Image builds
-modal,modal_57,2026-03-09T03:58:00Z,2026-03-09T04:06:00Z,8,feed,sandbox scheduling unavailable,major,Sandboxes
+modal,modal_53,2026-03-02T21:12:00Z,2026-03-02T22:43:00Z,91,feed,Task logs are delayed,major,
+modal,modal_54,2026-03-09T03:33:14Z,2026-03-09T04:09:07Z,35,feed,Image builds is down,major,Image builds
+modal,modal_55,2026-03-09T03:58:00Z,2026-03-09T04:06:00Z,8,feed,sandbox scheduling unavailable,major,Sandboxes
 baseten,baseten_8xgkfl1jkjnq,2026-03-12T09:42:06.037-07:00,2026-03-12T09:59:14.791-07:00,17,feed,gpt-oss model API service degradation,minor,Model APIs
-modal,modal_58,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
-modal,modal_59,2026-03-17T15:29:00Z,2026-03-17T15:38:00Z,9,feed,Sandbox scheduling degraded,minor,Sandboxes
+modal,modal_56,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
+modal,modal_57,2026-03-17T15:29:00Z,2026-03-17T15:38:00Z,9,feed,Sandbox scheduling degraded,minor,Sandboxes
 baseten,baseten_rhrjd3t222x2,2026-04-01T15:30:54.000-07:00,2026-04-01T17:30:38.000-07:00,119,feed,Elevated deploy failures. Inference is **not** affected.,minor,Model Management API
-modal,modal_60,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
-modal,modal_61,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
+modal,modal_58,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
+modal,modal_59,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
 baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
 baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-modal,modal_62,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
-modal,modal_63,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
+modal,modal_60,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
+modal,modal_61,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_pv607pnjmzk7,2026-04-13T08:42:27.479-07:00,2026-04-13T09:31:44.215-07:00,49,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
-modal,modal_64,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
-modal,modal_65,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execution is degraded,minor,
-modal,modal_66,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
-modal,modal_67,2026-04-28T21:30:00Z,2026-04-29T20:32:00Z,1382,feed,Some sandbox functionality is degraded when using CIDR allowlists,minor,Sandboxes
+modal,modal_62,2026-04-17T14:00:00Z,2026-04-17T14:16:00Z,16,feed,us-west input plane down,major,
+modal,modal_63,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execution is degraded,minor,
+modal,modal_64,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
+modal,modal_65,2026-04-28T21:30:00Z,2026-04-29T20:32:00Z,1382,feed,Some sandbox functionality is degraded when using CIDR allowlists,minor,Sandboxes
 baseten,baseten_lzxw0ljfd5dr,2026-05-07T07:50:20.000-07:00,2026-05-07T08:37:33.000-07:00,47,feed,Elevated errors for models in single region,minor,Dedicated Inference
-modal,modal_68,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
-modal,modal_69,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
-modal,modal_70,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
+modal,modal_66,2026-05-07T20:04:00Z,2026-05-07T22:32:00Z,148,feed,H200 Scheduling is degraded,minor,
+modal,modal_67,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
+modal,modal_68,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
 baseten,baseten_whc7r80qfh2w,2026-05-08T16:40:49.284-07:00,2026-05-08T17:22:48.819-07:00,41,feed,Intermittent failure in loading the webapp — inference is *not* affected,none,"Model Management API,Web Application"
 baseten,baseten_g7fbbc1r9ckt,2026-05-09T17:30:56.000-07:00,2026-05-09T20:24:36.543-07:00,173,feed,Training cluster is down due to a provider failure,major,Training
-modal,modal_71,2026-05-11T00:00:00Z,2026-05-11T00:00:00Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
+modal,modal_69,2026-05-11T00:00:00Z,2026-05-11T00:00:00Z,0,feed,Storage refactor following AWS us-east-1c issues,minor,
 baseten,baseten_z04ygyq8nfn7,2026-05-14T18:00:00.000-07:00,2026-05-14T20:00:00.000-07:00,120,feed,Elevated errors in a single cluster,minor,Dedicated Inference
 baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
 baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
 baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
-modal,modal_72,2026-05-19T13:27:51Z,2026-08-06T11:21:05Z,113633,feed,CPU functions went down,major,CPU functions
-modal,modal_73,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
+modal,modal_70,2026-05-19T13:27:51Z,2026-08-06T19:34:51Z,114127,feed,CPU functions went down,major,CPU functions
+modal,modal_71,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
 baseten,baseten_23mb35cz5yz6,2026-05-19T18:40:54.155-07:00,2026-05-19T18:54:13.249-07:00,13,feed,Elevated errors for models in single region,minor,Dedicated Inference
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
 baseten,baseten_8d0l6vnghxk6,2026-05-29T12:31:24.628-07:00,2026-05-29T13:04:13.058-07:00,32,feed,Elevated async inference errors in a single cluster,minor,Dedicated Inference
-modal,modal_74,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
-modal,modal_75,2026-06-01T15:40:35Z,2026-06-01T16:53:52Z,73,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
-modal,modal_76,2026-06-01T16:39:00Z,2026-06-01T16:52:00Z,13,feed,Database incident affecting services,minor,
+modal,modal_72,2026-05-31T10:00:20Z,2026-05-31T10:00:20Z,0,feed,Authorization System Restart,minor,
+modal,modal_73,2026-06-01T15:40:35Z,2026-06-01T16:53:52Z,73,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
+modal,modal_74,2026-06-01T16:39:00Z,2026-06-01T16:52:00Z,13,feed,Database incident affecting services,minor,
 baseten,baseten_yhr7cg1sttv2,2026-06-03T07:56:57.273-07:00,2026-06-03T10:11:42.000-07:00,134,feed,Slower than usual scale-ups for some models using H100s,minor,Dedicated Inference
-modal,modal_77,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
+modal,modal_75,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 baseten,baseten_6gkgfj1d2q6q,2026-06-04T13:53:22.498-07:00,2026-06-04T14:59:44.698-07:00,66,feed,Elevated latencies for a subset of models in a US-East cluster,minor,Dedicated Inference
 baseten,baseten_gg63b1vhlpm1,2026-06-04T19:10:16.000-07:00,2026-06-04T19:29:32.000-07:00,19,feed,Elevated errors in a single US-East cluster,major,Dedicated Inference
 baseten,baseten_9xtd3fhj921n,2026-06-13T11:25:24.000-07:00,2026-06-13T12:09:52.762-07:00,44,feed,Elevated errors for models in a single cloud provider,minor,Dedicated Inference
 baseten,baseten_40m6gzr3002p,2026-06-15T09:14:00.820-07:00,2026-06-15T09:58:16.937-07:00,44,feed,Elevated errors for models in a single EU cloud provider,minor,Dedicated Inference
-modal,modal_78,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
-modal,modal_79,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-modal,modal_80,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds are down,major,Image builds
+modal,modal_76,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
+modal,modal_77,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
+modal,modal_78,2026-06-16T17:18:00Z,2026-06-16T19:00:00Z,102,feed,Image builds are down,major,Image builds
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
 baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T07:30:17.695-07:00,103,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
 together,together_1,2026-06-20T11:32:30Z,2026-06-20T12:05:00Z,32,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
@@ -142,7 +140,7 @@ together,together_27,2026-06-27T13:52:06Z,2026-06-27T14:07:25Z,15,feed,Kimi K2.7
 together,together_28,2026-06-27T17:49:01Z,2026-06-27T18:07:09Z,18,feed,Kimi K2.7 Code outage,minor,Kimi K2.7 Code
 together,together_29,2026-06-28T13:11:35Z,2026-06-28T14:14:45Z,63,feed,OpenAI GPT OSS 120B outage,major,OpenAI GPT OSS 120B
 baseten,baseten_bj0gvndmpyf6,2026-06-29T11:26:41.000-07:00,2026-06-29T12:01:52.000-07:00,35,feed,Elevated error rates on GLM 5.2 Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
-modal,modal_81,2026-06-29T21:02:00Z,2026-06-29T21:02:00Z,0,feed,Storage degraded - impacting app creation,minor,
+modal,modal_79,2026-06-29T21:02:00Z,2026-06-29T21:02:00Z,0,feed,Storage degraded - impacting app creation,minor,
 together,together_30,2026-06-30T15:56:54Z,2026-06-30T16:37:24Z,40,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_31,2026-06-30T21:43:21Z,2026-06-30T22:07:27Z,24,feed,Orpheus TTS outage,minor,Orpheus TTS
 together,together_32,2026-06-30T23:18:16Z,2026-07-01T00:33:16Z,75,feed,FLUX.1 [schnell] outage,major,FLUX.1 [schnell]
@@ -203,12 +201,12 @@ baseten,baseten_594dmfnrbx71,2026-07-22T10:49:51.000-07:00,2026-07-22T11:22:45.6
 together,together_74,2026-07-22T14:28:53Z,2026-07-22T15:00:57Z,32,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_75,2026-07-22T15:44:48Z,2026-07-22T16:26:29Z,41,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_76,2026-07-23T03:40:32Z,2026-07-23T03:59:55Z,19,feed,Inkling outage,minor,Inkling
-modal,modal_82,2026-07-23T04:19:00Z,2026-07-23T04:50:00Z,31,feed,modal.com is degraded,minor,
+modal,modal_80,2026-07-23T04:19:00Z,2026-07-23T04:50:00Z,31,feed,modal.com is degraded,minor,
 together,together_77,2026-07-23T04:34:41Z,2026-07-23T04:49:40Z,14,feed,Inkling outage,minor,Inkling
 together,together_78,2026-07-23T05:51:26Z,2026-07-23T06:15:49Z,24,feed,Qwen2.5 7B Instruct Turbo outage,minor,Qwen2.5 7B Instruct Turbo
 together,together_79,2026-07-23T16:05:31Z,2026-07-23T16:17:34Z,12,feed,OpenAI GPT OSS 120B outage,minor,OpenAI GPT OSS 120B
 together,together_80,2026-07-24T10:57:29Z,2026-07-24T11:15:07Z,17,feed,Qwen3.5 9B outage,minor,Qwen3.5 9B
-modal,modal_83,2026-07-24T11:11:16Z,2026-07-24T11:15:20Z,4,feed,Flash Proxy (us-west) is down,major,
+modal,modal_81,2026-07-24T11:11:16Z,2026-07-24T11:15:20Z,4,feed,Flash Proxy (us-west) is down,major,
 together,together_81,2026-07-26T23:14:46Z,2026-07-26T23:49:50Z,35,feed,Inkling outage,minor,Inkling
 together,together_82,2026-07-28T02:05:44Z,2026-07-28T02:19:45Z,14,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_83,2026-07-28T11:51:45Z,2026-07-28T12:44:55Z,53,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
@@ -221,7 +219,7 @@ together,together_89,2026-07-29T01:31:48Z,2026-07-29T01:49:48Z,18,feed,Google Ge
 together,together_90,2026-07-29T01:41:53Z,2026-07-29T02:16:51Z,34,feed,Google Gemma 3N E4B IT outage,minor,Google Gemma 3N E4B IT
 together,together_91,2026-07-29T09:21:48Z,2026-07-29T09:35:08Z,13,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
 together,together_92,2026-07-30T12:00:53Z,2026-07-30T12:19:50Z,18,feed,Google Gemma 4 31B IT outage,minor,Google Gemma 4 31B IT
-modal,modal_84,2026-07-30T15:31:00Z,2026-07-30T15:31:00Z,0,feed,Some services are down,major,
+modal,modal_82,2026-07-30T15:31:00Z,2026-07-30T15:31:00Z,0,feed,Some services are down,major,
 together,together_93,2026-07-31T00:59:38Z,2026-07-31T01:19:31Z,19,feed,Inkling outage,minor,Inkling
 together,together_94,2026-07-31T08:57:43Z,2026-07-31T09:27:50Z,30,feed,Kimi K3 outage,minor,Kimi K3
 baseten,baseten_nlnfgpnrc0kc,2026-07-31T09:46:29.339-07:00,2026-07-31T09:58:01.278-07:00,11,feed,Slower than usual scale-ups for B200s,minor,Dedicated Inference
