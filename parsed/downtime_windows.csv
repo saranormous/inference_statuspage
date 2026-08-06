@@ -1,5 +1,5 @@
 provider,incident_id,downtime_start,downtime_end,duration_minutes,source,title,impact,components
-modal,modal_1,2025-03-21T21:50:27Z,2025-03-21T22:45:14Z,54,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
+modal,modal_1,2025-03-21T22:45:14Z,2025-03-21T22:45:14Z,0,feed,Volumes and Image builds are down,major,"Volumes,Image builds"
 modal,modal_2,2025-03-26T18:41:00Z,2025-03-26T19:45:00Z,64,feed,Networking problems in Oracle Cloud,major,
 modal,modal_3,2025-03-27T20:03:00Z,2025-03-27T20:03:00Z,0,feed,Cloudflare outage in us-east-1 causing Modal degradation in us-east-1,major,
 modal,modal_4,2025-04-06T17:03:00Z,2025-04-06T17:03:00Z,0,feed,GCP networking issue degrading GCP-pinned Modal containers,minor,
@@ -89,7 +89,7 @@ baseten,baseten_z04ygyq8nfn7,2026-05-14T18:00:00.000-07:00,2026-05-14T20:00:00.0
 baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
 baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
 baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
-modal,modal_72,2026-05-19T13:27:51Z,2026-08-05T14:25:53Z,112378,feed,CPU functions went down,major,CPU functions
+modal,modal_72,2026-05-19T13:27:51Z,2026-08-06T11:21:05Z,113633,feed,CPU functions went down,major,CPU functions
 modal,modal_73,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
 baseten,baseten_23mb35cz5yz6,2026-05-19T18:40:54.155-07:00,2026-05-19T18:54:13.249-07:00,13,feed,Elevated errors for models in single region,minor,Dedicated Inference
 baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
