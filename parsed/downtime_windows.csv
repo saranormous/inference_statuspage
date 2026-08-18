@@ -68,12 +68,10 @@ modal,modal_66,2026-01-14T23:04:00Z,2026-01-15T00:00:00Z,56,feed,Capacity Loss,m
 modal,modal_67,2026-01-15T01:15:00Z,2026-01-15T22:27:00Z,1272,feed,Intermittent problems accessing Volumes via CLI and dashboard,major,Volumes
 modal,modal_68,2026-01-18T05:43:00Z,2026-01-18T06:03:00Z,20,feed,Flash Proxy down in us-west,major,
 modal,modal_69,2026-01-21T02:00:00Z,2026-01-21T05:40:00Z,220,feed,Volume degradation,major,Volumes
-baseten,baseten_cvq9y46gb1jy,2026-01-22T12:17:39.622-08:00,2026-01-22T12:41:37.796-08:00,23,feed,Baseten web app is down. **Inference is unaffected**,major,Web Application
 modal,modal_70,2026-01-24T11:10:20Z,2026-01-24T11:16:39Z,6,feed,Image builds is down,major,Image builds
 modal,modal_71,2026-02-01T09:03:00Z,2026-02-01T09:41:00Z,38,feed,Dashboard is degraded,minor,
 modal,modal_72,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is down,major,Image builds
 modal,modal_73,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
-baseten,baseten_n2kgjd0911bn,2026-02-09T07:20:22.282-08:00,2026-02-09T09:33:45.599-08:00,133,feed,Elevated inference latencies in AWS us-west-2,minor,Dedicated Inference
 modal,modal_74,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
 modal,modal_75,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
@@ -155,3 +153,5 @@ baseten,baseten_fzbtc7bsjrgd,2026-07-31T16:52:09.881-07:00,2026-07-31T17:20:55.9
 baseten,baseten_sm1fz455b875,2026-08-01T16:57:54.451-07:00,2026-08-01T17:41:11.000-07:00,43,feed,Elevated inference 502s for a subset of models in a single US cluster,minor,Dedicated Inference
 baseten,baseten_fv1xsfkjcj0p,2026-08-17T06:11:10.197-07:00,2026-08-17T06:35:10.589-07:00,24,feed,Metrics degradation in UI and API. **Inference not affected**,minor,"Model Management API,Web Application"
 baseten,baseten_r4ld106cvwkm,2026-08-17T09:56:06.246-07:00,2026-08-17T10:41:45.812-07:00,45,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic,minor,Model APIs
+baseten,baseten_crs5ncv12dcd,2026-08-18T09:27:04.118-07:00,2026-08-18T10:14:44.164-07:00,47,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
+baseten,baseten_38b95mt1vbjm,2026-08-18T10:24:01.172-07:00,2026-08-18T10:35:50.000-07:00,11,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
