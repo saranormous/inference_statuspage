@@ -74,7 +74,6 @@ modal,modal_72,2026-02-06T09:51:07Z,2026-02-06T09:55:18Z,4,feed,Image builds is 
 modal,modal_73,2026-02-08T19:25:00Z,2026-02-08T20:08:00Z,43,feed,Function input retrievable and output publishing degraded,minor,
 modal,modal_74,2026-02-10T15:03:00Z,2026-02-10T15:27:00Z,24,feed,Regional input planes are down,major,
 modal,modal_75,2026-02-11T13:40:00Z,2026-02-11T14:45:00Z,65,feed,Web endpoint latency degradation,major,Web endpoints
-baseten,baseten_kj2wmxvngw72,2026-02-12T19:57:48.000-08:00,2026-02-12T23:23:17.494-08:00,205,feed,Network Errors in single EU Cluster,minor,Dedicated Inference
 modal,modal_76,2026-02-20T13:30:00Z,2026-02-20T18:43:00Z,313,feed,A fraction of new containers are experiencing errors,major,
 modal,modal_77,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with container scheduling,minor,GPU functions
 baseten,baseten_ybjb53lgnlpx,2026-02-27T09:45:03.000-08:00,2026-02-27T10:39:09.003-08:00,54,feed,Partial inference outage in AWS us-east-1,minor,Dedicated Inference
@@ -155,3 +154,4 @@ baseten,baseten_fv1xsfkjcj0p,2026-08-17T06:11:10.197-07:00,2026-08-17T06:35:10.5
 baseten,baseten_r4ld106cvwkm,2026-08-17T09:56:06.246-07:00,2026-08-17T10:41:45.812-07:00,45,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic,minor,Model APIs
 baseten,baseten_crs5ncv12dcd,2026-08-18T09:27:04.118-07:00,2026-08-18T10:14:44.164-07:00,47,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 baseten,baseten_38b95mt1vbjm,2026-08-18T10:24:01.172-07:00,2026-08-18T10:35:50.000-07:00,11,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
+baseten,baseten_3pzhd7v5qybt,2026-08-18T12:04:18.465-07:00,2026-08-18T13:21:42.295-07:00,77,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
