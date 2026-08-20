@@ -1,5 +1,5 @@
 provider,incident_id,downtime_start,downtime_end,duration_minutes,source,title,impact,components
-modal,modal_1,2024-05-20T07:40:00Z,2024-05-20T07:42:07Z,2,feed,"CPU functions on AWS, CPU functions on GCP, and 4 other services are down",major,CPU functions
+modal,modal_1,2024-05-20T07:42:07Z,2024-05-20T07:42:07Z,0,feed,"CPU functions on AWS, CPU functions on GCP, and 4 other services are down",major,CPU functions
 modal,modal_2,2024-05-30T18:00:00Z,2024-05-30T18:00:00Z,0,feed,modal.com network ingress rollover,minor,
 modal,modal_3,2024-06-05T22:36:40Z,2024-06-05T22:44:34Z,7,feed,GPU functions on GCP and Web endpoints are down,major,"GPU functions,Web endpoints"
 modal,modal_4,2024-06-14T14:16:04Z,2024-06-14T14:47:03Z,30,feed,"CPU functions on AWS, CPU functions on GCP, and 4 other services are down",major,CPU functions
@@ -155,3 +155,4 @@ baseten,baseten_crs5ncv12dcd,2026-08-18T09:27:04.118-07:00,2026-08-18T10:14:44.1
 baseten,baseten_38b95mt1vbjm,2026-08-18T10:24:01.172-07:00,2026-08-18T10:35:50.000-07:00,11,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 baseten,baseten_3pzhd7v5qybt,2026-08-18T12:04:18.465-07:00,2026-08-18T13:21:42.295-07:00,77,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 baseten,baseten_2tr3k2yt5b1b,2026-08-18T18:23:41.573-07:00,2026-08-18T19:00:12.711-07:00,36,feed,Elevated errors for moonshotai/Kimi-K3 for US-pinned traffic on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
+modal,modal_107,2026-08-19T23:45:00Z,2026-08-20T00:00:00Z,15,feed,Degraded latency on .spawn() calls,minor,
