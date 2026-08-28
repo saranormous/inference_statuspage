@@ -155,4 +155,4 @@ baseten,baseten_hpgllbz0g72d,2026-08-25T05:34:49.072-07:00,2026-08-25T06:15:33.2
 baseten,baseten_83qw5j675k1z,2026-08-25T09:17:49.359-07:00,2026-08-25T09:59:02.881-07:00,41,feed,Elevated errors for deepseek-ai/DeepSeek-V4-Flash-0731 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 modal,modal_106,2026-08-26T22:51:00Z,2026-08-26T23:02:00Z,11,feed,Increased function latency,minor,
 modal,modal_107,2026-08-27T00:38:00Z,2026-08-27T02:04:00Z,86,feed,Snapshot restores are degraded,minor,Snapshot restores
-baseten,baseten_16yvs0p0tf25,2026-08-27T14:17:41.401-07:00,2026-08-27T21:31:16Z,0,feed,Elevated errors for models in a single US cluster due to provider outage,minor,Dedicated Inference
+baseten,baseten_16yvs0p0tf25,2026-08-27T14:17:41.401-07:00,2026-08-27T14:31:55.212-07:00,14,feed,Elevated errors for models in a single US cluster due to provider outage,minor,Dedicated Inference
