@@ -81,7 +81,6 @@ modal,modal_79,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call,
 modal,modal_80,2026-03-17T15:29:00Z,2026-03-17T15:38:00Z,9,feed,Sandbox scheduling degraded,minor,Sandboxes
 modal,modal_81,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
 modal,modal_82,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
-baseten,baseten_l05jgjfkpcmf,2026-04-03T12:16:00.828-07:00,2026-04-03T13:11:43.946-07:00,55,feed,Builds of new models are currently failing. **Inference is not affected**,major,Model Management API
 baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
 modal,modal_83,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
 modal,modal_84,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
@@ -156,3 +155,4 @@ baseten,baseten_83qw5j675k1z,2026-08-25T09:17:49.359-07:00,2026-08-25T09:59:02.8
 modal,modal_106,2026-08-26T22:51:00Z,2026-08-26T23:02:00Z,11,feed,Increased function latency,minor,
 modal,modal_107,2026-08-27T00:38:00Z,2026-08-27T02:04:00Z,86,feed,Snapshot restores are degraded,minor,Snapshot restores
 baseten,baseten_16yvs0p0tf25,2026-08-27T14:17:41.401-07:00,2026-08-27T14:31:55.212-07:00,14,feed,Elevated errors for models in a single US cluster due to provider outage,minor,Dedicated Inference
+baseten,baseten_kr8c3ywnv4fy,2026-08-30T23:38:34.700-07:00,2026-08-31T00:02:44.526-07:00,24,feed,Elevated inference 500s for models in a single US-based cluster,major,Dedicated Inference
