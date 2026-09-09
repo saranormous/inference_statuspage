@@ -87,7 +87,6 @@ modal,modal_85,2026-02-26T01:59:00Z,2026-02-26T02:17:00Z,18,feed,Issues with con
 modal,modal_86,2026-03-12T12:43:00Z,2026-03-12T13:23:00Z,40,feed,"function call, container scheduling, and web endpoint latencies degraded",minor,"Web endpoints,CPU functions,GPU functions"
 modal,modal_87,2026-04-02T19:36:00Z,2026-04-02T21:03:00Z,87,feed,us-east input plane web endpoint degradation,major,Web endpoints
 modal,modal_88,2026-04-02T21:42:00Z,2026-04-02T22:13:00Z,31,feed,Modal.com dashboards are degraded,minor,
-baseten,baseten_wqq1wwryvc7c,2026-04-03T17:03:21.666-07:00,2026-04-03T21:48:38.729-07:00,285,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
 modal,modal_89,2026-04-07T04:01:00Z,2026-04-07T05:36:00Z,95,feed,Container creation degraded for Functions,minor,
 modal,modal_90,2026-04-07T13:16:00Z,2026-04-07T17:00:00Z,224,feed,Web endpoint latency degradation,major,Web endpoints
 baseten,baseten_pv607pnjmzk7,2026-04-13T08:42:27.479-07:00,2026-04-13T09:31:44.215-07:00,49,feed,Slower than usual scale-ups for a small subset of models,minor,Dedicated Inference
@@ -156,3 +155,4 @@ modal,modal_106,2026-08-26T22:51:00Z,2026-08-26T23:02:00Z,11,feed,Increased func
 baseten,baseten_16yvs0p0tf25,2026-08-27T14:17:41.401-07:00,2026-08-27T14:31:55.212-07:00,14,feed,Elevated errors for models in a single US cluster due to provider outage,minor,Dedicated Inference
 baseten,baseten_kr8c3ywnv4fy,2026-08-30T23:38:34.700-07:00,2026-08-31T00:02:44.526-07:00,24,feed,Elevated inference 500s for models in a single US-based cluster,major,Dedicated Inference
 modal,modal_107,2026-09-04T20:43:00Z,2026-09-04T22:51:00Z,128,feed,Storage is degraded,minor,
+baseten,baseten_5khtpsscbx6x,2026-09-09T10:42:43.516-07:00,2026-09-09T10:49:06.000-07:00,6,feed,Partial outage on Nemotron Ultra Model API. **Dedicated Inference is not affected**,minor,Model APIs
