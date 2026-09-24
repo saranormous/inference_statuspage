@@ -98,7 +98,6 @@ modal,modal_96,2026-04-22T17:55:00Z,2026-04-22T18:38:00Z,43,feed,Function execut
 modal,modal_97,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container scheduling degraded,minor,GPU functions
 modal,modal_98,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
 modal,modal_99,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
-baseten,baseten_xdkglt4t6f82,2026-05-15T18:02:31.686-07:00,2026-05-15T18:39:06.327-07:00,36,feed,Higher latencies for a subset of models in one cluster. Root caused and a fix is in progress,none,Dedicated Inference
 baseten,baseten_63qnlbxt5sd1,2026-05-16T08:32:02.588-07:00,2026-05-16T10:05:02.000-07:00,92,feed,Slower than usual scale-ups in EU due to a provider failure,none,Dedicated Inference
 baseten,baseten_2cdfmzkrt2fd,2026-05-18T08:20:36.212-07:00,2026-05-18T08:59:07.646-07:00,38,feed,Slower than usual scale-ups for L4s in US-East,none,Dedicated Inference
 modal,modal_100,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
@@ -161,3 +160,4 @@ modal,modal_112,2026-09-16T18:29:00Z,2026-09-16T18:43:00Z,14,feed,Dashboard and 
 baseten,baseten_53lh9mv05wmt,2026-09-20T00:19:01.245-07:00,2026-09-20T01:13:44.236-07:00,54,feed,Kimi K3 Model API outage,major,Model APIs
 baseten,baseten_vx531h6pyd67,2026-09-21T06:31:41.000-07:00,2026-09-21T06:42:51.000-07:00,11,feed,Metrics degradation in UI and API. **Inference not affected**,minor,Model Management API
 baseten,baseten_2kfcxy48kxg8,2026-09-21T11:34:26.565-07:00,2026-09-21T11:41:15.611-07:00,6,feed,Elevated inference 500s for a subset of models deployed in GCP central1,major,Dedicated Inference
+baseten,baseten_48qpxdqzvmd2,2026-09-24T00:23:41.000-07:00,2026-09-24T01:06:05.000-07:00,42,feed,Elevated inference 500s for a subset of models deployed in 1 US-East cluster,major,Dedicated Inference
