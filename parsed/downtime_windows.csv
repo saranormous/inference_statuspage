@@ -98,7 +98,6 @@ modal,modal_96,2026-04-28T00:45:00Z,2026-04-28T02:20:00Z,95,feed,Container sched
 modal,modal_97,2026-05-07T23:50:00Z,2026-05-08T00:03:00Z,13,feed,Container Scheduling and RPC errors,minor,GPU functions
 modal,modal_98,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data stores are failing,major,
 modal,modal_99,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
-baseten,baseten_8x166nqk7frb,2026-05-26T09:21:51.948-07:00,2026-05-26T09:35:27.275-07:00,13,feed,Slower than usual scale-ups in 1 India cluster,minor,Dedicated Inference
 baseten,baseten_8d0l6vnghxk6,2026-05-29T12:31:24.628-07:00,2026-05-29T13:04:13.058-07:00,32,feed,Elevated async inference errors in a single cluster,minor,Dedicated Inference
 modal,modal_100,2026-05-29T17:26:46Z,2026-05-29T17:26:46Z,0,feed,Maintenance: Authorization System Restart,minor,
 modal,modal_101,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
@@ -160,4 +159,5 @@ baseten,baseten_48qpxdqzvmd2,2026-09-24T00:23:41.000-07:00,2026-09-24T01:06:05.0
 baseten,baseten_rj514rfwk1y4,2026-09-24T11:35:13.000-07:00,2026-09-24T12:57:39.569-07:00,82,feed,Intermittent 5xx for a subset of models in 1 US Central cluster,minor,Dedicated Inference
 baseten,baseten_dfmq82b0t69x,2026-09-28T18:07:54.104-07:00,2026-09-28T18:28:56.527-07:00,21,feed,Metrics degradation in UI and API. **Inference not affected**,minor,"Model Management API,Web Application"
 baseten,baseten_x05nr42j8whd,2026-09-29T12:44:14.000-07:00,2026-09-29T12:57:20.000-07:00,13,feed,Elevated 500s in Single us-central Region,major,Dedicated Inference
+baseten,baseten_l1mzwqp0f840,2026-10-05T21:35:00.000-07:00,2026-10-05T21:48:00.000-07:00,13,feed,DeepSeek v4.1 outage on Model APIs. Dedicated Inference is not affected,major,Model APIs
 modal,modal_112,2026-10-05T23:02:00Z,2026-10-05T23:09:00Z,7,feed,Function and Sandbox execution degraded,minor,Sandboxes
