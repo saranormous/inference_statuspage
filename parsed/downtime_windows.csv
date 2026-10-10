@@ -160,4 +160,4 @@ baseten,baseten_dfmq82b0t69x,2026-09-28T18:07:54.104-07:00,2026-09-28T18:28:56.5
 baseten,baseten_x05nr42j8whd,2026-09-29T12:44:14.000-07:00,2026-09-29T12:57:20.000-07:00,13,feed,Elevated 500s in Single us-central Region,major,Dedicated Inference
 baseten,baseten_l1mzwqp0f840,2026-10-05T21:35:00.000-07:00,2026-10-05T21:48:00.000-07:00,13,feed,DeepSeek v4.1 outage on Model APIs. Dedicated Inference is not affected,major,Model APIs
 modal,modal_112,2026-10-05T23:02:00Z,2026-10-05T23:09:00Z,7,feed,Function and Sandbox execution degraded,minor,Sandboxes
-baseten,baseten_phnxn3p26gfx,2026-10-09T14:29:06.449-07:00,2026-10-09T22:04:21Z,0,feed,Elevated errors on new model builds. Existing models are not affected,minor,Model Management API
+baseten,baseten_phnxn3p26gfx,2026-10-09T14:29:06.449-07:00,2026-10-09T15:06:17.806-07:00,37,feed,Elevated errors on new model builds. Existing models are not affected,minor,Model Management API
