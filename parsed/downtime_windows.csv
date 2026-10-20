@@ -99,7 +99,6 @@ modal,modal_97,2026-05-08T00:22:00Z,2026-05-08T02:30:00Z,128,feed,Internal data 
 modal,modal_98,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions, GPU functions, and 5 other services are down",major,"CPU functions,GPU functions"
 modal,modal_99,2026-05-29T17:26:46Z,2026-05-29T17:26:46Z,0,feed,Maintenance: Authorization System Restart,minor,
 modal,modal_100,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
-baseten,baseten_yhr7cg1sttv2,2026-06-03T07:56:57.273-07:00,2026-06-03T10:11:42.000-07:00,134,feed,Slower than usual scale-ups for some models using H100s,minor,Dedicated Inference
 modal,modal_101,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 baseten,baseten_6gkgfj1d2q6q,2026-06-04T13:53:22.498-07:00,2026-06-04T14:59:44.698-07:00,66,feed,Elevated latencies for a subset of models in a US-East cluster,minor,Dedicated Inference
 baseten,baseten_gg63b1vhlpm1,2026-06-04T19:10:16.000-07:00,2026-06-04T19:29:32.000-07:00,19,feed,Elevated errors in a single US-East cluster,major,Dedicated Inference
@@ -162,3 +161,4 @@ modal,modal_111,2026-10-05T23:02:00Z,2026-10-05T23:09:00Z,7,feed,Function and Sa
 baseten,baseten_phnxn3p26gfx,2026-10-09T14:29:06.449-07:00,2026-10-09T15:06:17.806-07:00,37,feed,Elevated errors on new model builds. Existing models are not affected,minor,Model Management API
 modal,modal_112,2026-10-14T06:33:00Z,2026-10-14T07:07:00Z,34,feed,Kimi K3 shared endpoint is degraded,minor,
 modal,modal_113,2026-10-14T22:17:00Z,2026-10-14T22:23:00Z,6,feed,Kimi K3 shared endpoint downtime,major,
+baseten,baseten_c81rmlkc825n,2026-10-19T18:35:16.683-07:00,2026-10-19T18:43:29.072-07:00,8,feed,Elevated errors on Model APIs,minor,Model APIs
