@@ -99,8 +99,6 @@ modal,modal_97,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions,
 modal,modal_98,2026-05-29T17:26:46Z,2026-05-29T17:26:46Z,0,feed,Maintenance: Authorization System Restart,minor,
 modal,modal_99,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
 modal,modal_100,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
-baseten,baseten_gg63b1vhlpm1,2026-06-04T19:10:16.000-07:00,2026-06-04T19:29:32.000-07:00,19,feed,Elevated errors in a single US-East cluster,major,Dedicated Inference
-baseten,baseten_9xtd3fhj921n,2026-06-13T11:25:24.000-07:00,2026-06-13T12:09:52.762-07:00,44,feed,Elevated errors for models in a single cloud provider,minor,Dedicated Inference
 baseten,baseten_40m6gzr3002p,2026-06-15T09:14:00.820-07:00,2026-06-15T09:58:16.937-07:00,44,feed,Elevated errors for models in a single EU cloud provider,minor,Dedicated Inference
 modal,modal_101,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_102,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
@@ -162,3 +160,5 @@ modal,modal_112,2026-10-14T22:17:00Z,2026-10-14T22:23:00Z,6,feed,Kimi K3 shared 
 modal,modal_113,2026-10-19T16:48:00Z,2026-10-19T16:50:00Z,2,feed,Web functions degraded,minor,
 baseten,baseten_c81rmlkc825n,2026-10-19T18:35:16.683-07:00,2026-10-19T18:43:29.072-07:00,8,feed,Elevated errors on Model APIs,minor,Model APIs
 baseten,baseten_v5vxnlhg4pf3,2026-10-20T12:04:58.526-07:00,2026-10-20T12:10:47.017-07:00,5,feed,DeepSeek V4.1 Flash Fast Outage on Model APIs,major,Model APIs
+baseten,baseten_6j87tp9dhf4t,2026-10-20T18:05:09.698-07:00,2026-10-20T18:26:02.459-07:00,20,feed,Elevated errors for image requests on multiple Model APIs,minor,Model APIs
+baseten,baseten_3d8t4dnndtbv,2026-10-20T18:48:01.760-07:00,2026-10-20T19:28:17.200-07:00,40,feed,Elevated errors on DeepSeek V4 Flash on Model APIs,minor,Model APIs
