@@ -99,7 +99,6 @@ modal,modal_97,2026-05-19T13:29:39Z,2026-05-19T14:04:00Z,34,feed,"CPU functions,
 modal,modal_98,2026-05-29T17:26:46Z,2026-05-29T17:26:46Z,0,feed,Maintenance: Authorization System Restart,minor,
 modal,modal_99,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints and Image builds are down,major,"Web endpoints,Image builds"
 modal,modal_100,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
-baseten,baseten_40m6gzr3002p,2026-06-15T09:14:00.820-07:00,2026-06-15T09:58:16.937-07:00,44,feed,Elevated errors for models in a single EU cloud provider,minor,Dedicated Inference
 modal,modal_101,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_102,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
 baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
@@ -162,3 +161,4 @@ baseten,baseten_c81rmlkc825n,2026-10-19T18:35:16.683-07:00,2026-10-19T18:43:29.0
 baseten,baseten_v5vxnlhg4pf3,2026-10-20T12:04:58.526-07:00,2026-10-20T12:10:47.017-07:00,5,feed,DeepSeek V4.1 Flash Fast Outage on Model APIs,major,Model APIs
 baseten,baseten_6j87tp9dhf4t,2026-10-20T18:05:09.698-07:00,2026-10-20T18:26:02.459-07:00,20,feed,Elevated errors for image requests on multiple Model APIs,minor,Model APIs
 baseten,baseten_3d8t4dnndtbv,2026-10-20T18:48:01.760-07:00,2026-10-20T19:28:17.200-07:00,40,feed,Elevated errors on DeepSeek V4 Flash on Model APIs,minor,Model APIs
+baseten,baseten_gbtvx2rpf07g,2026-10-22T18:51:56.000-07:00,2026-10-22T19:48:07.000-07:00,56,feed,Elevated errors for US-only GLM 5.3 Flash on Model APIs,minor,Model APIs
