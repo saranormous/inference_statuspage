@@ -100,7 +100,6 @@ modal,modal_98,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints a
 modal,modal_99,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 modal,modal_100,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_101,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-baseten,baseten_8hrwlnpn108h,2026-06-16T21:40:04.419-07:00,2026-06-16T23:03:13.257-07:00,83,feed,Elevated errors for models in 1 Sweden-based cluster,minor,Dedicated Inference
 baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T07:30:17.695-07:00,103,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
 baseten,baseten_36p8wdb70csl,2026-06-22T17:10:14.425-07:00,2026-06-22T17:54:43.697-07:00,44,feed,Slower than usual scale-ups. High failure rate for new model deploys. Existing replicas aren't impacted.,minor,"Dedicated Inference,Model Management API"
 baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
@@ -162,3 +161,4 @@ baseten,baseten_6j87tp9dhf4t,2026-10-20T18:05:09.698-07:00,2026-10-20T18:26:02.4
 baseten,baseten_3d8t4dnndtbv,2026-10-20T18:48:01.760-07:00,2026-10-20T19:28:17.200-07:00,40,feed,Elevated errors on DeepSeek V4 Flash on Model APIs,minor,Model APIs
 baseten,baseten_gbtvx2rpf07g,2026-10-22T18:51:56.000-07:00,2026-10-22T19:48:07.000-07:00,56,feed,Elevated errors for US-only GLM 5.3 Flash on Model APIs,minor,Model APIs
 modal,modal_113,2026-10-26T13:58:23Z,2026-11-02T01:20:49Z,9322,feed,Maintenance: Control plane maintenance,major,
+baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T23:05:29Z,0,feed,Elevated errors for Kimi-K3 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
