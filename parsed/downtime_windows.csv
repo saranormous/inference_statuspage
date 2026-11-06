@@ -161,4 +161,4 @@ baseten,baseten_6j87tp9dhf4t,2026-10-20T18:05:09.698-07:00,2026-10-20T18:26:02.4
 baseten,baseten_3d8t4dnndtbv,2026-10-20T18:48:01.760-07:00,2026-10-20T19:28:17.200-07:00,40,feed,Elevated errors on DeepSeek V4 Flash on Model APIs,minor,Model APIs
 baseten,baseten_gbtvx2rpf07g,2026-10-22T18:51:56.000-07:00,2026-10-22T19:48:07.000-07:00,56,feed,Elevated errors for US-only GLM 5.3 Flash on Model APIs,minor,Model APIs
 modal,modal_113,2026-10-26T13:58:23Z,2026-11-02T01:20:49Z,9322,feed,Maintenance: Control plane maintenance,major,
-baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T23:05:29Z,0,feed,Elevated errors for Kimi-K3 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
+baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T18:44:49.417-08:00,309,feed,Elevated errors for Kimi-K3 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
