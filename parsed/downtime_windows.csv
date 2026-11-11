@@ -99,7 +99,6 @@ modal,modal_97,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints a
 modal,modal_98,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 modal,modal_99,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_100,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-baseten,baseten_mhzg80p5p6t0,2026-06-18T05:46:34.605-07:00,2026-06-18T07:30:17.695-07:00,103,feed,Elevated errors for models in 1 Austin-based cluster affecting some models on B200s,minor,"Dedicated Inference,Model APIs"
 baseten,baseten_36p8wdb70csl,2026-06-22T17:10:14.425-07:00,2026-06-22T17:54:43.697-07:00,44,feed,Slower than usual scale-ups. High failure rate for new model deploys. Existing replicas aren't impacted.,minor,"Dedicated Inference,Model Management API"
 baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
 baseten,baseten_mm1m26kdthpx,2026-06-26T16:41:14.000-07:00,2026-06-26T17:55:40.109-07:00,74,feed,Elevated model deployment failures. **Inference is not affected**,minor,Model Management API
@@ -163,3 +162,4 @@ modal,modal_112,2026-10-26T13:58:23Z,2026-11-02T01:20:49Z,9322,feed,Maintenance:
 baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T18:44:49.417-08:00,309,feed,Elevated errors for Kimi-K3 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
 modal,modal_113,2026-11-10T03:56:20Z,2026-11-10T03:56:20Z,0,feed,Scheduled maintenance: Control Plane Maintenance,minor,
 modal,modal_114,2026-11-10T19:35:00Z,2026-11-10T19:58:50Z,23,feed,Some Sandboxes experiencing creation failures,minor,Sandboxes
+baseten,baseten_gctvsk327syh,2026-11-11T11:17:23.490-08:00,2026-11-11T11:38:31.939-08:00,21,feed,Model APIs are down for all models,major,Model APIs
