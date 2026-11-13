@@ -99,7 +99,6 @@ modal,modal_97,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints a
 modal,modal_98,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 modal,modal_99,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_100,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-baseten,baseten_36p8wdb70csl,2026-06-22T17:10:14.425-07:00,2026-06-22T17:54:43.697-07:00,44,feed,Slower than usual scale-ups. High failure rate for new model deploys. Existing replicas aren't impacted.,minor,"Dedicated Inference,Model Management API"
 baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
 baseten,baseten_mm1m26kdthpx,2026-06-26T16:41:14.000-07:00,2026-06-26T17:55:40.109-07:00,74,feed,Elevated model deployment failures. **Inference is not affected**,minor,Model Management API
 baseten,baseten_qhjwrnwd7wb3,2026-06-26T23:35:31.078-07:00,2026-06-26T23:50:31.696-07:00,15,feed,Elevated inference 500s for models in 1 cluster due to cloud provider outage,minor,Dedicated Inference
@@ -163,3 +162,4 @@ baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T18:44:49.4
 modal,modal_113,2026-11-10T03:56:20Z,2026-11-10T03:56:20Z,0,feed,Scheduled maintenance: Control Plane Maintenance,minor,
 modal,modal_114,2026-11-10T19:35:00Z,2026-11-10T19:58:50Z,23,feed,Some Sandboxes experiencing creation failures,minor,Sandboxes
 baseten,baseten_gctvsk327syh,2026-11-11T11:17:23.490-08:00,2026-11-11T11:38:31.939-08:00,21,feed,Model APIs are down for all models,major,Model APIs
+baseten,baseten_qvtm4r8mzpll,2026-11-12T11:38:43.000-08:00,2026-11-12T12:25:53.000-08:00,47,feed,Degraded Performance on DSV 4.1 Flash 1017-Fast on Model APIs,minor,Model APIs
