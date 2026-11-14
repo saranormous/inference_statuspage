@@ -159,9 +159,9 @@ baseten,baseten_3d8t4dnndtbv,2026-10-20T18:48:01.760-07:00,2026-10-20T19:28:17.2
 baseten,baseten_gbtvx2rpf07g,2026-10-22T18:51:56.000-07:00,2026-10-22T19:48:07.000-07:00,56,feed,Elevated errors for US-only GLM 5.3 Flash on Model APIs,minor,Model APIs
 modal,modal_112,2026-10-26T13:58:23Z,2026-11-02T01:20:49Z,9322,feed,Maintenance: Control plane maintenance,major,
 baseten,baseten_syzkjznl2fxj,2026-11-05T13:35:45.818-08:00,2026-11-05T18:44:49.417-08:00,309,feed,Elevated errors for Kimi-K3 on Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
-modal,modal_113,2026-11-10T03:56:20Z,2026-11-10T03:56:20Z,0,feed,Scheduled maintenance: Control Plane Maintenance,minor,
-modal,modal_114,2026-11-10T19:35:00Z,2026-11-10T19:58:50Z,23,feed,Some Sandboxes experiencing creation failures,minor,Sandboxes
+modal,modal_113,2026-11-10T19:35:00Z,2026-11-10T19:58:50Z,23,feed,Some Sandboxes experiencing creation failures,minor,Sandboxes
 baseten,baseten_gctvsk327syh,2026-11-11T11:17:23.490-08:00,2026-11-11T11:38:31.939-08:00,21,feed,Model APIs are down for all models,major,Model APIs
 baseten,baseten_qvtm4r8mzpll,2026-11-12T11:38:43.000-08:00,2026-11-12T12:25:53.000-08:00,47,feed,Degraded Performance on DSV 4.1 Flash 1017-Fast on Model APIs,minor,Model APIs
-modal,modal_115,2026-11-13T19:19:00Z,2026-11-13T19:29:00Z,10,feed,Container startup / sandbox execs degraded,minor,Sandboxes
-modal,modal_116,2026-11-13T20:03:29Z,2026-11-13T20:03:29Z,0,feed,Scheduled maintenance: Modal Proxy Maintenance,minor,
+modal,modal_114,2026-11-13T19:19:00Z,2026-11-13T19:29:00Z,10,feed,Container startup / sandbox execs degraded,minor,Sandboxes
+modal,modal_115,2026-11-13T20:03:29Z,2026-11-13T20:03:29Z,0,feed,Scheduled maintenance: Modal Proxy Maintenance,minor,
+modal,modal_116,2026-11-14T00:22:40Z,2026-11-14T00:22:40Z,0,feed,Scheduled maintenance: Control Plane Maintenance,minor,
