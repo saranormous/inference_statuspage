@@ -99,7 +99,6 @@ modal,modal_97,2026-06-01T15:40:35Z,2026-06-01T16:53:09Z,72,feed,Web endpoints a
 modal,modal_98,2026-06-03T13:03:00Z,2026-06-03T13:52:00Z,49,feed,auth subsystem failures causing multiple issues,minor,
 modal,modal_99,2026-06-16T15:20:00Z,2026-06-16T15:20:00Z,0,feed,CLI volume operations disrupted,minor,Volumes
 modal,modal_100,2026-06-16T16:52:00Z,2026-06-16T17:18:00Z,26,feed,Container scheduling /  app deploys down,major,GPU functions
-baseten,baseten_xq77tghlsq96,2026-06-26T15:00:38.000-07:00,2026-06-26T15:15:04.189-07:00,14,feed,Elevated errors for dedicated inference in a subset of clusters,major,Dedicated Inference
 baseten,baseten_mm1m26kdthpx,2026-06-26T16:41:14.000-07:00,2026-06-26T17:55:40.109-07:00,74,feed,Elevated model deployment failures. **Inference is not affected**,minor,Model Management API
 baseten,baseten_qhjwrnwd7wb3,2026-06-26T23:35:31.078-07:00,2026-06-26T23:50:31.696-07:00,15,feed,Elevated inference 500s for models in 1 cluster due to cloud provider outage,minor,Dedicated Inference
 baseten,baseten_bj0gvndmpyf6,2026-06-29T11:26:41.000-07:00,2026-06-29T12:01:52.000-07:00,35,feed,Elevated error rates on GLM 5.2 Model APIs. **Dedicated Inference is not affected**,minor,Model APIs
@@ -164,4 +163,5 @@ baseten,baseten_gctvsk327syh,2026-11-11T11:17:23.490-08:00,2026-11-11T11:38:31.9
 baseten,baseten_qvtm4r8mzpll,2026-11-12T11:38:43.000-08:00,2026-11-12T12:25:53.000-08:00,47,feed,Degraded Performance on DSV 4.1 Flash 1017-Fast on Model APIs,minor,Model APIs
 modal,modal_114,2026-11-13T19:19:00Z,2026-11-13T19:29:00Z,10,feed,Container startup / sandbox execs degraded,minor,Sandboxes
 modal,modal_115,2026-11-13T20:03:29Z,2026-11-13T20:03:29Z,0,feed,Scheduled maintenance: Modal Proxy Maintenance,minor,
+baseten,baseten_yg5tzf98mpyf,2026-11-13T21:12:15.000-08:00,2026-11-13T22:58:20.507-08:00,106,feed,Elevated errors for multiple models on Model APIs,minor,Model APIs
 modal,modal_116,2026-11-14T00:22:40Z,2026-11-14T00:22:40Z,0,feed,Scheduled maintenance: Control Plane Maintenance,minor,
